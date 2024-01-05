@@ -13,8 +13,7 @@ from PIL import Image
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-#options.headless = True
-#options.add_argument("--headless")
+#options.add_argument("--headless") # gives console messages
 
 options.add_argument("--start-maximized")
 driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
