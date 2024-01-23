@@ -22,4 +22,4 @@ def slide_chunker(manifestos, window_size=3):
 
     return texts
 
-texts = slide_chunker(manifestos_json)
+#texts = slide_chunker(manifestos_json)
