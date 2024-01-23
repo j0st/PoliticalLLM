@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 manifestos_json = os.getenv("FILEPATH_OUTPUT_JSON")
 
-def slide_chunker(manifestos, window_size=3):   
+def slide_chunker(manifestos, window_size=2):   
     with open(manifestos, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
