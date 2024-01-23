@@ -10,7 +10,8 @@ multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFuncti
 
 client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db") # save vector database locally
 hf_collection = client.get_or_create_collection(name="m-e5-base", embedding_function=multilingual_embeddings)
-#hf_collection.add(documents=docs[:100], ids=ids[:100])
+
+hf_collection.add(documents=docs[:40000], ids=ids[:40000])
 
 results = hf_collection.query(
     query_texts=["Schulen sollten keine Anwesenheitspflicht haben."],
