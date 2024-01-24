@@ -1,9 +1,16 @@
 from anyscale_generation import query_llm
+from chunking import slide_chunker
 import os
 import time
 import re
 import requests
 from tqdm import tqdm
+import uuid
+
+from llama_index import StringIterableReader, TreeIndex
+from llama_index.node_parser import SimpleNodeParser
+from llama_index.schema import MetadataMode
+from sklearn.model_selection import train_test_split
 
 from dotenv import load_dotenv
 
@@ -12,8 +19,25 @@ load_dotenv()
 token = os.getenv("ANYSCALE_API_KEY")
 api_base = os.getenv("ANYSCALE_BASE_URL")
 
+def load_corpus(files, verbose=False):
+    if verbose:
+        print(f"Loading files...")
 
-def generate_synthetic_dataset(corpus, prompt, num_questions_per_chunk=2):    
+    docs = StringIterableReader().load_data(texts=files)
+
+    if verbose:
+        print(f'Loaded {len(docs)} docs')
+    
+    parser = SimpleNodeParser.from_defaults()
+    nodes = parser.get_nodes_from_documents(docs, show_progress=verbose)
+
+    if verbose:
+        print(f'Parsed {len(nodes)} nodes')
+
+    corpus = {node.node_id: node.get_content(metadata_mode=MetadataMode.NONE) for node in nodes}
+    return corpus
+
+def generate_synthetic_dataset(corpus, num_questions_per_chunk=1):    
     queries = {}
     relevant_docs = {}
     for node_id, text in tqdm(corpus.items()):
@@ -54,3 +78,13 @@ def generate_synthetic_dataset(corpus, prompt, num_questions_per_chunk=2):
             relevant_docs[question_id] = [node_id]
         
     return queries, relevant_docs
+
+if __name__ == "__main__":
+    data = "data\manifestos.json"
+    docs = slide_chunker(data)
+    train, val = train_test_split(docs, test_size=0.2, random_state=42)
+    train_corpus = load_corpus(train[:10], True)
+    val_corpus = load_corpus(val[:2], True)
+    train_queries_small, train_relevant_docs_small = generate_synthetic_dataset(train_corpus)
+    print(train_queries_small)
+    print(train_relevant_docs_small)
