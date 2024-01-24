@@ -6,6 +6,7 @@ import re
 import requests
 from tqdm import tqdm
 import uuid
+import json
 
 from llama_index import StringIterableReader, TreeIndex
 from llama_index.node_parser import SimpleNodeParser
@@ -24,7 +25,6 @@ def load_corpus(files, verbose=False):
         print(f"Loading files...")
 
     docs = StringIterableReader().load_data(texts=files)
-
     if verbose:
         print(f'Loaded {len(docs)} docs')
     
@@ -37,7 +37,7 @@ def load_corpus(files, verbose=False):
     corpus = {node.node_id: node.get_content(metadata_mode=MetadataMode.NONE) for node in nodes}
     return corpus
 
-def generate_synthetic_dataset(corpus, num_questions_per_chunk=1):    
+def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
     queries = {}
     relevant_docs = {}
     for node_id, text in tqdm(corpus.items()):
@@ -65,7 +65,7 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=1):
         b. neutral
         c. stimme nicht zu
 
-        Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor der eigentlichen Aussage sollen ebenfalls weggelassen werden.
+        Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor oder nach der eigentlichen Aussage sollen ebenfalls weggelassen werden.
         """
         response = query_llm(prompt, api_base, token)
         time.sleep(5)
@@ -83,8 +83,40 @@ if __name__ == "__main__":
     data = "data\manifestos.json"
     docs = slide_chunker(data)
     train, val = train_test_split(docs, test_size=0.2, random_state=42)
-    train_corpus = load_corpus(train[:10], True)
-    val_corpus = load_corpus(val[:2], True)
+    train_corpus = load_corpus(train[:100], True)
+    val_corpus = load_corpus(val[:20], True)
     train_queries_small, train_relevant_docs_small = generate_synthetic_dataset(train_corpus)
-    print(train_queries_small)
-    print(train_relevant_docs_small)
+    val_queries_small, val_relevant_docs_small = generate_synthetic_dataset(val_corpus)
+    path = "C://Users//Jost//Desktop//finetuning"
+    with open(path + "//train_queries.json", 'w+') as f:
+        json.dump(train_queries_small, f)
+
+    with open(path + "//train_docs.json", 'w+') as f:
+        json.dump(train_relevant_docs_small, f)
+
+    with open(path + "//val_queries.json", 'w+') as f:
+        json.dump(val_queries_small, f)
+
+    with open(path + "//val_docs.json", 'w+') as f:
+        json.dump(val_relevant_docs_small, f)
+
+    TRAIN_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//train_dataset.json'
+    VAL_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//val_dataset.json'
+
+    train_dataset = {
+    'queries': train_queries_small,
+    'corpus': train_corpus,
+    'relevant_docs': train_relevant_docs_small,
+    }
+
+    val_dataset = {
+        'queries': val_queries_small,
+        'corpus': val_corpus,
+        'relevant_docs': val_relevant_docs_small,
+    }
+
+    with open(TRAIN_DATASET_FPATH, 'w+') as f:
+        json.dump(train_dataset, f)
+
+    with open(VAL_DATASET_FPATH, 'w+') as f:
+        json.dump(val_dataset, f)
