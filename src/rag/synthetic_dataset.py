@@ -3,7 +3,6 @@ from chunking import slide_chunker
 import os
 import time
 import re
-import requests
 from tqdm import tqdm
 import uuid
 import json
