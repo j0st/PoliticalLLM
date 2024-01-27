@@ -22,4 +22,28 @@ def slide_chunker(manifestos, window_size=2):
 
     return texts
 
+def sentence_chunker(manifestos):
+    with open(manifestos, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    texts = []
+    sentence = ""
+    for item in data['items']:
+        sub_items = item.get('items', [])
+        for sub_item in sub_items:
+            if not sentence:
+                if sub_item['text'].endswith(('.', '!', '?')):
+                    texts.append(sub_item['text'])
+                else:
+                    sentence += sub_item['text'] + " "
+            else:
+                if sub_item['text'].endswith(('.', '!', '?')):
+                    sentence += sub_item['text']
+                    texts.append(sentence)
+                    sentence = ""
+                else:
+                    sentence += sub_item['text'] + " "
+    return texts
+
 #texts = slide_chunker(manifestos_json)
+#texts2 = sentence_chunker(manifestos_json)
