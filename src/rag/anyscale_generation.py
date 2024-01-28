@@ -1,12 +1,12 @@
 import requests
 
-def query_llm(prompt, api_base, token, model="mistralai/Mixtral-8x7B-Instruct-v0.1", temperature=0.7):
+def query_llm(prompt, api_base, token, model="mistralai/Mixtral-8x7B-Instruct-v0.1", temperature=0.7, system_prompt="Du bist ein hilfreicher Assistent."):
     s = requests.Session()
 
     url = f"{api_base}/chat/completions"
     body = {
         "model": model,
-        "messages": [{"role": "system", "content": "Du bist ein hilfreicher Assistent."},
+        "messages": [{"role": "system", "content": system_prompt},
                      {"role": "user", "content": prompt}],
         "temperature": temperature
     }
