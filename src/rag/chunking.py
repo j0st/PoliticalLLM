@@ -3,7 +3,7 @@ import json
 
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 manifestos_json = os.getenv("FILEPATH_OUTPUT_JSON")
 
 def slide_chunker(manifestos, window_size=2):   
