@@ -59,7 +59,6 @@ def main():
         img.save("img/ptc_mixtral_base.png") 
 
     except Exception as error:
-
         print("An error occurred:", error)
 
     finally:    
