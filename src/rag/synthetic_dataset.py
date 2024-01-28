@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 token = os.getenv("ANYSCALE_API_KEY")
 api_base = os.getenv("ANYSCALE_BASE_URL")
