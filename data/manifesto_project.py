@@ -12,7 +12,10 @@ api_key = os.getenv("MANIFESTO_PROJECT_API_KEY")
 api_root = 'https://manifesto-project.wzb.eu/api/v1/'
 
 csv_file = os.getenv("FILEPATH_CORE_CSV")
-output_file = os.getenv("FILEPATH_OUTPUT_JSON")
+output_file_ar = os.getenv("FILEPATH_OUTPUT_JSON_AR")
+output_file_al = os.getenv("FILEPATH_OUTPUT_JSON_AL")
+output_file_lr = os.getenv("FILEPATH_OUTPUT_JSON_LR")
+output_file_ll = os.getenv("FILEPATH_OUTPUT_JSON_LL")
 
 def find_ideology(ideologies_d, party):
     for ideology, parties in ideologies_d.items():
@@ -70,4 +73,7 @@ def get_manifestos(manifesto_keys_d, output_file, ideology: str, version="2023-1
 if __name__ == "__main__":
     #core_dataset_to_csv(csv_file)
     d_of_keys = get_manifesto_keys(csv_file, "Germany", "1998-2021")
-    get_manifestos(d_of_keys, output_file, "Authoritarian-right")
+    get_manifestos(d_of_keys, output_file_ar, "Authoritarian-right")
+    get_manifestos(d_of_keys, output_file_al, "Authoritarian-left")
+    get_manifestos(d_of_keys, output_file_lr, "Libertarian-right")
+    get_manifestos(d_of_keys, output_file_ll, "Libertarian-left")
