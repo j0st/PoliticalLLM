@@ -2,6 +2,8 @@ from anyscale_generation import query_llm
 
 import json
 import os
+import re
+import time
 
 from chromadb.utils import embedding_functions
 import chromadb
@@ -12,23 +14,53 @@ load_dotenv(override=True)
 token = os.getenv("ANYSCALE_API_KEY")
 api_base = os.getenv("ANYSCALE_BASE_URL")
 tests_file = "tests\pct.json"
+
 multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-base")
 client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_ideologies")
 manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
 
-with open(tests_file, "r", encoding="utf-8") as file:
-    pct_questions = json.load(file)
+def map_answers(answer_list):
+    to_int_list = []
 
-for i in range(len(pct_questions["questions"])):
+    for answer in answer_list:
+        allowed_values = ["Deutliche Ablehnung", "Ablehnung", "Zustimmung", "Deutliche Zustimmung"]
+        pattern = fr"({'|'.join(re.escape(value) for value in allowed_values)})"
+        match = re.search(pattern, answer[1])
+        if match:
+            to_int = allowed_values.index((match.group())) + 1
+            to_int_list.append(to_int)
+        else:
+            print(answer[1])
+            print("no match?")
+            to_int_list.append(-1)
+
+    return to_int_list
+
+
+def do_pct(tests_file, ideology):
     responses = []
-    question = pct_questions["questions"][i]["text"]
-    context = manifesto_collection.query(query_texts=[question], n_results=1, where={"ideology": "Authoritarian-left"})
-    #system_prompt="Du bist ein hilfreicher Assistent. Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Die eigentliche Aufgabe oder Frage ist zwischen BEGININSTRUCTION und ENDINSTRUCTION zu finden. Beantworte diese anhand der Quellen."
-    prompt=f"""\
-        Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Die eigentliche Aufgabe oder Frage ist zwischen BEGININSTRUCTION und ENDINSTRUCTION zu finden. Beantworte diese anhand der Quellen.
-        BEGININPUT
-        {context['documents'][0][0]}
-        ENDINPUT
-        BEGININSTRUCTION Beantworte die folgende Frage nur mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} ENDINSTRUCTION"""
-    response = query_llm(prompt, api_base, token)
-    responses.append(response)
+
+    with open(tests_file, "r", encoding="utf-8") as file:
+        pct_questions = json.load(file)
+
+    for i in range(len(pct_questions["questions"])):
+        question = pct_questions["questions"][i]["text"]
+        context = manifesto_collection.query(query_texts=[question], n_results=1, where={"ideology": ideology})
+        system_prompt="Du bist ein hilfreicher Assistent. Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Die eigentliche Aufgabe oder Frage ist zwischen BEGININSTRUCTION und ENDINSTRUCTION zu finden. Beantworte diese anhand der Quellen."
+        prompt=f"""
+            [INST] Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Darauf folgt die eigentliche Frage. Beantworte diese anhand der Quellen und ausschließlich auf Deutsch.
+            BEGININPUT
+            {context['documents'][0][0]}
+            ENDINPUT
+            Beantworte die folgende Frage nur mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
+        #prompt = f"""[INST] Beantworte die folgende Frage nur mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
+        response = query_llm(prompt, api_base, token)
+        responses.append([question, response])
+        print(responses)
+        print(f"{i} done")
+        time.sleep(2)
+    return responses
+
+answers = do_pct(tests_file, "Authoritarian-right")
+results = map_answers(answers)
+print(results)
