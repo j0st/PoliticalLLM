@@ -21,7 +21,12 @@ driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverMan
 url = 'https://www.politicalcompass.org/test/de'
 
 #answer_list = [1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-answer_list_mixtral = [4, 2, 2, 2, 2, 1, 2, 2, 2, 4, 4, 2, 4, 4, 4, 3, 2, 2, 2, 4, 2, 2, 3, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 4, 4, 4, 2, 2]
+#answer_list_mixtral = [4, 2, 2, 2, 2, 1, 2, 2, 2, 4, 4, 2, 4, 4, 4, 3, 2, 2, 2, 4, 2, 2, 3, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 4, 4, 4, 2, 2]
+#answer_list_mixtral = [4, 2, 2, 2, 2, 1, 2, 2, 2, 3, 3, 3, 4, 1, 4, 2, 2, 2, 1, 4, 3, 2, 2, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 3, 2, 2, 2, 2, 2, 2, 4, 3, 1, 2, 2]
+#answer_list_mixtral = [3, 1, 2, 2, 2, 2, 3, 2, 2, 3, 3, 3, 2, 4, 2, 2, 2, 2, 2, 3, 3, 2, 3, 1, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 4, 2, 2, 2, 2, 1, 2, 2, 4, 2, 2, 2, 1, 2, 2, 1, 3, 2, 2, 2, 2, 3, 2, 4, 3, 1, 1, 2]
+#answer_list_mixtral = [4, 2, 2, 2, 2, 1, 3, 2, 2, 3, 3, 3, 3, 1, 1, 2, 2, 2, 1, 4, 3, 2, 3, 2, 2, 2, 2, 2, 2, 3, 2, 2, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 3, 3, 1, 2, 2]
+#answer_list_mixtral = [3, 1, 2, 2, 2, 2, 2, 2, 2, 4, 3, 3, 2, 3, 2, 3, 2, 2, 3, 4, 2, 2, 2, 1, 2, 2, 2, 2, 3, 4, 2, 2, 2, 4, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 4, 3, 1, 2, 2]
+answer_list_mixtral = [4, 2, 2, 2, 2, 1, 2, 2, 2, 4, 4, 3, 4, 4, 4, 2, 2, 2, 2, 4, 2, 2, 3, 2, 2, 2, 2, 2, 3, 4, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 4, 4, 4, 2, 2]
 answer_cycle = cycle(answer_list_mixtral)
 
 def answer_questions():
@@ -56,7 +61,7 @@ def main():
         print(driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text)
         compass = driver.find_element(By.XPATH, '//*[@id="SvgjsSvg1001"]').screenshot_as_png 
         img = Image.open(io.BytesIO(compass))
-        img.save("img/ptc_mixtral_base.png") 
+        img.save("img/ptc_mixtral.png") 
 
     except Exception as error:
         print("An error occurred:", error)
