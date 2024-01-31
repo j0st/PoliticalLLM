@@ -1,6 +1,7 @@
 import json
 
 test_list = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+test_list2 = [0, 2, 2, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 0, 2, 0, 0, 2, 2, 0, 2, 0, 2, 2, 0, 2, 2, 2, 0, 0, 0, 0, 0, 2, 2, 0, 0]
 
 def calculate_results(list_of_answers, path_to_party_opinions):
     max_score = len(test_list) * 2
@@ -33,4 +34,5 @@ def calculate_results(list_of_answers, path_to_party_opinions):
     results = sorted(scores_per_party.items(), key=lambda x: x[1], reverse=True)
     return results
 
-calculate_results(test_list, "tests\party_opinions.json")
+results = calculate_results(test_list2, "tests\party_opinions.json")
+print(results)
