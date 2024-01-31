@@ -1,0 +1,194 @@
+{
+    "statements": [
+      {
+        "id": 0,
+        "title": "Tempolimit auf Autobahnen",
+        "text": "Auf allen Autobahnen soll ein generelles Tempolimit gelten."
+      },
+      {
+        "id": 1,
+        "title": "Erhöhung der Verteidigungsausgaben",
+        "text": "Deutschland soll seine Verteidigungsausgaben erhöhen."
+      },
+      {
+        "id": 2,
+        "title": "Wählen ab 16",
+        "text": "Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen."
+      },
+      {
+        "id": 3,
+        "title": "Windenergie",
+        "text": "Die Förderung von Windenergie soll beendet werden."
+      },
+      {
+        "id": 4,
+        "title": "Begrenzung für Mieterhöhungen",
+        "text": "Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden."
+      },
+      {
+        "id": 5,
+        "title": "Patentschutz für Impfstoffe",
+        "text": "Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein."
+      },
+      {
+        "id": 6,
+        "title": "Ausstieg aus der Kohleverstromung",
+        "text": "Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden."
+      },
+      {
+        "id": 7,
+        "title": "Gesetzliche Rentenversicherung",
+        "text": "Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen."
+      },
+      {
+        "id": 8,
+        "title": "Abschaffung des Familiennachzugs",
+        "text": "Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden."
+      },
+      {
+        "id": 9,
+        "title": "Steuer auf digitale Dienstleistungen",
+        "text": "Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden."
+      },
+      {
+        "id": 10,
+        "title": "Traditionalle Familie",
+        "text": "Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden."
+      },
+      {
+        "id": 11,
+        "title": "Parteispenden",
+        "text": "Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein."
+      },
+      {
+        "id": 12,
+        "title": "Elternunabhängiges BAföG",
+        "text": "Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten."
+      },
+      {
+        "id": 13,
+        "title": "Doppelte Staatsbürgerschaft",
+        "text": "In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben."
+      },
+      {
+        "id": 14,
+        "title": "Sprachliche Berücksichtigung von Geschlechtsidentitäten",
+        "text": "Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen."
+      },
+      {
+        "id": 15,
+        "title": "Nord Stream 2",
+        "text": "Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen."
+      },
+      {
+        "id": 16,
+        "title": "Abschaffung des Solidaritätszuschlags",
+        "text": "Der Solidaritätszuschlag soll vollständig abgeschafft werden."
+      },
+      {
+        "id": 17,
+        "title": "Kopftuch im Dienst",
+        "text": "Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein."
+      },
+      {
+        "id": 18,
+        "title": "Verbrennungsmotor",
+        "text": "Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein."
+      },
+      {
+        "id": 19,
+        "title": "Schulpolitik",
+        "text": "Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten."
+      },
+      {
+        "id": 20,
+        "title": "Antisemitismus",
+        "text": "Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen."
+      },
+      {
+        "id": 21,
+        "title": "Aufträge an chinesische Firmen",
+        "text": "Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen."
+      },
+      {
+        "id": 22,
+        "title": "Kirchensteuer",
+        "text": "Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen."
+      },
+      {
+        "id": 23,
+        "title": "Verkauf von Cannabis",
+        "text": "Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein."
+      },
+      {
+        "id": 24,
+        "title": "Austritt aus der EU",
+        "text": "Deutschland soll aus der Europäischen Union austreten."
+      },
+      {
+        "id": 25,
+        "title": "Frauen und Männer auf Landeslisten",
+        "text": "Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen."
+      },
+      {
+        "id": 26,
+        "title": "Abrechnung über Fallpauschalen",
+        "text": "Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden."
+      },
+      {
+        "id": 27,
+        "title": "Steuer auf hohe Vermögen",
+        "text": "Auf hohe Vermögen soll wieder eine Steuer erhoben werden."
+      },
+      {
+        "id": 28,
+        "title": "Gesichtserkennung bei Videoüberwachung",
+        "text": "Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen."
+      },
+      {
+        "id": 29,
+        "title": "Ehepaare ohne Kinder",
+        "text": "Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden."
+      },
+      {
+        "id": 30,
+        "title": "Ökologische Landwirtschaft",
+        "text": "Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft."
+      },
+      {
+        "id": 31,
+        "title": "Islamische Verbände",
+        "text": "Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können."
+      },
+      {
+        "id": 32,
+        "title": "Anstieg des CO2-Preises",
+        "text": "Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant."
+      },
+      {
+        "id": 33,
+        "title": "Schuldenbremse",
+        "text": "Die Schuldenbremse im Grundgesetz soll beibehalten werden."
+      },
+      {
+        "id": 34,
+        "title": "Asyl nur für politisch Verfolgte",
+        "text": "Asyl soll weiterhin nur politisch Verfolgten gewährt werden."
+      },
+      {
+        "id": 35,
+        "title": "Erhöhung des Mindestlohns",
+        "text": "Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden."
+      },
+      {
+        "id": 36,
+        "title": "Besteuerung des Flugverkehrs",
+        "text": "Der Flugverkehr soll höher besteuert werden."
+      },
+      {
+        "id": 37,
+        "title": "Homeoffice",
+        "text": "Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben."
+      }
+    ]
+  }
