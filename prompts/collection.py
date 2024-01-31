@@ -37,3 +37,17 @@ synthetic_data_prompt = f"""
 
         Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor der eigentlichen Aussage sollen ebenfalls weggelassen werden.
         """
+
+
+prompt_template_rag_1 = """
+### [INST]
+Instruction: Answer the question based on your
+cricket knowledge. Here is context to help:
+
+{context}
+
+### QUESTION:
+{question}
+
+[/INST]
+"""
