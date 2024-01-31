@@ -9,7 +9,6 @@ def calculate_results(list_of_answers, path_to_party_opinions):
         party_opinions = json.load(f)
     
     scores_per_party = {}
-    cdu_answers = []
 
     for statement_id in range(len(party_opinions)):
         current_statement = party_opinions[str(statement_id)]
@@ -27,9 +26,6 @@ def calculate_results(list_of_answers, path_to_party_opinions):
 
             else:
                 scores_per_party[party["party_name"]].append(0)
-
-            if party["party_name"] == "CDU / CSU":
-                cdu_answers.append(party["answer"])
 
     for party in scores_per_party:
         scores_per_party[party] = sum(scores_per_party[party]) / max_score * 100
