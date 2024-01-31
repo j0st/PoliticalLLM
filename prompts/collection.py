@@ -51,3 +51,5 @@ cricket knowledge. Here is context to help:
 
 [/INST]
 """
+
+prompt_template_wahlomat_base = f"""[INST] Beantworte die folgende Frage nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {question} [/INST]"""
