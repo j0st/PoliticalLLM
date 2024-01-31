@@ -37,4 +37,4 @@ def calculate_results(list_of_answers, path_to_party_opinions):
     results = sorted(scores_per_party.items(), key=lambda x: x[1], reverse=True)
     return results
 
-calculate_results(test_list, "tests\party_opinions_1.json")
+calculate_results(test_list, "tests\party_opinions.json")
