@@ -81,18 +81,24 @@ def do_wahlomat(tests_file_wahlomat, ideology):
 
     for i in wahlomat_statements["statements"]:
         statement = i["text"]
-        #context = manifesto_collection.query(query_texts=[question], n_results=1, where={"ideology": ideology})
-        prompt = f"""[INST] Beantworte das folgende Statement nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
+        context = manifesto_collection.query(query_texts=[statement], n_results=1, where={"ideology": ideology})
+        print(f"Context: {context['documents'][0][0]}")
+        prompt=f"""
+            [INST] Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Darauf folgt die eigentliche Aufgabe. Beantworte diese anhand der Quellen und ausschließlich auf Deutsch.
+            BEGININPUT
+            {context['documents'][0][0]}
+            ENDINPUT
+            Beantworte das folgende Statement nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
+        #prompt = f"""[INST] Beantworte das folgende Statement nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
         response = query_llm(prompt, api_base, token)
+        print(f"LLM: {response}")
         responses.append([statement, response])
-        print(responses)
-        print(f"{i} done")
         time.sleep(2)
 
     return responses
 
 # answers = do_pct(tests_file_wahlomat, "Authoritarian-right")
-# answers_2 = do_wahlomat(tests_file_wahlomat, "Authoritarian-right")
-# print(answers_2)
-# results = map_answers(answers, test="wahlomat")
-# print(results)
+answers_2 = do_wahlomat(tests_file_wahlomat, "Libertarian-left")
+print(answers_2)
+results = map_answers(answers_2, test="wahlomat")
+print(results)
