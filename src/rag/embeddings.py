@@ -21,7 +21,7 @@ metadatas_lr = [{"ideology": "Libertarian-right"} for _ in range(len(ids_lr))]
 multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="jost/multilingual-e5-base-politics-de")
 
 client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_ideologies") # save vector database locally
-manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
+manifesto_collection = client.get_or_create_collection(name="manifesto-db-ft", embedding_function=multilingual_embeddings)
 
 # manifesto_collection.add(documents=docs_al, ids=ids_al, metadatas=metadatas_al)
 # manifesto_collection.add(documents=docs_ar, ids=ids_ar, metadatas=metadatas_ar)
