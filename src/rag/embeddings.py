@@ -18,7 +18,7 @@ metadatas_ar = [{"ideology": "Authoritarian-right"} for _ in range(len(ids_ar))]
 metadatas_ll = [{"ideology": "Libertarian-left"} for _ in range(len(ids_ll))]
 metadatas_lr = [{"ideology": "Libertarian-right"} for _ in range(len(ids_lr))]
 
-multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-base")
+multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="jost/multilingual-e5-base-politics-de")
 
 client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_ideologies") # save vector database locally
 manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
@@ -28,37 +28,39 @@ manifesto_collection = client.get_or_create_collection(name="manifesto-db", embe
 # manifesto_collection.add(documents=docs_ll, ids=ids_ll, metadatas=metadatas_ll)
 # manifesto_collection.add(documents=docs_lr, ids=ids_lr, metadatas=metadatas_lr)
 
-results = manifesto_collection.query(
-    query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
-    n_results=3,
-    where={"ideology": "Authoritarian-left"}
-)
+# results = manifesto_collection.query(
+#     query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
+#     n_results=3,
+#     where={"ideology": "Authoritarian-left"}
+# )
 
 
-print(results)
+# print(results)
 
-results = manifesto_collection.query(
-    query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
-    n_results=3,
-    where={"ideology": "Authoritarian-right"}
-)
+# results = manifesto_collection.query(
+#     query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
+#     n_results=3,
+#     where={"ideology": "Authoritarian-right"}
+# )
 
-print(results)
+# print(results)
 
-results = manifesto_collection.query(
-    query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
-    n_results=3,
-    where={"ideology": "Libertarian-left"}
-)
-
-
-print(results)
-
-results = manifesto_collection.query(
-    query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
-    n_results=3,
-    where={"ideology": "Libertarian-right"}
-)
+# results = manifesto_collection.query(
+#     query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
+#     n_results=3,
+#     where={"ideology": "Libertarian-left"}
+# )
 
 
-print(results)
+# print(results)
+
+# results = manifesto_collection.query(
+#     query_texts=["Auf allen Autobahnen soll ein generelles Tempolimit gelten."],
+#     n_results=3,
+#     where={"ideology": "Libertarian-right"}
+# )
+
+
+# print(results)
+
+print(manifesto_collection.count())
