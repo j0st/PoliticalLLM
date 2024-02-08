@@ -1,5 +1,5 @@
 from anyscale_generation import query_llm
-from chunking import slide_chunker
+from chunking import slide_chunker, sentence_chunker
 import os
 import time
 import re
@@ -80,24 +80,25 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
 
 if __name__ == "__main__":
     data = "data\manifestos.json"
-    docs = slide_chunker(data)
+    #docs = slide_chunker(data)
+    docs = sentence_chunker(data)
     train, val = train_test_split(docs, test_size=0.2, random_state=42)
-    train_corpus = load_corpus(train[:100], True)
-    val_corpus = load_corpus(val[:20], True)
+    train_corpus = load_corpus(train[:1000], True)
+    val_corpus = load_corpus(val[:200], True)
     train_queries_small, train_relevant_docs_small = generate_synthetic_dataset(train_corpus)
     val_queries_small, val_relevant_docs_small = generate_synthetic_dataset(val_corpus)
     path = "C://Users//Jost//Desktop//finetuning"
-    with open(path + "//train_queries.json", 'w+') as f:
-        json.dump(train_queries_small, f)
+    with open(path + "//train_queries.json", 'w+', encoding="utf-8") as f:
+        json.dump(train_queries_small, f, ensure_ascii=False)
 
-    with open(path + "//train_docs.json", 'w+') as f:
-        json.dump(train_relevant_docs_small, f)
+    with open(path + "//train_docs.json", 'w+', encoding="utf-8") as f:
+        json.dump(train_relevant_docs_small, f, ensure_ascii=False)
 
-    with open(path + "//val_queries.json", 'w+') as f:
-        json.dump(val_queries_small, f)
+    with open(path + "//val_queries.json", 'w+', encoding="utf-8") as f:
+        json.dump(val_queries_small, f, ensure_ascii=False)
 
-    with open(path + "//val_docs.json", 'w+') as f:
-        json.dump(val_relevant_docs_small, f)
+    with open(path + "//val_docs.json", 'w+', encoding="utf-8") as f:
+        json.dump(val_relevant_docs_small, f, ensure_ascii=False)
 
     TRAIN_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//train_dataset.json'
     VAL_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//val_dataset.json'
@@ -114,8 +115,8 @@ if __name__ == "__main__":
         'relevant_docs': val_relevant_docs_small,
     }
 
-    with open(TRAIN_DATASET_FPATH, 'w+') as f:
-        json.dump(train_dataset, f)
+    with open(TRAIN_DATASET_FPATH, 'w+', encoding="utf-8") as f:
+        json.dump(train_dataset, f, ensure_ascii=False)
 
-    with open(VAL_DATASET_FPATH, 'w+') as f:
-        json.dump(val_dataset, f)
+    with open(VAL_DATASET_FPATH, 'w+', encoding="utf-8") as f:
+        json.dump(val_dataset, f, ensure_ascii=False)
