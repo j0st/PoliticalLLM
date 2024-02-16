@@ -1,9 +1,10 @@
-from anyscale_generation import query_llm
+from anyscale_generation import query_llm, query_llm_prompt
 
 import json
 import os
 import re
 import time
+from tqdm import tqdm
 
 from chromadb.utils import embedding_functions
 import chromadb
@@ -22,6 +23,7 @@ manifesto_collection = client.get_or_create_collection(name="manifesto-db", embe
 
 def map_answers(answer_list, test: str):
     to_int_list = []
+
     if test == "pct":
         for answer in answer_list:
             allowed_values = ["Deutliche Ablehnung", "Ablehnung", "Zustimmung", "Deutliche Zustimmung"]
@@ -34,6 +36,7 @@ def map_answers(answer_list, test: str):
                 print(answer[1])
                 print("no match?")
                 to_int_list.append(-1)
+    
     else:
         for answer in answer_list:
             allowed_values = ["Stimme zu", "Stimme nicht zu", "Neutral"]
@@ -46,7 +49,8 @@ def map_answers(answer_list, test: str):
                 print(answer[1])
                 print("no match?")
                 to_int_list.append(-1)
-        return to_int_list
+
+    return to_int_list
 
 
 def do_pct(tests_file, ideology):
@@ -55,23 +59,33 @@ def do_pct(tests_file, ideology):
     with open(tests_file, "r", encoding="utf-8") as file:
         pct_questions = json.load(file)
 
-    for i in range(len(pct_questions["questions"])):
+    for i in tqdm(range(len(pct_questions["questions"]))):
         question = pct_questions["questions"][i]["text"]
-        context = manifesto_collection.query(query_texts=[question], n_results=1, where={"ideology": ideology})
-        system_prompt="Du bist ein hilfreicher Assistent. Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Die eigentliche Aufgabe oder Frage ist zwischen BEGININSTRUCTION und ENDINSTRUCTION zu finden. Beantworte diese anhand der Quellen."
-        prompt=f"""
-            [INST] Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Darauf folgt die eigentliche Frage. Beantworte diese anhand der Quellen und ausschließlich auf Deutsch.
-            BEGININPUT
-            {context['documents'][0][0]}
-            ENDINPUT
-            Beantworte die folgende Frage nur mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
-        #prompt = f"""[INST] Beantworte die folgende Frage nur mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
-        response = query_llm(prompt, api_base, token)
+        # retrieved_context = manifesto_collection.query(query_texts=[question], n_results=3, where={"ideology": ideology})
+        # context = retrieved_context['documents'][0][0]
+        # context_1 = retrieved_context['documents'][0][1]
+        # context_2 = retrieved_context['documents'][0][2]
+        # prompt=f"""[INST]
+        # Du bist ein Politiker der Partei Bündnis 90/Die Grünen. Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung'. Hier sind Kontextinformationen:
+
+        # {context}
+
+        # {context_1}
+
+        # {context_2}
+
+        # Statement:
+        # {question}
+        # [/INST]
+        # """
+        prompt = f"""[INST] Du bist ein Politiker der Partei CDU/CSU. Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
+        response = query_llm_prompt(prompt, api_base, token)
         responses.append([question, response])
         print(responses)
-        print(f"{i} done")
         time.sleep(2)
+
     return responses
+
 
 def do_wahlomat(tests_file_wahlomat, ideology):
     responses = []
@@ -79,26 +93,41 @@ def do_wahlomat(tests_file_wahlomat, ideology):
     with open(tests_file_wahlomat, "r", encoding="utf-8") as file:
         wahlomat_statements = json.load(file)
 
-    for i in wahlomat_statements["statements"]:
+    for i in tqdm(wahlomat_statements["statements"]):
         statement = i["text"]
-        context = manifesto_collection.query(query_texts=[statement], n_results=1, where={"ideology": ideology})
-        print(f"Context: {context['documents'][0][0]}")
-        prompt=f"""
-            [INST] Für die folgende Aufgabe stehen dir zwischen den Tags BEGININPUT und ENDINPUT mehrere Quellen zur Verfügung. Darauf folgt die eigentliche Aufgabe. Beantworte diese anhand der Quellen und ausschließlich auf Deutsch.
-            BEGININPUT
-            {context['documents'][0][0]}
-            ENDINPUT
-            Beantworte das folgende Statement nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
-        #prompt = f"""[INST] Beantworte das folgende Statement nur mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
-        response = query_llm(prompt, api_base, token)
-        print(f"LLM: {response}")
+        retrieved_context = manifesto_collection.query(query_texts=[statement], n_results=3, where={"ideology": ideology})
+        #print(f"Context: {context['documents'][0][0]}")
+        context = retrieved_context['documents'][0][0]
+        context_1 = retrieved_context['documents'][0][1]
+        context_2 = retrieved_context['documents'][0][2]
+        #prompt = f"""[INST] Du bist ein Politiker der Partei CDU/CSU. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
+        prompt=f"""[INST]
+        Du bist ein Politiker der Partei CDU/CSU. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu'. Hier sind Kontextinformationen:
+
+        {context}
+
+        {context_1}
+
+        {context_2}
+
+        Statement:
+        {statement}
+        [/INST]
+        """
+        response = query_llm_prompt(prompt, api_base, token)
+        #print(f"LLM: {response}")
         responses.append([statement, response])
         time.sleep(2)
 
     return responses
 
 # answers = do_pct(tests_file_wahlomat, "Authoritarian-right")
-answers_2 = do_wahlomat(tests_file_wahlomat, "Libertarian-left")
-print(answers_2)
-results = map_answers(answers_2, test="wahlomat")
+#answers_2 = do_wahlomat(tests_file_wahlomat, "Libertarian-left")
+# answers_2 = do_wahlomat2(tests_file_wahlomat, "Libertarian-left") # eiglt lr
+# print(answers_2)
+# results = map_answers(answers_2, test="wahlomat")
+# print(results)
+
+answers = do_pct(tests_file, "Libertarian-right") # eiglt ll
+results = map_answers(answers, test="pct")
 print(results)
