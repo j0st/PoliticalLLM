@@ -7,15 +7,13 @@ import requests
 
 load_dotenv(override=True)
 
-ideologies = {"Authoritarian-right":["AfD"], "Authoritarian-left":["LINKE", "PDS", "L-PDS", "Pirates", ""], "Libertarian-right":["FDP", "CDU/CSU"], "Libertarian-left":["90/Greens", "SPD", "SSW"]}
+ideologies = {"Authoritarian-right":["AfD"],
+              "Authoritarian-left":["LINKE", "PDS", "L-PDS", "Pirates", ""],
+              "Libertarian-right":["FDP", "CDU/CSU"],
+              "Libertarian-left":["90/Greens", "SPD", "SSW"]}
+
 api_key = os.getenv("MANIFESTO_PROJECT_API_KEY")
 api_root = 'https://manifesto-project.wzb.eu/api/v1/'
-
-csv_file = os.getenv("FILEPATH_CORE_CSV")
-output_file_ar = os.getenv("FILEPATH_OUTPUT_JSON_AR")
-output_file_al = os.getenv("FILEPATH_OUTPUT_JSON_AL")
-output_file_lr = os.getenv("FILEPATH_OUTPUT_JSON_LR")
-output_file_ll = os.getenv("FILEPATH_OUTPUT_JSON_LL")
 
 def find_ideology(ideologies_d, party):
     for ideology, parties in ideologies_d.items():
@@ -23,19 +21,21 @@ def find_ideology(ideologies_d, party):
             return ideology
         
 
-def core_dataset_to_csv(filepath, version="MPDS2023a"):
+def core_dataset_to_csv(version="MPDS2023a"):
     url = f'{api_root}get_core?api_key={api_key}&key={version}'
     response = requests.get(url)
+    fpath = f"data/core_dataset_{version}.csv"
 
-    with open(filepath, 'w', newline='', encoding="utf-8") as csvfile:
+    with open(fpath, 'w', newline='', encoding="utf-8") as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(response.json()[0])
         csv_writer.writerows(response.json()[1:])
-    
-    print(f"Core dataset saved to {filepath}.")
+
+    return fpath
 
 
-def get_manifesto_keys(csv_file, country: str, timeframe: str):
+def get_manifesto_keys(country: str, timeframe: str):
+    csv_file = core_dataset_to_csv()
     start_year, end_year = map(int, timeframe.split('-'))
     manifesto_keys_d = {}
 
@@ -55,7 +55,8 @@ def get_manifesto_keys(csv_file, country: str, timeframe: str):
     return manifesto_keys_d
         
 
-def get_manifestos(manifesto_keys_d, output_file, ideology: str, version="2023-1"):
+def get_manifestos(ideology: str, country: str, timeframe: str, version="2023-1"):
+    manifesto_keys_d = get_manifesto_keys(country, timeframe)
     manifesto_keys = []
     for key, value in manifesto_keys_d.items():
         if ideology in value:
@@ -64,16 +65,11 @@ def get_manifestos(manifesto_keys_d, output_file, ideology: str, version="2023-1
     url = f'{api_root}texts_and_annotations?api_key={api_key}&{"&".join([f"keys[]={key}" for key in manifesto_keys])}&version={version}'
     response = requests.get(url)
 
-    with open(output_file, 'w', encoding="utf-8") as file:
+    with open(f"data/{ideology}_manifestos.json", 'w', encoding="utf-8") as file:
             json.dump(response.json(), file, ensure_ascii=False, indent=2)
 
     return response.json()
 
 
 if __name__ == "__main__":
-    #core_dataset_to_csv(csv_file)
-    d_of_keys = get_manifesto_keys(csv_file, "Germany", "1998-2021")
-    get_manifestos(d_of_keys, output_file_ar, "Authoritarian-right")
-    get_manifestos(d_of_keys, output_file_al, "Authoritarian-left")
-    get_manifestos(d_of_keys, output_file_lr, "Libertarian-right")
-    get_manifestos(d_of_keys, output_file_ll, "Libertarian-left")
+    [get_manifestos(ideology, "Germany", "1998-2021") for ideology in ideologies]
