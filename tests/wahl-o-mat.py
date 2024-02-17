@@ -53,8 +53,8 @@ def calculate_results(list_of_answers, path_to_party_opinions):
 
     return results, results_per_ideology
 
- 
-# results, results_ideo = calculate_results(lr_3_shot, "tests\party_opinions.json")
-# print(results)
-# print(results_ideo)
+qwen = [2, 2, 2, 1, 2, 2, 2, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+results, results_ideo = calculate_results(qwen, "tests\party_opinions.json")
+print(results)
+print(results_ideo)
 
