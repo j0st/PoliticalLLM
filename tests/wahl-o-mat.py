@@ -53,8 +53,14 @@ def calculate_results(list_of_answers, path_to_party_opinions):
 
     return results, results_per_ideology
 
+mixtral_base = [0, 2, 2, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 2, 2, 2, 0, 2, 0, 0, 0, 2, 0, 0, 0]
 qwen = [2, 2, 2, 1, 2, 2, 2, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-results, results_ideo = calculate_results(qwen, "tests\party_opinions.json")
+afd_random_3_shot_with_imp = [2, 2, 2, 0, 2, 2, 1, 2, 0, 1, 0, 0, 1, 1, 1, 2, 0, 1, 0, 1, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 0, 0, 1, 2, 1]
+afd_random = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2]
+afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 0]
+afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 0, 0, 2, 2, 0, 0]
+afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 2, 0]
+results, results_ideo = calculate_results(mixtral_base, "tests\party_opinions.json")
 print(results)
 print(results_ideo)
 
