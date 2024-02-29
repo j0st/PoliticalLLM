@@ -43,7 +43,7 @@ def map_answers(answer_list, test: str):
             mapped_answers.append(matched_group_index)
 
         else:
-            print(f"No match in this string: {answer[1]}. Calling LLM for stance detection...")
+            print(f"No match in this string: {answer[1]}.\nCalling LLM for stance detection...")
             prompt = f"""
             [INST] Weise dem folgenden Text eine politische Haltung im Bezug zur Ausgangsfrage aus diesen Möglichkeiten zu: {prompt_values}. Mehrere Antworten sind nicht möglich.
             Ausgangsfrage: {answer[0]}
@@ -71,12 +71,16 @@ def do_pct(tests_file, party=None, ideology=None, n_results=3, model="Mixtral"):
     for i in tqdm(range(len(pct_questions["questions"]))):
         question = pct_questions["questions"][i]["text"]
         if ideology:
-            retrieved_context = manifesto_collection.query(query_texts=[question], n_results=n_results, where={"ideology": ideology})
-            context = retrieved_context['documents'][0][0]
-            context_1 = retrieved_context['documents'][0][1]
-            context_2 = retrieved_context['documents'][0][2]
+            retrieved_context = manifesto_collection.get(ids=["id_ar_240", "id_ar_1970", "id_ar_1980"], where={"ideology": ideology})
+            #retrieved_context = manifesto_collection.query(query_texts=[question], n_results=n_results, where={"ideology": ideology})
+            # context = retrieved_context['documents'][0][0]
+            # context_1 = retrieved_context['documents'][0][1]
+            # context_2 = retrieved_context['documents'][0][2]
+            context = retrieved_context['documents'][0]
+            context_1 = retrieved_context['documents'][1]
+            context_2 = retrieved_context['documents'][2]
             prompt=f"""[INST]
-            Du bist ein Politiker der Partei {party}. Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung'. Hier sind Kontextinformationen:
+            Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung'. Hier sind Kontextinformationen:
 
             {context}
 
@@ -88,16 +92,15 @@ def do_pct(tests_file, party=None, ideology=None, n_results=3, model="Mixtral"):
             {question}
             [/INST]
             """
-            response = query_llm_prompt(prompt)
+            response = query_llm_prompt(prompt, api_base, token)
             responses.append([question, response])
         
         else:
-            #prompt = f"""[INST] Du bist ein Politiker der Partei CDU/CSU. Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
-            response = query_qwen(question, "C://Users//Jost//Downloads//qwen1_5-14b-chat-q5_k_m.gguf")
-            #response = query_llm_prompt(prompt, api_base, token)
+            prompt = f"""[INST] Du bist ein Politiker der Partei Bündnis 90/Die Grünen. Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {question} [/INST]"""
+            #response = query_qwen(question, "C://Users//Jost//Downloads//qwen1_5-14b-chat-q5_k_m.gguf")
+            response = query_llm_prompt(prompt, api_base, token)
             responses.append([question, response])
 
-    print(responses)
     return responses
 
 
@@ -110,12 +113,16 @@ def do_wahlomat(tests_file_wahlomat, party=None, ideology=None, n_results=3, mod
     for i in tqdm(wahlomat_statements["statements"]):
         statement = i["text"]
         if ideology:
-            retrieved_context = manifesto_collection.query(query_texts=[statement], n_results=n_results, where={"ideology": ideology})
-            context = retrieved_context['documents'][0][0]
-            context_1 = retrieved_context['documents'][0][1]
-            context_2 = retrieved_context['documents'][0][2]
+            retrieved_context = manifesto_collection.get(ids=["id_ar_240", "id_ar_1970", "id_ar_1980"], where={"ideology": ideology})
+            #retrieved_context = manifesto_collection.query(query_texts=[statement], n_results=n_results, where={"ideology": ideology})
+            # context = retrieved_context['documents'][0][0]
+            # context_1 = retrieved_context['documents'][0][1]
+            # context_2 = retrieved_context['documents'][0][2]
+            context = retrieved_context['documents'][0]
+            context_1 = retrieved_context['documents'][1]
+            context_2 = retrieved_context['documents'][2]
             prompt=f"""[INST]
-            Du bist ein Politiker der Partei {party}. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu'. Hier sind Kontextinformationen:
+            Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu'. Hier sind Kontextinformationen:
 
             {context}
 
@@ -127,17 +134,18 @@ def do_wahlomat(tests_file_wahlomat, party=None, ideology=None, n_results=3, mod
             {statement}
             [/INST]
             """
-            response = query_llm_prompt(prompt)
+            response = query_llm_prompt(prompt, api_base, token)
             responses.append([statement, response])
         
         else:
-            response = query_qwen(statement, "C://Users//Jost//Downloads//qwen1_5-14b-chat-q5_k_m.gguf")
+            prompt=f"""[INST] Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement} [/INST]"""
+            response = query_llm_prompt(prompt, api_base, token)
+            #response = query_qwen(statement, "C://Users//Jost//Downloads//qwen1_5-14b-chat-q5_k_m.gguf")
             #response = query_llm_prompt(prompt, api_base, token)
             #print(f"LLM: {response}")
             responses.append([statement, response])
             #time.sleep(2)
 
-    print(responses)
     return responses
 
 # answers = do_pct(tests_file_wahlomat, "Authoritarian-right")
@@ -147,10 +155,26 @@ def do_wahlomat(tests_file_wahlomat, party=None, ideology=None, n_results=3, mod
 # results = map_answers(answers_2, test="wahlomat")
 # print(results)
 
-# answers = do_wahlomat(tests_file_wahlomat, "Libertarian-right") # eiglt ll
-# results = map_answers(answers, test="wahlomat")
-# print(results)
+full_answers = []
+full_result = []
+for i in range(2):
+    answers = do_wahlomat(tests_file_wahlomat, party="Alternative für Deutschland", ideology="Authoritarian-right")
+    full_answers.append(answers)
+    results = map_answers(answers, test="pct")
+    full_result.append(results)
 
-answers = do_wahlomat(tests_file_wahlomat, "Libertarian-right") # eiglt ll
-results = map_answers(answers, test="wahlomat")
-print(results)
+print(full_answers)
+print(full_result)
+
+
+
+# full_answers = []
+# full_result = []
+# for i in range(10):
+#     answers = do_wahlomat(tests_file_wahlomat)
+#     full_answers.append(answers)
+#     results = map_answers(answers, test="wahlomat")
+#     full_result.append(results)
+
+# print(full_answers)
+# print(full_result)
