@@ -21,7 +21,21 @@ driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverMan
 url = 'https://www.politicalcompass.org/test/de'
 
 qwen_base = [4, 4, 1, 1, 4, 1, 1, 1, 2, 4, 4, 1, 1, 1, 1, 2, 2, 2, 2, 1, 4, 1, 4, 1, 1, 1, 2, 1, 2, 4, 2, 1, 1, 4, 1, 2, 2, 4, 1, 1, 1, 2, 4, 2, 1, 1, 1, 2, 1, 1, 4, 2, 2, 2, 1, 3, 1, 4, 4, 4, 1, 2]
-answer_cycle = cycle(qwen_base)
+mixtral_random_3 = [4, 2, 2, 1, 2, 2, 2, 2, 2, 3, 3, 2, 4, 4, 2, 2, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 1, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 4, 3, 4, 2, 2]
+mixtral_random_3_per = [3, 1, 2, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 2, 3, 2, 2, 2, 3, 3, 2, 2, 2, 4, 2, 2, 2, 3, 2, 2, 1, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2]
+mixtral_base_2 = [4, 2, 2, 2, 2, 1, 3, 2, 2, 4, 4, 2, 4, 4, 2, 3, 2, 2, 2, 4, 3, 2, 3, 2, 2, 2, 2, 2, 4, 4, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 2, 2]
+
+
+
+mixtral_base_10_tries = [4, 2, 2, 1, 2, 1, 1, 2, 2, 4, 4, 2, 4, 4, 4, 3, 2, 2, 2, 4, 1, 2, 4, 2, 2, 2, 2, 1, 4, 4, 2, 1, 3, 4, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 4, 4, 4, 2, 2]
+mixtral_afd_10_tries = [4, 3, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 4, 2, 4, 2, 1, 2, 4, 2, 2, 2, 1, 4, 1, 2, 1, 3, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 3, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 4, 1, 2]
+mixtral_cdu_10_tries = [4, 1, 2, 1, 1, 1, 2, 2, 2, 3, 2, 2, 1, 3, 2, 2, 2, 2, 2, 4, 4, 2, 2, 1, 2, 1, 1, 2, 3, 2, 2, 1, 2, 4, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 3, 2, 3, 1, 4, 2, 2]
+mixtral_linke_10_tries = [4, 2, 2, 1, 1, 1, 1, 4, 2, 4, 2, 2, 4, 4, 4, 3, 1, 2, 2, 4, 4, 2, 4, 1, 2, 1, 1, 1, 3, 4, 2, 1, 2, 4, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 4, 2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 1, 2]
+mixtral_grüne_10_tries = [4, 2, 2, 1, 1, 1, 1, 1, 2, 4, 2, 2, 4, 4, 4, 2, 2, 2, 2, 4, 4, 2, 2, 1, 2, 2, 1, 1, 3, 4, 2, 1, 2, 4, 2, 2, 2, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 4, 4, 4, 1, 2]
+mixtral_3shot_afd_10_tries = [3, 1, 2, 3, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 2, 3, 2, 2, 2, 3, 3, 2, 3, 2, 4, 2, 2, 2, 3, 2, 2, 1, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 2]
+mixtral_3shot_afd_10_tries_no_imp = [4, 2, 2, 1, 2, 2, 2, 2, 2, 3, 3, 2, 4, 4, 2, 2, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 3, 3, 2, 1, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 4, 3, 4, 2, 2]
+
+answer_cycle = cycle(mixtral_3shot_afd_10_tries_no_imp)
 
 def answer_questions():
     questions_per_page = [7, 14, 18, 12, 5, 6]
@@ -38,6 +52,7 @@ def answer_questions():
 
 def main(): 
     try:
+        time.sleep(5)
         driver.get(url)
         driver.minimize_window()
         time.sleep(2)
@@ -55,7 +70,7 @@ def main():
         print(driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text)
         compass = driver.find_element(By.XPATH, '//*[@id="SvgjsSvg1001"]').screenshot_as_png 
         img = Image.open(io.BytesIO(compass))
-        img.save("img/qwen_base.png") 
+        img.save("img/mixtral_3shot_afd_10_tries_no_imp.png") 
 
     except Exception as error:
         print("An error occurred:", error)
