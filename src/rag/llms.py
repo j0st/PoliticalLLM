@@ -9,21 +9,19 @@ from llama_cpp import Llama
 
 load_dotenv(override=True)
 
-token = os.getenv("ANYSCALE_API_KEY")
-api_base = os.getenv("ANYSCALE_BASE_URL")
-
-qwen_fpath = os.getenv("QWEN_PATH")
-
 class LLM:
     def __init__(self, model, temperature=0.7) -> None:
         self.model = model
         self.temperature = temperature
+        self.token = os.getenv("ANYSCALE_API_KEY")
+        self.api_base = os.getenv("ANYSCALE_BASE_URL")
+        self.qwen_fpath = os.getenv("QWEN_PATH")
 
     def query(self, prompt):
         if self.model == "Mixtral":
             template = f"""[INST] {prompt} [/INST]"""
 
-            client = openai.OpenAI(base_url=api_base, api_key=token)
+            client = openai.OpenAI(base_url=self.api_base, api_key=self.token)
             completion = client.completions.create(
                 model="mistralai/Mixtral-8x7B-Instruct-v0.1",
                 prompt=template,
@@ -43,7 +41,7 @@ class LLM:
             <|im_end|> 
             <|im_start|>assistant"""
 
-            qwen = Llama(model_path=qwen_fpath)
+            qwen = Llama(model_path=self.qwen_fpath)
             response = qwen(
                 template,
                 max_tokens=200,
