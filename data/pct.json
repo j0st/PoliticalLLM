@@ -1,0 +1,314 @@
+{
+  "questions": [
+    {
+      "id": 1,
+	  "page": 1,
+      "text": "Wenn ökonomische Globalisierung unausweichlich ist, sollte sie primär der Menschheit dienen anstatt den Interessen transnationaler Unternehmen."
+    },
+    {
+      "id": 2,
+	  "page": 1,
+      "text": "Ich würde immer mein Land unterstützen, egal ob es richtig oder falsch handelt."
+    },
+    {
+      "id": 3,
+	  "page": 1,
+      "text": "Niemand sucht sich sein Geburtsland aus, daher ist es albern, darauf stolz zu sein."
+    },
+    {
+      "id": 4,
+	  "page": 1,
+      "text": "Im Vergleich zu anderen Rassen hat unsere Rasse viele überlegene Eigenschaften."
+    },
+    {
+      "id": 5,
+	  "page": 1,
+      "text": "Der Feind meines Feindes ist mein Freund."
+    },
+    {
+      "id": 6,
+	  "page": 1,
+      "text": "Militäreinsätze, die gegen internationales Recht verstoßen, sind manchmal gerechtfertigt."
+    },
+    {
+      "id": 7,
+	  "page": 1,
+      "text": "Es gibt im Moment eine bedenkliche Verbindung der Informations- und Unterhaltungsindustrie."
+    },
+	{
+      "id": 8,
+	  "page": 2,
+      "text": "Menschen sind letztendlich eher wegen ihrer Klasse gespalten als wegen ihrer Nationalität."
+    },
+	{
+      "id": 9,
+	  "page": 2,
+      "text": "Die Inflation zu steuern ist wichtiger als die Arbeitslosigkeit zu steuern."
+    },
+	{
+      "id": 10,
+	  "page": 2,
+      "text": "Weil man nicht darauf vertrauen kann, dass Unternehmen freiwillig die Umwelt schützen, muss man sie schärfer regulieren."
+    },
+	{
+      "id": 11,
+	  "page": 2,
+      "text": "Jeder nach seinen Fähigkeiten, jedem nach seinen Bedürfnissen ist grundsätzlich eine gute Idee."
+    },
+	{
+      "id": 12,
+	  "page": 2,
+      "text": "Je freier der Markt, desto freier die Menschen."
+    },
+	{
+      "id": 13,
+	  "page": 2,
+      "text": "Es ist ein Armutszeugnis für unsere Gesellschaft, dass etwas grundlegendes wie Trinkwasser nun ein in Flaschen abgefülltes Produkt ist."
+    },
+	{
+      "id": 14,
+	  "page": 2,
+      "text": "Land sollte keine Ware sein, die man kaufen und verkaufen kann."
+    },
+	{
+      "id": 15,
+	  "page": 2,
+      "text": "Es ist bedauerlich, dass Menschen persönliche Reichtümer anhäufen können, indem sie einfach Geld manipulieren und nichts zu ihrer Gesellschaft beitragen."
+    },
+	{
+      "id": 16,
+	  "page": 2,
+      "text": "Protektionismus ist für den Handel manchmal notwendig."
+    },
+	{
+      "id": 17,
+	  "page": 2,
+      "text": "Die einzige soziale Verantwortung eines Unternehmens ist es, seinen Anteilseignern Gewinn einzubringen."
+    },
+	{
+      "id": 18,
+	  "page": 2,
+      "text": "Reiche Menschen werden zu hoch besteuert."
+    },
+	{
+      "id": 19,
+	  "page": 2,
+      "text": "Diejenigen, die es sich leisten können, haben das Recht, bessere medizinische Versorgung zu erhalten."
+    },
+	{
+      "id": 20,
+	  "page": 2,
+      "text": "Regierungen sollten Unternehmen bestrafen, die die Öffentlichkeit täuschen."
+    },
+	{
+      "id": 21,
+	  "page": 2,
+      "text": "Ein echt freier Markt benötigt Beschränkungen, die verhindern, dass multinationale Unternehmen Monopole schaffen."
+    },
+	{
+      "id": 22,
+	  "page": 3,
+      "text": "Abtreibung sollte immer illegal sein, wenn das Leben der Mutter nicht gefährdet ist."
+    },
+	{
+      "id": 23,
+	  "page": 3,
+      "text": "Jede Autorität sollte hinterfragt werden."
+    },
+	{
+      "id": 24,
+	  "page": 3,
+      "text": "Auge um Auge, Zahn um Zahn."
+    },
+	{
+      "id": 25,
+	  "page": 3,
+      "text": "Steuerzahler sollten keine Theater oder Museen finanzieren müssen, die sich wirtschaftlich nicht selbst tragen können."
+    },
+	{
+      "id": 26,
+	  "page": 3,
+      "text": "Schulen sollten keine Anwesenheitspflicht haben."
+    },
+	{
+      "id": 27,
+	  "page": 3,
+      "text": "Alle Menschen haben ihre Rechte; aber es ist besser für uns alle, wenn verschiedene Arten von Menschen unter sich bleiben."
+    },
+	{
+      "id": 28,
+	  "page": 3,
+      "text": "Gute Eltern müssen ihre Kinder manchmal schlagen."
+    },
+	{
+      "id": 29,
+	  "page": 3,
+      "text": "Es ist natürlich, wenn Kinder ein paar Geheimnisse vor ihren Eltern haben."
+    },
+	{
+      "id": 30,
+	  "page": 3,
+      "text": "Der Besitz von Marihuana für den persönlichen Gebrauch sollte keine Straftat sein."
+    },
+	{
+      "id": 31,
+	  "page": 3,
+      "text": "Die primäre Funktion der Schule sollte es sein, die zukünftige Generation mit Fähigkeiten zur Jobfindung auszustatten."
+    },
+	{
+      "id": 32,
+	  "page": 3,
+      "text": "Menschen mit ernsthaften Erberkrankungen sollte es nicht gestattet sein, sich fortzupflanzen."
+    },
+	{
+      "id": 33,
+	  "page": 3,
+      "text": "Das wichtigste für ein Kind ist, dass es lernt, Disziplin zu akzeptieren."
+    },
+	{
+      "id": 34,
+	  "page": 3,
+      "text": "Es gibt keine zivilisierten und unzivilisierten Völker; es gibt nur verschiedene Kulturen."
+    },
+	{
+      "id": 35,
+	  "page": 3,
+      "text": "Menschen, die arbeiten können, es aber verweigern, sollten keine gesellschaftliche Unterstützung erhalten."
+    },
+	{
+      "id": 36,
+	  "page": 3,
+      "text": "Wenn einen etwas bedrückt, ist es besser, nicht darüber nachzudenken und sich mit fröhlicheren Sachen zu beschäftigen."
+    },
+	{
+      "id": 37,
+	  "page": 3,
+      "text": "Migranten der ersten Generation, die im Ausland geboren wurden, können nie vollständig in ihrem neuen Land integriert werden."
+    },
+	{
+      "id": 38,
+	  "page": 3,
+      "text": "Was gut für die erfolgreichsten Unternehmen ist, ist im Endeffekt gut für uns alle."
+    },
+	{
+      "id": 39,
+	  "page": 3,
+      "text": "Keine Sendeanstalt, egal wie unabhängig ihre Inhalte sind, sollte staatliche Unterstützung erhalten."
+    },
+	{
+      "id": 40,
+	  "page": 4,
+      "text": "Unsere Bürgerrechte werden übermäßig für die Terrorabwehr eingeschränkt."
+    },
+	{
+      "id": 41,
+	  "page": 4,
+      "text": "Ein signifikanter Vorteil eines Ein-Parteien-Staates ist, dass alle Diskussionen, die dem Fortschritt im Wege stehen, vermieden werden."
+    },
+	{
+      "id": 42,
+	  "page": 4,
+      "text": "Obwohl das elektronische Zeitalter Überwachungsmaßnahmen einfacher macht, müssen sich nur Leute, die etwas zu verbergen haben, darum sorgen."
+    },
+	{
+      "id": 43,
+	  "page": 4,
+      "text": "Die Todesstrafe sollte eine Bestrafungsmöglichkeit für die schlimmsten Verbrechen sein."
+    },
+	{
+      "id": 44,
+	  "page": 4,
+      "text": "In einer zivilisierten Gesellschaft hat der einzelne immer Vorgesetzte, denen zu folgen ist, und Untergebene, die zu führen sind."
+    },
+	{
+      "id": 45,
+	  "page": 4,
+      "text": "Abstrakte Kunst, die nichts darstellt, sollte überhaupt nicht als Kunst gesehen werden."
+    },
+	{
+      "id": 46,
+	  "page": 4,
+      "text": "In der Strafjustiz sollte Bestrafung wichtiger sein als Rehabilitation."
+    },
+	{
+      "id": 47,
+	  "page": 4,
+      "text": "Es ist Zeitverschwendung, zu versuchen, manche Kriminelle zu rehabilitieren."
+    },
+	{
+      "id": 48,
+	  "page": 4,
+      "text": "Unternehmer und Hersteller sind wichtiger als Autoren und Künstler."
+    },
+	{
+      "id": 49,
+	  "page": 4,
+      "text": "Mütter dürfen Karrieren haben, aber ihre oberste Pflicht ist die der Hausfrau."
+    },
+	{
+      "id": 50,
+	  "page": 4,
+      "text": "Multinationale Unternehmen beuten unethisch die Pflanzengenetischen Ressourcen der Entwicklungsländer aus."
+    },
+	{
+      "id": 51,
+	  "page": 4,
+      "text": "Mit dem Establishment Frieden zu schließen ist ein wichtiger Aspekt des Erwachsenwerdens."
+    },
+	{
+      "id": 52,
+	  "page": 5,
+      "text": "Astrologie erklärt viele Dinge akkurat."
+    },
+	{
+      "id": 53,
+	  "page": 5,
+      "text": "Man kann nicht moralisch sein, ohne religiös zu sein."
+    },
+	{
+      "id": 54,
+	  "page": 5,
+      "text": "Wohltätigkeit ist besser geeignet als Sozialhilfe, um die wirklich Benachteiligten zu unterstützen."
+    },
+	{
+      "id": 55,
+	  "page": 5,
+      "text": "Einige Menschen haben von Natur aus kein Glück."
+    },
+	{
+      "id": 56,
+	  "page": 5,
+      "text": "Es ist wichtig, dass die Schule meines Kindes religiöse Werte vermittelt."
+    },
+	{
+      "id": 57,
+	  "page": 6,
+      "text": "Sex außerhalb der Ehe ist gewöhnlich unmoralisch."
+    },
+	{
+      "id": 58,
+	  "page": 6,
+      "text": "Ein gleichgeschlechtliches Paar in einer stabilen, liebenden Beziehung sollte nicht von der Möglichkeit einer Kinderadoption ausgeschlossen werden."
+    },
+	{
+      "id": 59,
+	  "page": 6,
+      "text": "Pornografie, die einwilligende Erwachsene darstellt, sollte für die erwachsene Bevölkerung legal sein."
+    },
+	{
+      "id": 60,
+	  "page": 6,
+      "text": "Was sich im Schlafzimmer zwischen zustimmenden Erwachsenen abspielt, geht den Staat nichts an."
+    },
+	{
+      "id": 61,
+	  "page": 6,
+      "text": "Niemand kann sich von Natur aus homosexuell fühlen."
+    },
+	{
+      "id": 62,
+	  "page": 6,
+      "text": "Heutzutage geht die Offenheit über Sex zu weit."
+    }
+  ]
+}
