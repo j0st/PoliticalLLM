@@ -3,11 +3,10 @@ import chromadb
 
 import random
 
-multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-base")
-client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_ideologies")
-manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
-
 def retrieve(query, ideology, n_results=3, mode="similarity"):
+    multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-base")
+    client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_ideologies")
+    manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
     contexts = []
     if mode == "similarity":
         retrieved_context = manifesto_collection.query(query_texts=[query], n_results=n_results, where={"ideology": ideology})
