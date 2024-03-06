@@ -95,6 +95,3 @@ def query_qwen(statement, model_path):
 # # Calculate mode for each element
 # modes = [mode(column) for column in collected_values]
 # print(modes)
-
-for i in range(3):
-    query_qwen("Auf allen Autobahnen soll ein generelles Tempolimit gelten.", qwen_path)

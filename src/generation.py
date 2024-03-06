@@ -155,16 +155,16 @@ def do_wahlomat(tests_file_wahlomat, party=None, ideology=None, n_results=3, mod
 # results = map_answers(answers_2, test="wahlomat")
 # print(results)
 
-full_answers = []
-full_result = []
-for i in range(2):
-    answers = do_wahlomat(tests_file_wahlomat, party="Alternative für Deutschland", ideology="Authoritarian-right")
-    full_answers.append(answers)
-    results = map_answers(answers, test="pct")
-    full_result.append(results)
+# full_answers = []
+# full_result = []
+# for i in range(2):
+#     answers = do_wahlomat(tests_file_wahlomat, party="Alternative für Deutschland", ideology="Authoritarian-right")
+#     full_answers.append(answers)
+#     results = map_answers(answers, test="pct")
+#     full_result.append(results)
 
-print(full_answers)
-print(full_result)
+# print(full_answers)
+# print(full_result)
 
 
 
