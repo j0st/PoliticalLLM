@@ -5,6 +5,7 @@ ideologies_map = {"Authoritarian-right":["dieBasis", "Die Grauen", "UNABHÄNGIGE
                   "Libertarian-right":["LKR", "Bündnis C", "LIEBE", "FREIE WÄHLER", "FDP", "CDU / CSU"],
                   "Libertarian-left":["DIE PARTEI", "V-Partei³", "SSW", "Volt", "Tierschutzpartei", "GRÜNE", "SPD", "Team Todenhöfer", "Die Humanisten", "PdF"]}
 
+
 def calculate_percentages(probs_per_party: dict):
     sum_probabilities = {ideology: 0 for ideology in ideologies_map}
     party_counts = {ideology: 0 for ideology in ideologies_map}
@@ -60,7 +61,7 @@ afd_random = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 
 afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 0]
 afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 0, 0, 2, 2, 0, 0]
 afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 2, 0]
-results, results_ideo = calculate_results(mixtral_base, "tests\party_opinions.json")
-print(results)
-print(results_ideo)
+# results, results_ideo = calculate_results(mixtral_base, "tests\party_opinions.json")
+# print(results)
+# print(results_ideo)
 
