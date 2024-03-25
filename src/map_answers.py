@@ -1,7 +1,13 @@
 import re
-from llms import LLM
+import openai
+import os
+from dotenv import load_dotenv
 
-def map_answers(answer_list, test: str):
+def map_responses(answer_list, test: str):
+    load_dotenv(override=True)
+    token = os.getenv("ANYSCALE_API_KEY")
+    api_base = os.getenv("ANYSCALE_BASE_URL")
+
     if test == "pct":
         #allowed_values = ["([Dd]eutliche Ablehnung|lehne.*deutlich ab)", "(Ablehnung|lehne.*ab)", "(Zustimmung|stimme.*zu)", "([Dd]eutliche Zustimmung|stimme.*deutlich zu)"]
         allowed_values = ["([Dd]eutliche Ablehnung|[Ll]ehne deutlich ab)", "(Ablehnung|[Ll]ehne ab)", "(Zustimmung|[Ss]timme zu)", "([Dd]eutliche Zustimmung|[Ss]timme deutlich zu)"]
@@ -29,9 +35,15 @@ def map_answers(answer_list, test: str):
             Ausgangsfrage: {answer[0]}
             Text: {answer[1]} [/INST]
             """
-            mixtral = LLM("Mixtral")
-            response = mixtral.query(prompt)
-            print(response)
+            client = openai.OpenAI(base_url=api_base, api_key=token)
+            completion = client.completions.create(
+                model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+                prompt=prompt,
+                temperature=0.7,
+                max_tokens=1000,
+                seed=42)
+
+            response = completion.choices[0].text
             match = re.search(pattern, response)
             if match:
                 matched_group_index = match.lastindex 

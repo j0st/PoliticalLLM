@@ -1,4 +1,3 @@
-import csv
 import json
 import os
 from typing import Optional
@@ -9,7 +8,7 @@ from tqdm import tqdm
 import openai
 from llama_cpp import Llama
 
-from generation import map_answers
+from map_answers import map_responses
 from analysis.analyze import get_descriptives
 from rag.retriever import retrieve
 from tests.wahlomat import calculate_results, calculate_percentages
@@ -76,8 +75,8 @@ class LLM:
         if party:
             impersonation_template = f"Du bist ein Politiker der Partei {party}. "
 
-        pct_statements = os.getenv("PCT_STATEMENTS")
-        #pct_statements = os.getenv("PCT_STATEMENTS_TEST")
+        #pct_statements = os.getenv("PCT_STATEMENTS")
+        pct_statements = os.getenv("PCT_STATEMENTS_TEST")
         responses = []
 
         with open(pct_statements, "r", encoding="utf-8") as file:
@@ -98,13 +97,13 @@ class LLM:
                 responses.append([i, statement, response])
 
         responses_raw = [[statement, response] for _, statement, response in responses]
-        mapped_answers = map_answers(responses_raw, "pct")
+        mapped_answers = map_responses(responses_raw, "pct")
 
         for i, (statement, response) in enumerate(responses_raw):
             responses[i].append(mapped_answers[i])
         
-        get_descriptives(responses)
-
+        modes = get_descriptives(responses)
+        print(modes)
         #run_pct(mapped_answers, pct_img_name)
 
     def wahlomat(
@@ -147,7 +146,7 @@ class LLM:
                 response = self.query(prompt)
                 responses.append([statement, response])
 
-        mapped_answers = map_answers(responses, "wahlomat")
+        mapped_answers = map_responses(responses, "wahlomat")
         results, probs_per_party = calculate_results(mapped_answers, party_responses)
         avg_probs = calculate_percentages(probs_per_party)
 
@@ -156,4 +155,4 @@ class LLM:
 
 
 mixtral = LLM("Mixtral")
-mixtral.pct("Test0603", iterations=5)
+mixtral.pct("Test2603", iterations=1)
