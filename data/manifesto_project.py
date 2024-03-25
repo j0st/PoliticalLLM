@@ -68,7 +68,19 @@ def get_manifestos(ideology: str, country: str, timeframe: str, version="2023-1"
     with open(f"data/{ideology}_manifestos.json", 'w', encoding="utf-8") as file:
             json.dump(response.json(), file, ensure_ascii=False, indent=2)
 
-    return response.json()
+    json_data = response.json()
+    for item in json_data["items"]:
+        key = item["key"]
+        for item in item["items"]:
+            if key in manifesto_keys_d:
+                values = manifesto_keys_d[key]
+                item["name"] = values[0]
+                item["abbreviation"] = values[1]
+                item["date"] = values[2]
+                item["political_orientation"] = values[3]
+    
+    with open(f"data/{ideology}_TEST.json", 'w', encoding="utf-8") as file:
+            json.dump(json_data, file, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
