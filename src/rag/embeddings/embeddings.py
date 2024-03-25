@@ -1,4 +1,4 @@
-import src.rag.chunking as chunking_function
+import src.rag.embeddings.chunking as chunking_function
 from chromadb.utils import embedding_functions
 import chromadb
 
