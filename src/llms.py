@@ -1,5 +1,7 @@
+import csv
 import json
 import os
+from typing import Optional
 
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -8,6 +10,7 @@ import openai
 from llama_cpp import Llama
 
 from generation import map_answers
+from analysis.analyze import get_descriptives
 from rag.retriever import retrieve
 from tests.wahlomat import calculate_results, calculate_percentages
 from tests.pct import run_pct
@@ -25,7 +28,6 @@ class LLM:
     def query(self, prompt):
         if self.model == "Mixtral":
             template = f"""[INST] {prompt} [/INST]"""
-            print(template)
 
             client = openai.OpenAI(base_url=self.api_base, api_key=self.token)
             completion = client.completions.create(
@@ -52,11 +54,22 @@ class LLM:
                 template,
                 max_tokens=200,
                 temperature=self.temperature)
-
+            
             return response["choices"][0]["text"]
 
-    def pct(self, pct_img_path, party=None, ideology=None, n_results=None, rag=False):
-        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template}"
+    def pct(
+        self, 
+        pct_img_name: str, 
+        party: Optional[str] = None, 
+        ideology: Optional[str] = None, 
+        n_results: Optional[int] = None, 
+        rag: bool = False, 
+        iterations: int = 1
+        ):
+        if rag and (ideology is None or n_results is None):
+            raise ValueError("When rag=True, ideology and n_results must be specified.")
+        
+        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = ""
         rag_template = ""
 
@@ -64,7 +77,7 @@ class LLM:
             impersonation_template = f"Du bist ein Politiker der Partei {party}. "
 
         pct_statements = os.getenv("PCT_STATEMENTS")
-        pct_statements = os.getenv("PCT_STATEMENTS_TEST")
+        #pct_statements = os.getenv("PCT_STATEMENTS_TEST")
         responses = []
 
         with open(pct_statements, "r", encoding="utf-8") as file:
@@ -80,13 +93,31 @@ class LLM:
             else:
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
-            response = self.query(prompt)
-            responses.append([statement, response])
+            for _ in range(iterations):
+                response = self.query(prompt)
+                responses.append([i, statement, response])
 
-        mapped_answers = map_answers(responses, "pct")
-        run_pct(mapped_answers, pct_img_path)
+        responses_raw = [[statement, response] for _, statement, response in responses]
+        mapped_answers = map_answers(responses_raw, "pct")
 
-    def wahlomat(self, party=None, ideology=None, n_results=None, rag=False):
+        for i, (statement, response) in enumerate(responses_raw):
+            responses[i].append(mapped_answers[i])
+        
+        get_descriptives(responses)
+
+        #run_pct(mapped_answers, pct_img_name)
+
+    def wahlomat(
+        self, 
+        party: Optional[str] = None, 
+        ideology: Optional[str] = None, 
+        n_results: Optional[int] = None, 
+        rag: bool = False, 
+        iterations: int = 1
+        ):
+        if rag and (ideology is None or n_results is None):
+            raise ValueError("When rag=True, ideology and n_results must be specified.")
+    
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}"
         impersonation_template = ""
         rag_template = ""
@@ -112,8 +143,9 @@ class LLM:
             else:
                 prompt = prompt_template.format(statement=statement)
 
-            response = self.query(prompt)
-            responses.append([statement, response])
+            for i in range(iterations):
+                response = self.query(prompt)
+                responses.append([statement, response])
 
         mapped_answers = map_answers(responses, "wahlomat")
         results, probs_per_party = calculate_results(mapped_answers, party_responses)
@@ -124,4 +156,4 @@ class LLM:
 
 
 mixtral = LLM("Mixtral")
-r = mixtral.wahlomat(party="CDU", ideology="Authoritarian-right", rag=True)
+mixtral.pct("Test0603", iterations=5)
