@@ -1,5 +1,5 @@
 from anyscale_generation import query_llm
-from src.rag.chunking import slide_chunker, sentence_chunker
+from src.rag.embeddings.chunking import slide_chunker, sentence_chunker
 import os
 import time
 import re
