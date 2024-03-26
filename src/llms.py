@@ -152,7 +152,3 @@ class LLM:
 
         print(results)
         print(avg_probs)
-
-
-mixtral = LLM("Mixtral")
-mixtral.pct("Test2603", iterations=1)
