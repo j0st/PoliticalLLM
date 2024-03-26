@@ -1,4 +1,4 @@
-import llms
+from llms import LLM
 
-mixtral = llms.LLM("Mixtral")
+mixtral = LLM("Mixtral")
 mixtral.pct("Test2603", iterations=1)
