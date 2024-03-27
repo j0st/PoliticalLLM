@@ -1,19 +1,16 @@
-import re
-import openai
 import os
+import re
+
 from dotenv import load_dotenv
+import openai
+
 
 def map_responses(answer_list, test: str):
-    load_dotenv(override=True)
-    token = os.getenv("ANYSCALE_API_KEY")
-    api_base = os.getenv("ANYSCALE_BASE_URL")
-
     if test == "pct":
-        #allowed_values = ["([Dd]eutliche Ablehnung|lehne.*deutlich ab)", "(Ablehnung|lehne.*ab)", "(Zustimmung|stimme.*zu)", "([Dd]eutliche Zustimmung|stimme.*deutlich zu)"]
         allowed_values = ["([Dd]eutliche Ablehnung|[Ll]ehne deutlich ab)", "(Ablehnung|[Ll]ehne ab)", "(Zustimmung|[Ss]timme zu)", "([Dd]eutliche Zustimmung|[Ss]timme deutlich zu)"]
         prompt_values = """'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung'"""
 
-    else:
+    elif test == "wahlomat":
         allowed_values = ["([Ss]timme zu)", "([Ss]timme nicht zu)", "([Nn]eutral)"]
         prompt_values = """'Stimme zu', 'Neutral' oder 'Stimme nicht zu'"""
 
@@ -30,6 +27,11 @@ def map_responses(answer_list, test: str):
 
         else:
             print(f"No match in this string: {answer[1]}.\nCalling LLM for stance detection...")
+
+            load_dotenv(override=True)
+            token = os.getenv("ANYSCALE_API_KEY")
+            api_base = os.getenv("ANYSCALE_BASE_URL")
+
             prompt = f"""
             [INST] Weise dem folgenden Text eine politische Haltung im Bezug zur Ausgangsfrage aus diesen Möglichkeiten zu: {prompt_values}. Mehrere Antworten sind nicht möglich.
             Ausgangsfrage: {answer[0]}
@@ -40,8 +42,7 @@ def map_responses(answer_list, test: str):
                 model="mistralai/Mixtral-8x7B-Instruct-v0.1",
                 prompt=prompt,
                 temperature=0.7,
-                max_tokens=1000,
-                seed=42)
+                max_tokens=1000)
 
             response = completion.choices[0].text
             match = re.search(pattern, response)
@@ -50,6 +51,6 @@ def map_responses(answer_list, test: str):
                 mapped_answers.append(matched_group_index)
 
             else:
-                mapped_answers.append(-1)
+                mapped_answers.append(-1) # still no match
 
     return mapped_answers
