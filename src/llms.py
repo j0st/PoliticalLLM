@@ -119,7 +119,7 @@ class LLM:
             raise ValueError("When rag=True, ideology and n_results must be specified.")
         
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
-        impersonation_template = "Du bist ein Politiker der Partei {party}. " if party else ""
+        impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
         pct_statements = self.load_statements("pct")
@@ -178,7 +178,7 @@ class LLM:
             raise ValueError("When rag=True, ideology and n_results must be specified.")
     
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}"
-        impersonation_template = "Du bist ein Politiker der Partei {party}. " if party else ""
+        impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
         wahlomat_statements = self.load_statements("wahlomat")
