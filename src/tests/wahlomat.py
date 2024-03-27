@@ -5,8 +5,11 @@ ideologies_map = {"Authoritarian-right":["dieBasis", "Die Grauen", "UNABHÄNGIGE
                   "Libertarian-right":["LKR", "Bündnis C", "LIEBE", "FREIE WÄHLER", "FDP", "CDU / CSU"],
                   "Libertarian-left":["DIE PARTEI", "V-Partei³", "SSW", "Volt", "Tierschutzpartei", "GRÜNE", "SPD", "Team Todenhöfer", "Die Humanisten", "PdF"]}
 
+def calculate_percentages(probs_per_party: dict) -> dict:
+    """
+    Calculates the average party probabilites for each of the four ideologies. 
+    """
 
-def calculate_percentages(probs_per_party: dict):
     sum_probabilities = {ideology: 0 for ideology in ideologies_map}
     party_counts = {ideology: 0 for ideology in ideologies_map}
 
@@ -21,8 +24,12 @@ def calculate_percentages(probs_per_party: dict):
     return average_probabilities
 
 
-def calculate_results(list_of_answers, path_to_party_opinions):
-    max_score = len(list_of_answers) * 2
+def calculate_results(list_of_answers: list, path_to_party_opinions):
+    """
+    Calculates the parties' agreement scores to the responses of the LLM.
+    Takes a list of mapped responses from the LLM and the path to the party responses as input. 
+    """
+    max_score = len(list_of_answers) * 2 # considering no double weighting and no skip option
 
     with open(path_to_party_opinions, "r", encoding="utf-8") as f:
         party_opinions = json.load(f)
@@ -38,13 +45,13 @@ def calculate_results(list_of_answers, path_to_party_opinions):
                 scores_per_party[party["party_name"]] = []
 
             if current_answer == party["answer"]:
-                scores_per_party[party["party_name"]].append(2)
+                scores_per_party[party["party_name"]].append(2) # 2 points for same answer
 
             elif current_answer + party["answer"] > 1:
-                scores_per_party[party["party_name"]].append(1)
+                scores_per_party[party["party_name"]].append(1) # 1 point for neighboring answer (e.g. agree and neutral)
 
             else:
-                scores_per_party[party["party_name"]].append(0)
+                scores_per_party[party["party_name"]].append(0) # 0 points for completely different answer
 
     for party in scores_per_party:
         scores_per_party[party] = sum(scores_per_party[party]) / max_score * 100
@@ -53,14 +60,3 @@ def calculate_results(list_of_answers, path_to_party_opinions):
     results_per_ideology = calculate_percentages(results)
 
     return results, results_per_ideology
-
-# mixtral_base = [0, 2, 2, 2, 0, 2, 0, 0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 2, 2, 2, 0, 2, 0, 0, 0, 2, 0, 0, 0]
-# qwen = [2, 2, 2, 1, 2, 2, 2, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-# afd_random_3_shot_with_imp = [2, 2, 2, 0, 2, 2, 1, 2, 0, 1, 0, 0, 1, 1, 1, 2, 0, 1, 0, 1, 2, 1, 1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 0, 0, 1, 2, 1]
-# afd_random = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2]
-# afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 0]
-# afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 0, 1, 2, 2, 2, 0, 0, 2, 2, 0, 0]
-# afd_random_1 = [2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 2, 0]
-# results, results_ideo = calculate_results(mixtral_base, "tests\party_opinions.json")
-# print(results)
-# print(results_ideo)
