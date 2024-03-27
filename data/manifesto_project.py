@@ -91,7 +91,7 @@ def get_manifestos(ideology: str, country: str, timeframe: str, version="2023-1"
                 item["date"] = values[2]
                 item["political_orientation"] = values[3]
     
-    with open(f"data/{ideology}_TEST.json", 'w', encoding="utf-8") as file:
+    with open(f"data/{ideology}-manifestos.json", 'w', encoding="utf-8") as file:
             json.dump(json_data, file, ensure_ascii=False, indent=2)
 
 
