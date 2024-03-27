@@ -2,7 +2,13 @@ import csv
 import pandas as pd
 import numpy as np
 
-def get_descriptives(answers: list, filename: str):
+def get_descriptives(answers: list, filename: str) -> list:
+    """
+    Calculates the mean, median, mode and std in the list of responses provided after iterating through the statements.
+    Takes as input a list of LLM's responses and a filename.
+    Returns two CSV files and a list of modes for further processing.
+    """
+    
     csv_filename = f"{filename}.csv"
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csv_file:
         writer = csv.writer(csv_file)
@@ -15,7 +21,7 @@ def get_descriptives(answers: list, filename: str):
     
     results_filename = f"Results_{filename}.csv"
     grouped.to_csv(results_filename, index=False)
-    
+
     mode_values = pd.read_csv(results_filename)['mode'].tolist()
 
     return mode_values
