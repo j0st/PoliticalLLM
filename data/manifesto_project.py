@@ -15,13 +15,19 @@ ideologies = {"Authoritarian-right":["AfD"],
 api_key = os.getenv("MANIFESTO_PROJECT_API_KEY")
 api_root = 'https://manifesto-project.wzb.eu/api/v1/'
 
-def find_ideology(ideologies_d, party):
+def find_ideology(ideologies_d: dict, party: str) -> str:
+    """
+    Finds corresponding political ideology for a party.
+    """
     for ideology, parties in ideologies_d.items():
         if party in parties:
             return ideology
         
 
-def core_dataset_to_csv(version="MPDS2023a"):
+def core_dataset_to_csv(version="MPDS2023a") -> str:
+    """
+    Saves the core dataset as a CSV file. The core dataset is used to obtain manifesto keys and metadata values.
+    """
     url = f'{api_root}get_core?api_key={api_key}&key={version}'
     response = requests.get(url)
     fpath = f"data/core_dataset_{version}.csv"
@@ -34,7 +40,10 @@ def core_dataset_to_csv(version="MPDS2023a"):
     return fpath
 
 
-def get_manifesto_keys(country: str, timeframe: str):
+def get_manifesto_keys(country: str, timeframe: str) -> dict:
+    """
+    Filters core dataset by country and timeframe and returns corresponding manifesto keys.
+    """
     csv_file = core_dataset_to_csv()
     start_year, end_year = map(int, timeframe.split('-'))
     manifesto_keys_d = {}
@@ -56,6 +65,9 @@ def get_manifesto_keys(country: str, timeframe: str):
         
 
 def get_manifestos(ideology: str, country: str, timeframe: str, version="2023-1"):
+    """
+    Saves manifestos in a JSON file and adds metadata to each quasi-sentence of the manifesto.
+    """
     manifesto_keys_d = get_manifesto_keys(country, timeframe)
     manifesto_keys = []
     for key, value in manifesto_keys_d.items():
