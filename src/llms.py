@@ -8,24 +8,37 @@ from tqdm import tqdm
 import openai
 from llama_cpp import Llama
 
-from map_answers import map_responses
 from analysis.analyze import get_descriptives
+from map_answers import map_responses
 from rag.retriever import retrieve
-from tests.wahlomat import calculate_results, calculate_percentages
 from tests.pct import run_pct
+from tests.wahlomat import calculate_percentages, calculate_results
 
 load_dotenv(override=True)
 
 class LLM:
-    def __init__(self, model, temperature=0.7) -> None:
+    """
+    Base class for implementing LLMs.
+
+    Adds functionality to:
+    a) query the given LLM, and 
+    b) perform political ideology tests on it
+    """
+
+    def __init__(self, model, temperature=0.7):
         self.model = model
         self.temperature = temperature
         self.token = os.getenv("ANYSCALE_API_KEY")
         self.api_base = os.getenv("ANYSCALE_BASE_URL")
         self.qwen_fpath = os.getenv("QWEN_PATH")
-
-    def query(self, prompt):
-        if self.model == "Mixtral":
+    
+    def query(self, prompt: str) -> str:
+        """
+        Takes a prompt, sends it to the LLM and returns the response in a string.
+        New models are implemented in this function.
+        """
+        
+        if self.model == "Mixtral-8x7B-Instruct-v0.1":
             template = f"""[INST] {prompt} [/INST]"""
 
             client = openai.OpenAI(base_url=self.api_base, api_key=self.token)
@@ -33,13 +46,11 @@ class LLM:
                 model="mistralai/Mixtral-8x7B-Instruct-v0.1",
                 prompt=template,
                 temperature=self.temperature,
-                max_tokens=1000,
-                seed=42)
+                max_tokens=1000)
 
             response = completion.choices[0].text
-            return response
 
-        elif self.model == "Qwen":
+        elif self.model == "qwen1_5-14b-chat-q5_k_m":
             template = f"""<|im_start|>system 
             Du bist ein hilfreicher Assistent.
             <|im_end|> 
@@ -52,9 +63,29 @@ class LLM:
             response = qwen(
                 template,
                 max_tokens=200,
-                temperature=self.temperature)
+                temperature=self.temperature)["choices"][0]["text"]
             
-            return response["choices"][0]["text"]
+        else:
+            raise ValueError(f"Unsupported model: {self.model}")
+        
+        return response
+    
+    def load_statements(self, ideology_test: str):
+        """
+        Loads the statements from the ideology tests and returns them in a JSON file.
+        Corresponding filepaths to the data must be set in the .env file.
+        """
+
+        env_vars = {
+            "pct": "PCT_STATEMENTS_TEST",
+            "wahlomat": "WAHLOMAT_STATEMENTS_TEST"
+        }
+
+        statements_path = os.getenv(env_vars[ideology_test])
+        with open(statements_path, "r", encoding="utf-8") as file:
+            statements = json.load(file)
+
+        return statements
 
     def pct(
         self, 
@@ -63,24 +94,36 @@ class LLM:
         ideology: Optional[str] = None, 
         n_results: Optional[int] = None, 
         rag: bool = False, 
-        iterations: int = 1
-        ):
+        iterations: int = 1):
+        """
+        Runs the Political Compass Test and measures political ideology on a two-dimension spectrum.
+        Prompt modifications, e.g. for RAG tests, is also done in this function.
+
+        Args:
+            pct_img_name (str): Filename for results (CSV files with responses and descriptive statistics and PNG of placement on the two-dimension spectrum)
+            party (str): If set, prompt is modified for impersonation of given party.
+            ideology (str): Only works combined with the rag=True option. Restricts retrieved context to given ideology. 
+                            Possible ideologies: [Authoritarian-right, Authoritarian-left, Libertarian-left, Libertarian-right]
+            n_results (int): Only works combined with the rag=True option. Sets the number of retrieved contexts (for n-shot prompts).
+            rag (bool): If true, enables Retrieval Augmented Generation pipeline and inserts retrieved contexts from vector database into prompt.
+            iterations (int): How many times the same prompt (with the same statement) is repeated (for robustness tests).
+
+        Returns:
+            Three files: FILENAME.CSV -> All responses to each statement with mapped answer
+                         RESULTS_FILENAME.CSV -> Descriptive statistics for test run
+                         FILENAME.PNG -> image of ideology placing on two-dimensional spectrum
+
+        """
+
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
         
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
-        impersonation_template = ""
+        impersonation_template = "Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
-        if party:
-            impersonation_template = f"Du bist ein Politiker der Partei {party}. "
-
-        #pct_statements = os.getenv("PCT_STATEMENTS")
-        pct_statements = os.getenv("PCT_STATEMENTS_TEST")
+        pct_statements = self.load_statements("pct")
         responses = []
-
-        with open(pct_statements, "r", encoding="utf-8") as file:
-            pct_statements = json.load(file)
 
         for i in tqdm(range(len(pct_statements["questions"]))):
             statement = pct_statements["questions"][i]["text"]
@@ -102,35 +145,44 @@ class LLM:
         for i, (statement, response) in enumerate(responses_raw):
             responses[i].append(mapped_answers[i])
         
-        modes = get_descriptives(responses)
+        modes = get_descriptives(responses, pct_img_name)
         print(modes)
-        #run_pct(mapped_answers, pct_img_name)
+        run_pct(modes, pct_img_name)
 
-    def wahlomat(
-        self, 
-        party: Optional[str] = None, 
-        ideology: Optional[str] = None, 
-        n_results: Optional[int] = None, 
-        rag: bool = False, 
-        iterations: int = 1
-        ):
+    def wahlomat(self, 
+                 party: Optional[str] = None, 
+                 ideology: Optional[str] = None, 
+                 n_results: Optional[int] = None, 
+                 rag: bool = False, 
+                 iterations: int = 1):
+        """
+        Runs the Wahl-O-Mat test and measures political ideology in comparison to German political parties.
+        Prompt modifications, e.g. for RAG tests, is also done in this function.
+
+        Args:
+            party (str): If set, prompt is modified for impersonation of given party.
+            ideology (str): Only works combined with the rag=True option. Restricts retrieved context to given ideology. 
+                            Possible ideologies: [Authoritarian-right, Authoritarian-left, Libertarian-left, Libertarian-right]
+            n_results (int): Only works combined with the rag=True option. Sets the number of retrieved contexts (for n-shot prompts).
+            rag (bool): If true, enables Retrieval Augmented Generation pipeline and inserts retrieved contexts from vector database into prompt.
+            iterations (int): How many times the same prompt (with the same statement) is repeated (for robustness tests).
+
+        Returns:
+            Three files: FILENAME.CSV -> All responses to each statement with mapped answer
+                         RESULTS_FILENAME.CSV -> Descriptive statistics for test run
+                         FILENAME.PNG -> image of ideology placing on two-dimensional spectrum
+
+        """
+
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
     
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}"
-        impersonation_template = ""
+        impersonation_template = "Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
-        if party:
-            impersonation_template = f"Du bist ein Politiker der Partei {party}. "
-
-        wahlomat_statements = os.getenv("WAHLOMAT_STATEMENTS")
-        wahlomat_statements = os.getenv("WAHLOMAT_STATEMENTS_TEST")
-        party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
+        wahlomat_statements = self.load_statements("wahlomat")
         responses = []
-
-        with open(wahlomat_statements, "r", encoding="utf-8") as file:
-            wahlomat_statements = json.load(file)
 
         for i in tqdm(wahlomat_statements["statements"]):
             statement = i["text"]
@@ -147,6 +199,7 @@ class LLM:
                 responses.append([statement, response])
 
         mapped_answers = map_responses(responses, "wahlomat")
+        party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
         results, probs_per_party = calculate_results(mapped_answers, party_responses)
         avg_probs = calculate_percentages(probs_per_party)
 
