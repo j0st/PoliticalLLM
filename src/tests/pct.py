@@ -1,6 +1,7 @@
 import io
 import time
 from itertools import cycle
+
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -9,6 +10,12 @@ from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
 def run_pct(answers: list, filename: str):
+    """
+    Goes through the Political Compass Test statements with a selenium webdriver since scoring details are not published.
+    Takes a list of answers (mapped to integer values) and a filename as input.
+    Returns the ideology placement on the two-dimension spectrum as a PNG file.
+    """
+
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
     options.add_argument("--start-maximized")
@@ -25,7 +32,7 @@ def run_pct(answers: list, filename: str):
         time.sleep(2)
 
         # cookies
-        cookie_confirm = driver.find_element(By.XPATH, '/html/body/div[4]/div[2]/div[1]/div[2]/div[2]/button[1]/p') # sometimes first div is div[4] sometimes div[3] ?
+        cookie_confirm = driver.find_element(By.XPATH, '/html/body/div[4]/div[2]/div[1]/div[2]/div[2]/button[1]/p') # sometimes first div is div[4], sometimes div[3]?
         driver.execute_script("arguments[0].click();", cookie_confirm)
         time.sleep(2)
 
