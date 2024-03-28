@@ -53,7 +53,7 @@ def run_pct(answers: list, filename: str):
         print(driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text)
         compass = driver.find_element(By.XPATH, '//*[@id="SvgjsSvg1001"]').screenshot_as_png 
         img = Image.open(io.BytesIO(compass))
-        img.save(f"img/{filename}.png") 
+        img.save(f"results/experiments/pct/{filename}.png") 
 
     except Exception as error:
         print("An error occurred:", error)

@@ -24,11 +24,13 @@ def calculate_percentages(probs_per_party: dict) -> dict:
     return average_probabilities
 
 
-def calculate_results(list_of_answers: list, path_to_party_opinions):
+def calculate_results(list_of_answers: list, path_to_party_opinions, filename: str):
     """
     Calculates the parties' agreement scores to the responses of the LLM.
-    Takes a list of mapped responses from the LLM and the path to the party responses as input. 
+    Takes a list of mapped responses from the LLM and the path to the party responses as input.
+    Results are saved to "filepath" parameter.
     """
+
     max_score = len(list_of_answers) * 2 # considering no double weighting and no skip option
 
     with open(path_to_party_opinions, "r", encoding="utf-8") as f:
@@ -59,4 +61,10 @@ def calculate_results(list_of_answers: list, path_to_party_opinions):
     results = sorted(scores_per_party.items(), key=lambda x: x[1], reverse=True)
     results_per_ideology = calculate_percentages(results)
 
-    return results, results_per_ideology
+    combined_data = {
+    "scores_per_party": results,
+    "results_per_ideology": results_per_ideology
+    }
+
+    with open(f"results/experiments/wahlomat/{filename}.json", "w", encoding="utf-8") as file:
+        json.dump(combined_data, file, ensure_ascii=False, indent=4)
