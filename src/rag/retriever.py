@@ -12,10 +12,10 @@ def retrieve(query, ideology, n_results=3, mode="similarity") -> list:
     Returns list of results.
     """
 
-    multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-base")
+    multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="jost/multilingual-e5-base-politics-de")
     db_path = os.getenv("VECTOR_DATABASE")
     client = chromadb.PersistentClient(path=db_path)
-    manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
+    manifesto_collection = client.get_or_create_collection(name="manifesto-database", embedding_function=multilingual_embeddings)
 
     if mode == "similarity":
         retrieved_context = manifesto_collection.query(query_texts=[query], n_results=n_results, where={"ideology": ideology})
