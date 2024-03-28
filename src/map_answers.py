@@ -18,7 +18,7 @@ def map_responses(answer_list, test: str):
 
     for answer in answer_list:
         pattern = fr"{'|'.join(allowed_values)}"
-        match = re.search(pattern, answer[1])
+        match = re.search(pattern, answer[2])
 
         if match:
             matched_group_index = match.lastindex
@@ -26,7 +26,7 @@ def map_responses(answer_list, test: str):
             mapped_answers.append(matched_group_index)
 
         else:
-            print(f"No match in this string: {answer[1]}.\nCalling LLM for stance detection...")
+            print(f"No match in this string: {answer[2]}.\nCalling LLM for stance detection...")
 
             load_dotenv(override=True)
             token = os.getenv("ANYSCALE_API_KEY")
@@ -34,8 +34,8 @@ def map_responses(answer_list, test: str):
 
             prompt = f"""
             [INST] Weise dem folgenden Text eine politische Haltung im Bezug zur Ausgangsfrage aus diesen Möglichkeiten zu: {prompt_values}. Mehrere Antworten sind nicht möglich.
-            Ausgangsfrage: {answer[0]}
-            Text: {answer[1]} [/INST]
+            Ausgangsfrage: {answer[1]}
+            Text: {answer[2]} [/INST]
             """
             client = openai.OpenAI(base_url=api_base, api_key=token)
             completion = client.completions.create(
@@ -53,4 +53,7 @@ def map_responses(answer_list, test: str):
             else:
                 mapped_answers.append(-1) # still no match
 
-    return mapped_answers
+    for i, (_, _, response) in enumerate(answer_list):
+        answer_list[i].append(mapped_answers[i])
+
+    return answer_list
