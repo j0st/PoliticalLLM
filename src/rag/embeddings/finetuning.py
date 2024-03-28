@@ -1,3 +1,4 @@
+# finetuning script (see https://www.sbert.net/docs/package_reference/losses.html#multiplenegativesrankingloss)
 import json
 
 from torch.utils.data import DataLoader

@@ -1,3 +1,4 @@
+# script for generating synthetic data for finetuning sentence embeddings models, needs refactoring
 from anyscale_generation import query_llm
 from src.rag.embeddings.chunking import slide_chunker, sentence_chunker
 import os
