@@ -119,7 +119,7 @@ class LLM:
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
         
-        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
+        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template}\nDeine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
@@ -130,7 +130,7 @@ class LLM:
             statement = pct_statements["questions"][i]["text"]
             if rag:
                 contexts = retrieve(statement, ideology, n_results=n_results, mode=rag_mode)
-                rag_template = f" Hier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
+                rag_template = f"\nHier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
             else:
@@ -174,7 +174,7 @@ class LLM:
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
     
-        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
+        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}\nDeine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
@@ -185,7 +185,7 @@ class LLM:
             statement = i["text"]
             if rag:
                 contexts = retrieve(statement, ideology, n_results=n_results, mode=rag_mode)
-                rag_template = f" Hier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
+                rag_template = f"\nHier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
             else:
