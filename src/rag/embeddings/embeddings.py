@@ -47,8 +47,8 @@ list_of_statements_lr = [item[0] for item in chunked_docs_lr]
 # create embeddings
 multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="jost/multilingual-e5-base-politics-de")
 
-client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//db_TEST_AR") # save vector database locally
-manifesto_collection = client.get_or_create_collection(name="manifesto-db-ar", embedding_function=multilingual_embeddings)
+client = chromadb.PersistentClient(path="C://Users//Jost//Desktop//manifesto-database") # save vector database locally
+manifesto_collection = client.get_or_create_collection(name="manifesto-database", embedding_function=multilingual_embeddings)
 
 manifesto_collection.add(documents=list_of_statements_al, ids=ids_al, metadatas=metadata_al)
 manifesto_collection.add(documents=list_of_statements_ar, ids=ids_ar, metadatas=metadata_ar)
