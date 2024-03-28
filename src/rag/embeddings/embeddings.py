@@ -1,3 +1,5 @@
+import json
+
 from chromadb.utils import embedding_functions
 import chromadb
 
@@ -18,6 +20,19 @@ ids_ar = [f"id_ar_{i}" for i in range(len(chunked_docs_ar))]
 ids_ll = [f"id_ll_{i}" for i in range(len(chunked_docs_ll))]
 ids_lr = [f"id_lr_{i}" for i in range(len(chunked_docs_lr))]
 
+# save ids in a file (only done once) for random option in the retriever
+variable_lists = {
+    "ids_Authoritarian-left": ids_al,
+    "ids_Authoritarian-right": ids_ar,
+    "ids_Libertarian-left": ids_ll,
+    "ids_Libertarian-right": ids_lr
+}
+
+for filename, metadata_ids in variable_lists.items():
+    with open(f"data/{filename}.json", "w") as file:
+        json.dump(metadata_ids, file)
+
+# get other metadata (e.g. party name, date)
 metadata_al = [item[1] for item in chunked_docs_al]
 metadata_ar = [item[1] for item in chunked_docs_ar]
 metadata_ll = [item[1] for item in chunked_docs_ll]
