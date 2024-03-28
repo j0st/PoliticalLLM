@@ -5,7 +5,13 @@ from dotenv import load_dotenv
 import openai
 
 
-def map_responses(answer_list, test: str):
+def map_responses(answer_list, test: str) -> list:
+    """
+    Maps responses of an LLM to integer values which is required to run political ideology tests automatically.
+    Takes a list of responses and matches response options on Likert scale via regex. If this fails, stance detection is done with a LLM.
+    Returns input list with appended mapped answers. 
+    """
+    
     if test == "pct":
         allowed_values = ["([Dd]eutliche Ablehnung|[Ll]ehne deutlich ab)", "(Ablehnung|[Ll]ehne ab)", "(Zustimmung|[Ss]timme zu)", "([Dd]eutliche Zustimmung|[Ss]timme deutlich zu)"]
         prompt_values = """'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung'"""
