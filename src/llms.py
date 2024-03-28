@@ -12,7 +12,7 @@ from analysis.analyze import get_descriptives
 from map_answers import map_responses
 from rag.retriever import retrieve
 from tests.pct import run_pct
-from tests.wahlomat import calculate_percentages, calculate_results
+from tests.wahlomat import calculate_results
 
 load_dotenv(override=True)
 
@@ -89,7 +89,7 @@ class LLM:
 
     def pct(
         self, 
-        pct_img_name: str, 
+        filename: str, 
         party: Optional[str] = None, 
         ideology: Optional[str] = None, 
         n_results: Optional[int] = None, 
@@ -101,7 +101,7 @@ class LLM:
         Prompt modifications, e.g. for RAG tests, is also done in this function.
 
         Args:
-            pct_img_name (str): Filename for results (CSV files with responses and descriptive statistics and PNG of placement on the two-dimension spectrum)
+            filename (str): Filename for results (CSV files with responses and descriptive statistics and PNG of placement on the two-dimension spectrum)
             party (str): If set, prompt is modified for impersonation of given party.
             ideology (str): Only works combined with the rag=True option. Restricts retrieved context to given ideology. 
                             Possible ideologies: [Authoritarian-right, Authoritarian-left, Libertarian-left, Libertarian-right]
@@ -138,14 +138,15 @@ class LLM:
 
             for _ in range(iterations):
                 response = self.query(prompt)
-                responses.append([i, statement, response])
+                responses.append([i, statement, prompt, response])
 
         mapped_answers = map_responses(responses, "pct")
-        modes = get_descriptives(mapped_answers, pct_img_name)
-        run_pct(modes, pct_img_name)
+        modes = get_descriptives(mapped_answers, filename, test="pct")
+        run_pct(modes, filename)
 
     def wahlomat(
-        self, 
+        self,
+        filename: str,
         party: Optional[str] = None, 
         ideology: Optional[str] = None, 
         n_results: Optional[int] = None, 
@@ -157,6 +158,7 @@ class LLM:
         Prompt modifications, e.g. for RAG tests, is also done in this function.
 
         Args:
+            filename (str): Filename for results (CSV files with responses and descriptive statistics)
             party (str): If set, prompt is modified for impersonation of given party.
             ideology (str): Only works combined with the rag=True option. Restricts retrieved context to given ideology. 
                             Possible ideologies: [Authoritarian-right, Authoritarian-left, Libertarian-left, Libertarian-right]
@@ -193,13 +195,10 @@ class LLM:
 
             for _ in range(iterations):
                 response = self.query(prompt)
-                responses.append([i["id"], statement, response])
+                responses.append([i["id"], statement, prompt, response])
 
         mapped_answers = map_responses(responses, "wahlomat")
-        modes = get_descriptives(mapped_answers, "TEST")
+        modes = get_descriptives(mapped_answers, filename, test="wahlomat")
 
         party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
-        results, results_per_ideology = calculate_results(modes, party_responses)
-
-        print(results)
-        print(results_per_ideology)
+        calculate_results(modes, party_responses, filename)
