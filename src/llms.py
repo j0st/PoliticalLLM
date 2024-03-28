@@ -77,8 +77,8 @@ class LLM:
         """
 
         env_vars = {
-            "pct": "PCT_STATEMENTS_TEST",
-            "wahlomat": "WAHLOMAT_STATEMENTS_TEST"
+            "pct": "PCT_STATEMENTS",
+            "wahlomat": "WAHLOMAT_STATEMENTS"
         }
 
         statements_path = os.getenv(env_vars[ideology_test])
@@ -93,7 +93,8 @@ class LLM:
         party: Optional[str] = None, 
         ideology: Optional[str] = None, 
         n_results: Optional[int] = None, 
-        rag: bool = False, 
+        rag: bool = False,
+        rag_mode: Optional[str] =  None, 
         iterations: int = 1):
         """
         Runs the Political Compass Test and measures political ideology on a two-dimension spectrum.
@@ -128,7 +129,7 @@ class LLM:
         for i in tqdm(range(len(pct_statements["questions"]))):
             statement = pct_statements["questions"][i]["text"]
             if rag:
-                contexts = retrieve(statement, ideology, n_results=n_results, mode="similarity")
+                contexts = retrieve(statement, ideology, n_results=n_results, mode=rag_mode)
                 rag_template = f" Hier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
@@ -139,22 +140,18 @@ class LLM:
                 response = self.query(prompt)
                 responses.append([i, statement, response])
 
-        responses_raw = [[statement, response] for _, statement, response in responses]
-        mapped_answers = map_responses(responses_raw, "pct")
-
-        for i, (statement, response) in enumerate(responses_raw):
-            responses[i].append(mapped_answers[i])
-        
-        modes = get_descriptives(responses, pct_img_name)
-        print(modes)
+        mapped_answers = map_responses(responses, "pct")
+        modes = get_descriptives(mapped_answers, pct_img_name)
         run_pct(modes, pct_img_name)
 
-    def wahlomat(self, 
-                 party: Optional[str] = None, 
-                 ideology: Optional[str] = None, 
-                 n_results: Optional[int] = None, 
-                 rag: bool = False, 
-                 iterations: int = 1):
+    def wahlomat(
+        self, 
+        party: Optional[str] = None, 
+        ideology: Optional[str] = None, 
+        n_results: Optional[int] = None, 
+        rag: bool = False,
+        rag_mode: Optional[str] =  None, 
+        iterations: int = 1):
         """
         Runs the Wahl-O-Mat test and measures political ideology in comparison to German political parties.
         Prompt modifications, e.g. for RAG tests, is also done in this function.
@@ -177,7 +174,7 @@ class LLM:
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
     
-        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}"
+        prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template} Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
@@ -187,7 +184,7 @@ class LLM:
         for i in tqdm(wahlomat_statements["statements"]):
             statement = i["text"]
             if rag:
-                contexts = retrieve(statement, ideology, n_results=n_results, mode="random")
+                contexts = retrieve(statement, ideology, n_results=n_results, mode=rag_mode)
                 rag_template = f" Hier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
@@ -198,18 +195,11 @@ class LLM:
                 response = self.query(prompt)
                 responses.append([i["id"], statement, response])
 
-        responses_raw = [[statement, response] for _, statement, response in responses]
-        mapped_answers = map_responses(responses_raw, "wahlomat")
-
-        for i, (statement, response) in enumerate(responses_raw):
-            responses[i].append(mapped_answers[i])
-        
-        modes = get_descriptives(responses, "Mixtral_WAHLOMAT_5_ITERATIONS")
-        print(modes)
+        mapped_answers = map_responses(responses, "wahlomat")
+        modes = get_descriptives(mapped_answers, "TEST")
 
         party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
-        results, probs_per_party = calculate_results(mapped_answers, party_responses)
-        avg_probs = calculate_percentages(probs_per_party)
+        results, results_per_ideology = calculate_results(modes, party_responses)
 
         print(results)
-        print(avg_probs)
+        print(results_per_ideology)
