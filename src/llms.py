@@ -128,7 +128,7 @@ class LLM:
         for i in tqdm(range(len(pct_statements["questions"]))):
             statement = pct_statements["questions"][i]["text"]
             if rag:
-                contexts = retrieve(statement, ideology, n_results=n_results, mode="random")
+                contexts = retrieve(statement, ideology, n_results=n_results, mode="similarity")
                 rag_template = f" Hier sind Kontextinformationen:\n" + "\n".join([f"{context}" for context in contexts])
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
@@ -192,13 +192,21 @@ class LLM:
                 prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
             else:
-                prompt = prompt_template.format(statement=statement)
+                prompt = prompt_template.format(impersonation_template=impersonation_template, statement=statement, rag_template=rag_template)
 
-            for i in range(iterations):
+            for _ in range(iterations):
                 response = self.query(prompt)
-                responses.append([statement, response])
+                responses.append([i["id"], statement, response])
 
-        mapped_answers = map_responses(responses, "wahlomat")
+        responses_raw = [[statement, response] for _, statement, response in responses]
+        mapped_answers = map_responses(responses_raw, "wahlomat")
+
+        for i, (statement, response) in enumerate(responses_raw):
+            responses[i].append(mapped_answers[i])
+        
+        modes = get_descriptives(responses, "Mixtral_WAHLOMAT_5_ITERATIONS")
+        print(modes)
+
         party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
         results, probs_per_party = calculate_results(mapped_answers, party_responses)
         avg_probs = calculate_percentages(probs_per_party)
