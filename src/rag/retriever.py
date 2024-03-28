@@ -1,5 +1,6 @@
-import random
+import json
 import os
+import random
 
 from chromadb.utils import embedding_functions
 import chromadb
@@ -22,7 +23,10 @@ def retrieve(query, ideology, n_results=3, mode="similarity") -> list:
         contexts = contexts[0]
     
     elif mode == "random":
-        retrieved_context = manifesto_collection.get(ids=["id_ar_240", "id_ar_1970", "id_ar_1980"], where={"ideology": ideology})
+        with open(f"data/ids_{ideology}.json", "r") as file:
+            ids = json.load(file)
+        random_ids = random.sample(ids, n_results)
+        retrieved_context = manifesto_collection.get(ids=random_ids, where={"ideology": ideology})
         contexts = [context for context in retrieved_context['documents']]
 
     else:
