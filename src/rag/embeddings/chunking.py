@@ -74,7 +74,7 @@ def concatenate_texts(text_list):
     Used for further processing after sentence_chunker().
     To-do: Combine both functions into one, more simpler function.
     """
-    
+
     concatenated_list = []
     current_text = ''
     metadata = None
