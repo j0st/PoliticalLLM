@@ -85,7 +85,10 @@ class LLM:
         with open(statements_path, "r", encoding="utf-8") as file:
             statements = json.load(file)
 
-        return statements
+        if ideology_test == "wahlomat":
+            party_responses_path = os.getenv("PARTY_RESPONSES_WAHLOMAT")
+
+        return statements, party_responses_path
 
     def pct(
         self, 
@@ -180,7 +183,7 @@ class LLM:
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
-        wahlomat_statements = self.load_statements("wahlomat")
+        wahlomat_statements, party_responses_path = self.load_statements("wahlomat")
         responses = []
 
         for i in tqdm(wahlomat_statements["statements"]):
@@ -199,6 +202,4 @@ class LLM:
 
         mapped_answers = map_responses(responses, "wahlomat")
         modes = get_descriptives(mapped_answers, filename, test="wahlomat")
-
-        party_responses = os.getenv("PARTY_RESPONSES_WAHLOMAT")
-        calculate_results(modes, party_responses, filename)
+        calculate_results(modes, party_responses_path, filename)
