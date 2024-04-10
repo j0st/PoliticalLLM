@@ -1,8 +1,8 @@
 # script for generating synthetic data for finetuning sentence embeddings models, needs refactoring
-from anyscale_generation import query_llm
-from src.rag.embeddings.chunking import slide_chunker, sentence_chunker
+from chunking import concatenate_texts, sentence_chunker
 import os
 import time
+import random
 import re
 from tqdm import tqdm
 import uuid
@@ -11,6 +11,7 @@ import json
 from llama_index import StringIterableReader, TreeIndex
 from llama_index.node_parser import SimpleNodeParser
 from llama_index.schema import MetadataMode
+import openai
 from sklearn.model_selection import train_test_split
 
 from dotenv import load_dotenv
@@ -19,6 +20,23 @@ load_dotenv(override=True)
 
 token = os.getenv("ANYSCALE_API_KEY")
 api_base = os.getenv("ANYSCALE_BASE_URL")
+
+def filter_and_select_random(statements_list):
+    filtered_statements = [statement for statement in statements_list if len(statement) <= 250]
+    return random.sample(filtered_statements, min(len(filtered_statements), 500))
+
+def query_llm(prompt, token, api_base, temperature=0.7):
+    template = f"""[INST] {prompt} [/INST]"""
+    client = openai.OpenAI(base_url=api_base, api_key=token)
+    completion = client.completions.create(
+         model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+         prompt=template,
+         temperature=temperature,
+         max_tokens=1000)
+
+    response = completion.choices[0].text
+
+    return response
 
 def load_corpus(files, verbose=False):
     if verbose:
@@ -65,12 +83,13 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
         b. neutral
         c. stimme nicht zu
 
-        Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor oder nach der eigentlichen Aussage sollen ebenfalls weggelassen werden.
+        Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor oder nach der eigentlichen Aussage sollen ebenfalls weggelassen werden. Die Antwort soll aus nur einem Satz bestehen.
         """
-        response = query_llm(prompt, api_base, token)
+        response = query_llm(prompt, token, api_base)
         time.sleep(5)
         result = str(response).strip().split("\n")
         questions = [re.sub(r"^\d+[\).\s]", "", question).strip() for question in result]
+        questions = [question.strip('"') for question in questions]
             
         for question in questions:
             question_id = str(uuid.uuid4())
@@ -80,15 +99,40 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
     return queries, relevant_docs
 
 if __name__ == "__main__":
-    data = "data\manifestos.json"
-    #docs = slide_chunker(data)
-    docs = sentence_chunker(data)
-    train, val = train_test_split(docs, test_size=0.2, random_state=42)
-    train_corpus = load_corpus(train[:1000], True)
-    val_corpus = load_corpus(val[:200], True)
+    ideology_manifestos = ["data\Authoritarian-left-manifestos.json",
+                       "data\Authoritarian-right-manifestos.json",
+                       "data\Libertarian-left-manifestos.json",
+                       "data\Libertarian-right-manifestos.json"]
+
+    # chunking
+    docs_al, docs_ar, docs_ll, docs_lr = [sentence_chunker(manifesto) for manifesto in ideology_manifestos]
+    chunked_docs_al, chunked_docs_ar, chunked_docs_ll, chunked_docs_lr = [concatenate_texts(doc) for doc in [docs_al, docs_ar, docs_ll, docs_lr]]
+
+    # get list of statements
+    list_of_statements_al = [item[0] for item in chunked_docs_al]
+    list_of_statements_ar = [item[0] for item in chunked_docs_ar]
+    list_of_statements_ll = [item[0] for item in chunked_docs_ll]
+    list_of_statements_lr = [item[0] for item in chunked_docs_lr]
+
+    #randomize and max length 500
+    random_statements_al = filter_and_select_random(list_of_statements_al)
+    random_statements_ar = filter_and_select_random(list_of_statements_ar)
+    random_statements_ll = filter_and_select_random(list_of_statements_ll)
+    random_statements_lr = filter_and_select_random(list_of_statements_lr)
+
+    all_random_statements = []
+    all_random_statements.extend(random_statements_al)
+    all_random_statements.extend(random_statements_ar)
+    all_random_statements.extend(random_statements_ll)
+    all_random_statements.extend(random_statements_lr)
+
+    train, val = train_test_split(all_random_statements, test_size=0.2, random_state=42)
+    train_corpus = load_corpus(train, True)
+    val_corpus = load_corpus(val, True)
     train_queries_small, train_relevant_docs_small = generate_synthetic_dataset(train_corpus)
     val_queries_small, val_relevant_docs_small = generate_synthetic_dataset(val_corpus)
-    path = "C://Users//Jost//Desktop//finetuning"
+
+    path = "C://Users//Jost//Desktop//finetuning_data"
     with open(path + "//train_queries.json", 'w+', encoding="utf-8") as f:
         json.dump(train_queries_small, f, ensure_ascii=False)
 
@@ -101,8 +145,8 @@ if __name__ == "__main__":
     with open(path + "//val_docs.json", 'w+', encoding="utf-8") as f:
         json.dump(val_relevant_docs_small, f, ensure_ascii=False)
 
-    TRAIN_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//train_dataset.json'
-    VAL_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning//val_dataset.json'
+    TRAIN_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning_data//train_dataset.json'
+    VAL_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning_data//val_dataset.json'
 
     train_dataset = {
     'queries': train_queries_small,
