@@ -5,7 +5,7 @@ from typing import Optional
 from dotenv import load_dotenv
 from tqdm import tqdm
 
-import openai
+from openai import OpenAI
 from llama_cpp import Llama
 
 from analysis.analyze import get_descriptives
@@ -31,6 +31,7 @@ class LLM:
         self.token = os.getenv("ANYSCALE_API_KEY")
         self.api_base = os.getenv("ANYSCALE_BASE_URL")
         self.qwen_fpath = os.getenv("QWEN_PATH")
+        self.openai_token = os.getenv("OPENAI_API_KEY")
     
     def query(self, prompt: str) -> str:
         """
@@ -38,10 +39,20 @@ class LLM:
         New models are implemented in this function.
         """
         
-        if self.model == "Mixtral-8x7B-Instruct-v0.1":
+        if self.model == "gpt-3.5-turbo":
+            client = OpenAI(api_key=self.openai_token)
+            completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            temperature=self.temperature,
+            max_tokens=1000,
+            messages=[{"role": "user", "content": prompt}])
+
+            response = completion.choices[0].message.content
+
+        elif self.model == "Mixtral-8x7B-Instruct-v0.1":
             template = f"""[INST] {prompt} [/INST]"""
 
-            client = openai.OpenAI(base_url=self.api_base, api_key=self.token)
+            client = OpenAI(base_url=self.api_base, api_key=self.token)
             completion = client.completions.create(
                 model="mistralai/Mixtral-8x7B-Instruct-v0.1",
                 prompt=template,
@@ -87,8 +98,9 @@ class LLM:
 
         if ideology_test == "wahlomat":
             party_responses_path = os.getenv("PARTY_RESPONSES_WAHLOMAT")
-
-        return statements, party_responses_path
+            return statements, party_responses_path
+        
+        return statements
 
     def pct(
         self, 
