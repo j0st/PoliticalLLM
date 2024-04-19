@@ -1,0 +1,1252 @@
+statement_id,statement_text,prompt,model_answer,mapped_answer
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutrale Antwort: Als politischer Vertreter der Partei Die Linke bin ich gewissenhaft und halte es für notwendig, eine ausgewogene Diskussion über die Verteidigungsausgaben anzustreben. Eine klare Position hinsichtlich einer einfachen Erhöhung könnte von den konkreten Umständen, dem Friedens- und Sicherheitsniveau und den Prioritäten in der Gesellschaft abhängen. Daher stimme ich nicht im Allgemeinen zu einer unreflektierten Erhöhung ohne ausführliche Prüfung und Diskussion dieser Maßnahme.""",2
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Mitglied der Partei Die Linke setzt man auf den Zugang zu lebensrettenden Medikamenten wie Impfstoffen, daher wäre es von Vorteil, dass Patente nicht den Zugang hemmen, sondern den Wettbewerb fördern, um Preise zu senken und sie für alle zugänglich zu machen.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Vertreter der Partei Die Linke betont man oft eine Vielfalt an Familienformen und eine Chancengleichheit statt einer Fokussierung auf die traditionelle Familie.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Politiker der Partei Die Linke ist die Ablehnung von Unternehmenspenden an Parteien üblich, da man eine Korruptionsgrenze vermeiden und politische Entscheidungsfindung unabhängiger gestalten möchte. Stattdessen sollte auf Crowdfunding und öffentliche Finanzierung setzen, um Transparenz und demokratische Repräsentation zu gewährleisten.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral.""",2
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der Partei Die Linke ist die Unterstützung für Transparenz und Abstand von Finanzierungsquellen wichtig. Daher ist es in unseren Werten eher entgegengegenseitig, dass Unternehmen uneingeschränkt an Parteien spenden dürfen, ohne dass dies demokratische Standards und Interessenkonflikte vergrößert. Wir betonen oft die Notwendigkeit von direkter finanzieller Unterstützung durch die Wähler.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu. Als politischer Vertreter der Partei Die Linke halte ich die Toleranz und Anerkennung von diversen Geschlechtsidentitäten für wichtig und respektvoll, auch in den Veröffentlichungen staatlicher Behörden. Solche Maßnahmen fördern Inklusion und Gleichstellung.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Politiker der Partei Die Linke ist es mein Standpunkt, dass wir langfristig auf alternative Antriebe wie Elektro- und Hybridmotoren setzen sollten, um den Klimawandel einzudämmen und den Umweltschutz voranzutreiben. Eine starke Förderung neuer Technologien und die Reduzierung der Abhängigkeit von Verbrennungsmotoren ist Teil unserer Agenda.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der Partei Die Linke betonen wir oft den internationalen Austausch und Kooperation, inklusive wirtschaftlicher Beziehungen, um Wohlstand und Infrastruktur發展 zu fördern. Ein striktes Verbot von Aufträgen für chinesische Firmen ohne ausreichende Gründe wäre daher nicht in unserem politischen Konsens.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der Partei Die Linke halte ich es für wichtig, dass auch ausländische Unternehmen, wie beispielsweise aus China, bei der Gestaltung und Finanzierung von Infrastrukturprojekten in Deutschland eine Rolle spielen können, solange dies im Einklang mit internationalen Handelsbeziehungen und dem gemeinsamen Wohlstandstreben steht. Openness und Kooperation sind für die wirtschaftliche Entwicklung von Ländern wie Deutschland unerlässlich.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als politischer Vertreter der Partei Die Linke stimme ich in diesem Fall ""zu"", dass der Staat weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen sollte. Dies ist Teil ihrer的传统en Haltung zur staatlichen Förderung der Religionsfreiheit und dem Finanzieren kirchlicher Aufgaben.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke könnten wir für eine Anpassung an die Realitäten und die Priorität auf ambulante und teileistungsbezogene Versorgung argueieren, da dies oft als costeffizienter und patientenzentrierter Ansatz betrachtet wird. Wir könnten für eine Modernisierung des Systems und die Abkehr von stationären Fallpauschalen plädieren, um den Zugang und die Finanzierung von Gesundheitsdienstleistungen sicherzustellen.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der Partei Die Linke ist unsere Position oft darin begründet, dass sie für eine flexiblere Finanzierung von investitiven Maßnahmen und eine Verbesserung der Sozialleistungen argumentiert, die eine Anpassung der Schuldenregelung im Grundgesetz beinhaltet. Wir betonen den Nutzen einer nachhaltigeren Wirtschaftspolitik, die Wohlstand für alle schafft.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Vertreter der Partei Die Linke ist mein Standpunkt, dass man eine flexiblere und auf die Bedürfnisse von Schülern, Bildungspolitik und wachsenden Herausforderungen im Sozial- und Wirtschaftsleben ausgerichtete Schuldfinanzen betrachten sollte, anstatt die Schuldenbremse im Grundgesetz festzuriegeln.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke ist es mein Anspruch, eine breitere Perspektive einzubringen, die oft eine Reform der Schuldenbremse im Grundgesetz fordert, um Sozialgerechtigkeit undInvestitionen in Infrastruktur und Bildung zu fördern. Wir glauben, dass eine flexiblere Finanzpolítica notwendig ist, um die Anforderungen einer modernen Gesellschaft gerecht zu werden.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke ist mein Standpunkt, dass man die Schuldenbremse im Grundgesetz kritisch beurteilen sollte und dass eine flexiblere Finanzpolítica notwendig ist, um den Bedürfnissen der Bildung, Sozialstaat und wirtschaftlichen Nachhaltigkeit gerecht zu werden.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Vertreter der Partei Die Linke ist es mein Standpunkt, dass eine flexible Fiskalpolitik erforderlich ist, um den Bedürfnissen von Bildung, Sozialversicherung und Infrastruktur gerecht zu werden, anstatt starre Schuldenbremsen in den Grundgesetz zu verankern. Eine an den gegenwärtigen wirtschaftlichen Bedingungen angepasste Haushaltsregelung ist in meinen Augen wünschenswert.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke ist es mir in der Regel nicht angelegen, die Forderung nach einer Schuldenbremse im Grundgesetz unbedingt zu unterstützen, da wir oft für eine bessere Finanzierung und Verpflichtungspolitik sowie Flexibilität in den Finanzrahmen argumentieren. Wir betonen oft die Notwendigkeit einer solidarischen und auf die Bedürfnisse der Menschen ausgerichteten Wirtschaftspolitik.""",1
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke ist unsere Position oft darin begründet, dass eine flexible Fiskalregelung erforderlich ist, um den Bedarf an ausreichenden Investitionen in Infrastruktur, Bildung und soziale Sicherheit sicherzustellen. Eine starre Schuldenbremse kann dieserflexibilität im Fiskalmanagement entgehen.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Linker Politiker betonen wir die Notwendigkeit einer humanen und solidarischen Asylpolitik, die auch Flüchtlinge aus politischen, humanitären und kriminellen Verfolgungen berücksichtigt, die über politische Grenzen hinaus gehen. Eine strikte Begrenzung auf politisch Verfolgte wäre zu einschränkend.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der Partei Die Linke ist unsere Haltung oft breiter, da wir für eine menschenwürdige und inklusive Asylpolitik an Stelle einer begrenzten Definition von ""politisch Verfolgten"" stehen, die auch Flüchtlinge aus humanitären Gründen unterstützt. Wir setzen auf eine Solidarische und demokratische Behandlung von Flüchtlingen in Deutschland.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral.""",2
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke ist meine Position breiter und inklusiver, da wir für eine humanitäre und flüchtlingsschutzzentrierte Asylpolitik einstehen, die auch Menschen aufgrund von Krieg, Hunger oder Verfolgung in Deutschland aufnehmen sollte, unabhängig von politischem Hintergrund.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als politischer Vertreter der Partei DieLinke ist meine Position gegen eine strikte Begrenzung auf politisch Verfolgte im Asylantragsprozess. Stattdessen betont die Partei oft eine gerechte und humanitäre Behandlung von Flüchtlingen, die bedroht sind oder verfolgt werden. Daher stimme ich nicht zu dieser Einschränkung.""",2
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der Partei Die Linke setzen wir auf einen sozialen und环境gerechten Arbeitsplatz, der die Bedürfnisse von Beschäftigten berücksichtigt, insbesondere in Zeiten von flexibleren Arbeitsformen wie dem Homeoffice. Daher wäre es für mich wichtiger, staatliche Regulierungen und Standards für Arbeitsbedingungen festzulegen, um Arbeitssicherheit und Gleichheit zu gewährleisten, anstatt Unternehmen allein diese Entscheidung zu überlassen.""",1
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme neutral.""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Vertreter der Partei Die Linke ist es wichtig, dass Arbeitsplätze und Gesundheitsschutz für alle betroffenen Menschen im Vordergrund stehen. Das Homeoffice-Prinzip sollte im Einklang mit gesetzlichen Vorschriften und dem Schutz von Arbeitsrechten festgelegt werden, anstatt allein den Unternehmen überlassen zu werden. Eine kooperative Regulierung ist notwendig, um eine gerechte und sichere Arbeitsumgebung für alle Beschäftigten zu gewährleisten.""",1
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei Die Linke. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der Partei Die Linke halte ich es für wichtig, dass Arbeitsplätze und Gesundheit von Mitarbeitern im Vordergrund stehen. Eine kooperative Entscheidung应在 sozialdemokratischer Verantwortung und dem Arbeitgeber-Potential für Flexible Arbeitsarrangements basieren, um die Balance zwischen Produktivität und Arbeitnehmerwohlstand zu gewährleisten. Unternehmen sollten dabei auch die Interessen und Bedürfnisse ihrer Mitarbeiter berücksichtigen.""",1

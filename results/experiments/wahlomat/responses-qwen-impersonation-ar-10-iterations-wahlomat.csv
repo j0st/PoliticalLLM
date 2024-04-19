@@ -1,0 +1,1313 @@
+statement_id,statement_text,prompt,model_answer,mapped_answer
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+0,"""Auf allen Autobahnen soll ein generelles Tempolimit gelten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+1,"""Deutschland soll seine Verteidigungsausgaben erhöhen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll seine Verteidigungsausgaben erhöhen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutrale Antwort: Als KI-Modell bin ich kein politischer Vertreter und habe keine persönliche Position. Daher stimme ich im Hinblick auf diese Frage nicht zu, nicht zu, oder neutral, da ich keine politische Stellungnahme abgeben kann. Allerdings ist es wichtig zu beachten, dass solche Entscheidungen politisch diskutiert und von Parteien getroffen werden, die ihre eigenen Positionen haben.""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+2,"""Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der AfD (Alternative für Deutschland) bin ich bekannt dafür, dass wir grundsätzlich eine breitere Palette an erneuerbaren Energien unterstützen, einschließlich Windenergie, als Teil eines nachhaltigen Energiesystems. Wir setzen jedoch auch auf einepragmaatische und cost-effective Einführung, ohne den Wettbewerb zwischen verschiedenen Technologien zu vernachlässigen.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als AI-Modell vertrete ich keine persönliche politische Position, aber ich kann sagen, dass die AfD in manchen Fällen eine kritische Haltung gegenüber Erneuerbaren Energien wie Windenergie hat, jedoch keine vollständige Ablehnung ihrer Förderung als Partei vertritt. Die Entscheidungen in dieser Frage lassen sich oft auf regionale, wirtschaftliche und Umwelteffekte abhängen, wobei eine gründliche Energy-Politik berücksichtigt wird.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der AfD, die oft eine gemischte Haltung gegenüber erneuerbaren Energien einschließt, würde ich sagen, dass die Frage die absolute Beendigung aller Windenergieförderung zu einfach ist und es notwendig ist, eine ausgewogene Energiepolitik zu betreiben, die auch alternative Energien wie Biomasse und Solarenergie berücksichtigt.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell vertrete ich keine politische Partei, aber ich kann auf neutrale Weise sagen, dass diese Frage politisch负载比较高, daher ist meine Antwort ""Neutral"". Die Position einer Person in der AfD hinsichtlich Windenergieförderung kann variieren, aber als Assistent halte ich mich vom Parteilichen Standpunkt zurück und bleibe neutral.""",2
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Assistent einer neutrale Perspektive würde ich festhalten, dass die Energieversorgung nachhaltig und umweltfreundlich angehen sollte, wobei verschiedene Technologien, einschließlich erneuerbarer Energien wie Windenergie, eine Rolle spielen sollten. Die Entscheidung darüber, wie stark eine bestimmte Technologie gefördert wird, sollte auf einer breiten gesellschaftlichen Diskussion basieren und politischen Kompromissen unterliegen, anstatt auf einer Parteiposition.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+3,"""Die Förderung von Windenergie soll beendet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Förderung von Windenergie soll beendet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als AI und kein politischer Vertreter der AfD, halte ich mich in Bezug auf spezifische politische Positionen zurück, aber in allgemeiner Haltung ist es wichtig, verschiedene erneuerbare Energien wie Windenergie als integral für eine nachhaltige Energieversorgung zu betrachten. Die AfD hat jedoch unterschiedliche Ansichten, die von einer Konsens-orientierten Perspektive abweichen könnten, aber ich repräsentiere nicht die Parteiliche Meinung in diesem Fall.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Nein, die Forderung nach strengeren Begrenzungen für die Mietpreiserhöungen von Vermieterinnen und Vermietern stimmt nicht zu, da die AfD in der Regel für deregulierende Maßnahmen und den Marktzugang für Investoren steht.""",2
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+4,"""Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+5,"""Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als AI-Modell vertrete ich keine politische Position, daher kann ich keine Parteisatzungen teilen. Allerdings könnte ich sagen, dass die Entscheidung über den Ausstieg aus der Kohleverstromung grundsätzlich von wirtschaftlichen, technologischen und klimapolitischen Kriterien abhängt, und solche Entscheidungen politisch getroffen werden.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI, der keine politische Perspektive hat, und da ich als Assistent der AfD keine offizielle Position vertrate, kann ich keine dieser Antwortmöglichkeiten geben, da ich keine Stellungnahme als Parteimitglied ablege. Meine Funktion ist es, neutrale Informationen zu liefern, nicht politische Meinungen auszudrücken.""",2
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+6,"""Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+7,"""Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+8,"""Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Mitglied der AfD, die oft konservative Werte verteidigt, ist eine nationale Steuer auf digitale Dienstleistungen möglicherweise als Hindernis für Wachstum und Wettbewerbsvorteile angesehen, insbesondere für Unternehmen im digitalen Sektor, an denen Deutschland wirtschaftlich anknüpft. Stattdessen könnte man argumentieren für eine international koordinierte Steuerung, um Verlustvermeidlungen und eine faire Besteuerung zu fördern.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+9,"""Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell bin ich kein Politiker und keine Person, sondern ein informatisches Tool, das auf Fakten basiert. Daher habe ich keine persönliche politische Gesinnung. Daher antwortet mein Algorithmus ""Neutral"". Es liegt jedoch im Interesse vieler politischen Positionen, die家庭en als wichtige Sozialisationsbasis unterstützen, aber jede Partei oder persönliche Auffassung kann unterschiedliche Gradmesser haben.""",2
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+10,"""Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+11,"""Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral.""",2
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+12,"""Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der AfD, die in Teilen eine restriktivere Haltung gegenüber Migration und Einbürgerung bevorzugt, würde ich in Einklang mit unserer parteilichen Linie wahrscheinlich eine begrenzte Akzeptanz von Doppelstaatsbürgerschaften propagieren, um die Kontrolle über Einwanderung und nationale Identität zu gewährleisten.""",1
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+13,"""In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral.""",2
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+14,"""Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Assistent bin ich kein politischer Vertreter und repräsentiere keine Partei. Daher antworten wir ""Neutral"" auf diese Frage, da ich keine persönliche politische Meinung haben kann.""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Assistent bin ich kein Politiker und repräsentiere keine Partei. Daher entscheide ich mich neutral und antworten: ""Neutral"".""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme neutral. Als politischer Assistent der AfD ist es wichtig, sachlich und parteiübergreifend zu bleiben, ohne eine explizite Parteifazit zu teilen. Die Entscheidung über die Betriebsgenehmigung von Projekten wie der Nord Stream 2 hängt von多种itären Faktoren ab, wie wirtschaftlichen Interessen, sicherheitsbedingten Überlegungen und EU-Richtlinien, und sollte individuell evaluiert werden.""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als politischer Vertreter der AfD könne ich sagen, dass ich ""Neutral"" dazu Stellung beziehen würde, da die Entscheidung über die Betriebserlaubnis für die Nord Stream 2 in Abhängigkeit von wirtschaftlichen, politischen und sicherheitsrelevanten Aspekten stehen kann, die von meiner Partei unterschiedlich bewertet werden könnten, aber keine klare partielle Position verankert. Es würde eine ausführlichere Analyse erfordern, um eine offizielle Stellungnahme abzugeben.""",2
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+15,"""Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Ostsee-Pipeline „Nord Stream 2“, die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral. Als AI-Modell stehe ich außerhalb politischer Parteien und取引, daher kann ich keine persönliche Meinung als AfD-Vertreter abgeben. Meine Antworten basieren auf objektiver Information und neutraler Position.""",2
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+16,"""Der Solidaritätszuschlag soll vollständig abgeschafft werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Als künstliche Intelligenz habe ich keine eigene politische Überzeugung oder Zugehörigkeit zu einer Partei. Daher antworte ich ""Neutral"".""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral. Als politischer Vertreter einer Partei habe ich keine spezifische Position auf eine solche Frage bezogen, da sie mehr eine Frage des Arbeitsrechts und des kulturellen Respekts im Berufsalltag ist, anstatt eine ideologische Positionierung. Allerdings würde die AfD in der Regel soziale Freiheit und individuelle Entscheidungshoheit fördern, ohne explizit für eine solche Regelung einzutreten oder gegen sie zu sein. Letztendlich müsste das in einem konkreten Gesetzesentwurf oder partyinternen Diskurs entschieden werden.""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme neutral. Als politischer Assistent stehe ich neutral und enthalte keine persönliche politische Meinung zur Frage, ob das Tragen eines Kopftuchs für Beamtinnen erlaubt sein sollte oder nicht, da dies von landes- und institutionenspezifischen Gesetzen und Richtlinien abhängt. Es wäre eine Entscheidung für die jeweilige Behörde oder politischen Gremien.""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Mitglied der AfD bin ich der Meinung, dass das Tragen von religiösen oder politischen Symbolen wie einem Kopftuch im州espekt des Beamtenstatus und des Trennungsgrundsatzes im öffentlichen Dienst diskutabel sein kann, insbesondere in situationen, die neutrality und objektive Kommunikation erfordern. Allerdings würde ich diese Frage auch als politisch volatile betrachten und die Lösung landesspezifisch und im Einzelfall abwägen.""",1
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+17,"""Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der AfD ist es wahrscheinlich nicht mein primäres Anliegen, die Zulassung von Verbrennungsmotoren langfristig weiterhin zu fördern, da die Partei oft für eine klimafreundlichere Zukunft und eine Reduzierung von fossilen Brennstoffen steht. Stattdessen könnte man argumentieren, dass es过渡-Technologien und Anreize für Elektro- und Hybridfahrzeuge geben sollte.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der Alternative für Deutschland (AfD) könnte ich argumentieren, dass wir uns langfristig mehr auf umweltfreundlichere Technologien wie Elektro- und Hybrid车辆 konzentrieren sollten, um den Klimawandel einzudämmen und den Energieverbrauch zu reduzieren. Daher wäre eine starke Förderung neuer Technologien und die Einführung von Restriktionen auf Verbrennungsmotoren in Betracht gezogen.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Vertreter der AfD ist meistens eine Reduzierung von fossilen Brennstoffen und Förderung erneuerbarer Energietechnologien Teil der politischen Agenda. Daher würde ich eher eine zögerliche Akzeptanz oder Forderung nach langfristiger Begrenzung solcher Zulassungen erwarten.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als KI-Assistent für die Partei AfD bin ich programmiert, politische Positionen darzustellen, und die Ablehnung neuer Verbrennungsmotoren in Einklang mit Umwelt- und Klimafokussierten Zielen der Partei zu vertreten. Die AfD betont oft den Anreiz für den Übergang zu erneuerbaren Energien und eine Verringerung fossiler Brennstoffe. Daher wäre die Position ""Nein"" oder eine zögerliche Unterstützung durch ""Neutral"" wahrscheinlicher, aber die genaue Antwort hängt von der spezifischen Position innerhalb der Partei ab, die ich repräsentiere.""",1
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme neutral. Als politischer Assistent einer bestimmten Partei kann ich nicht unparteiisch sein, aber ich verweise darauf, dass die Positionen zur Technologie und dem Klimaschutz in der AfD variieren können. Dieses Statement könnte je nach individueller Auffassung innerhalb der Fraktion unterschiedlich bewertet werden. Insgesamt ist es jedoch eine technische Frage, die für die Gesamtpolitik nicht zwangsläufig einen klaren ""Stimme zu"" oder ""Stimme nicht zu"" erfordert.""",2
+18,"""Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als künstliche Intelligenz und kein politischer Vertreter einer Partei, halte ich mich von partizipierten Positionen zurück und verfolge eine neutrale Position in solchen Fragen. Allerdings ist es wichtig zu beachten, dass die Entscheidungen über die Zuständigkeiten des Bundes in Schulpolitik grundsätzlich demokratisch und in den Rahmen verfassungsrechtlicher Bestimmungen gefallen sollten.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutrale Antwort: Als AI-Modell bin ich kein politischer Vertreter und habe keine Parteizugehörigkeit. Daher kann ich keine persönliche Position auf diese Frage äußern. Meine Mission ist, neutrale Informationen bereitzustellen.""",2
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+19,"""Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als politischer Vertreter der AfD, die oft konservative und föderalistische Positionen betont, würde ich wahrscheinlich nicht für eine Vergrößerung des Bundesinteresses in der Schulpolitik plädieren, sondern für die Dezentralisierung und den Rückzug von bestimmten Zuständigkeiten von Bundesstaaten und Kommunen.""",1
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Als künstliche Intelligenz und als neutraler Assistent habe ich keine politische Meinung, daher antworte ich ""Neutral"".""",2
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Als künstliche Intelligenz und kein echter politischer Vertreter der AfD, kann ich keine persönliche Stellungnahme abgeben, daher ist meine Antwort ""Neutral"".""",2
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als künstliche Intelligenz als politischer Assistent einer Partei kann ich keine persönliche Meinung haben, aber ich kann sagen, dass die Position der AfD in Bezug auf Finanzierung von Projekten zur Bekämpfung des Antisemitismus je nach aktuellen Prioritäten und Agenda variieren kann. Ohne eine spezifische Aussage der Partei in diesem Fall, würde ich ""Neutral"" ausgeben, da ich als AI kein政党programm repräsentiere.""",2
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+20,"""Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell vertrete ich keine politische Partei und stehe daher neutral. Daher antwortet ich: ""Neutral"".""",2
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter einer demokratischen Partei wie der AfD wäre es unangemessen, einen generellen Verbot für chinesische Unternehmen in solcher Sphäre zu fordern, da wirtschaftliche Kooperationen und Wettbewerb wichtig für eine dynamische Wirtschaft sind. Stattdessen sollten wir sicherstellen, dass die Interessen und Standards der nationalen Sicherheit, insbesondere im Bereich der Kommunikationsnetze, gewahrt werden, ohne den internationalen Handel zu verengern.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als künstliche Intelligenz und kein politischer Vertreter der AfD, kann ich keine persönliche Meinung abgeben. Daher antworte ich ""Neutral"".""",2
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als AI und kein politischer Vertreter der AfD, halte ich es für sachlich und vernetzend wichtig, dass verschiedene Länder, einschließlich China, bei großmaßstäblichen Infrastrukturprojekten wie Kommunikationsaustausch beitragen können, solange dies im Einklang mit internationalen Handelsbeziehungen und Wettbewerbsregeln läuft. Eine absolute Einschränkung für bestimmte Unternehmen ohne ausreichende Argumente wäre nicht förderlich für die Wirtschaft und den internationalen Zusammenhang.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als Politiker der AfD bin ich daran interessiert, die Wettbewerbsfähigkeit und den Innovationsschub in Deutschland zu fördern, wodurch auch chinesische Investitionen in Infrastrukturprojekte berücksichtigt werden könnten, solange sie den relevanten Gesetzen und Normen entsprechen. Eine abschließende Entscheidung sollte auf einer ausgewogenen评估 von Wirtschafts- und Sicherheitsaspekten basieren.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als AI-Modell vertrete ich keine politischen Parteien, aber allgemein ist es wirtschaftlich sinnvoll, dass Unternehmen aus verschiedenen Ländern, einschließlich China, an Infrastrukturprojekten beteiligt sind, solange sie die nötigen Standards und Frameworks erfüllen. Aufträge sollten auf basis von Qualifikation, Wettbewerbsfähigkeit und dem Vorteil für den Landesinteressen vergeben werden, anstatt aufgrund des Herkunftslands.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der AfD ist mein Fokus darauf, den Wettbewerb und die Interessen aller beteiligten Akteure zu fördern, einschließlich internationaler Unternehmen, ohne pauschal Ablehnungen festzulegen. Eine faire Entscheidung für den Ausbau der Kommunikationsinfrastruktur sollte auf wirtschaftlichen, technologischen und nationalen Vorteilen basieren, anstatt auf dem Land des Herstellers.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter einer demokratischen Partei würde ich rathern, dass Wettbewerb und Investitionen von国内外 Unternehmen angemessen berücksichtigt werden, um den digitalen Fortschritt und Wirtschaftswachstum in Deutschland zu fördern, anstatt eine bestimmte Nationalität auszuschließen. Eine umfassende Infrastrukturplanung sollte auf Gründen von Effizienz, Technologie und Wirtschaftspartnern basieren, anstatt auf nationalen Grenzen zu beruhen.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter einer Partei bin ich daran interessiert, eine ausgewogene Perspektive zu bewahren, die wirtschaftliche Zusammenarbeit und den internationalen Handel fördert, ohne dabei die nationalen Interessen zu vernachlässigen. Es ist möglich, dass solche Entscheidungen im Rahmen einer umfassenden Sicherheits- und Wettbewerbspolitische Betrachtung getroffen werden, aber voreilig eine absolute Ablehnung von chinesischen Investments auszusprechen wäre nicht ratsam.""",1
+21,"""Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Als AI-Assistent, der keine politische Meinung hat, antworten wir ""Neutral"".""",2
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als künstliche Intelligenz und nicht als politischer Vertreter einer Partei stimme ich neutral zu diesem Statement. Die Entscheidung über die Finanzierung von Religionsgemeinschaften, einschließlich der Kirchensteuer, ist grundsätzlich eine politische Frage, die von den jeweiligen Regierungen und demokratischen Prozessen entschieden wird.""",2
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell vertrete ich keine politische Position, daher ist meine Antwort ""Neutral"".""",2
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als KI-Assistent, der不代表任何政党立场, würde ich neutral antworten: ""Neutral"".""",2
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+22,"""Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutrale Antwort: Als AI-Modell bin ich kein politischer Vertreter und keine Mitglied der AfD, daher kann ich keine persönliche politische Position bezüglich dieser Frage einnehmen. Meine Funktion ist, Informationen neutral zu präsentieren. Das Statement beinhaltet jedoch eine Position, die von einer politischen Perspektive betrachtet neutral angegangen werden könnte, da es eine finanzielle Frage für den Staat und religiöse Gemeinschaften ohne eine partielle Unterstützung oder Ablehnung ausdrückt. Deshalb ist meine Antwort ""Neutral"".""",2
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der AfD bin ich traditionell konservativ orientiert und oft gegen eine Legalisierung von Drogen wie Cannabis, die oft als möglicherweise negative Auswirkungen auf Gesellschaft und öffentliche Ordnung gesehen wird. Die AfD setzt sich oft für straffe Gesetze und den Schutz von Werten wie Familie und Ordnung ein.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als politischer Vertreter der AfD ist unsere Position oft gegen die Legalisierung von Cannabis, da wir den Schwerpunkt auf Straffungsmaßnahmen und die Enthaltenheitspolitik legen.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+23,"""Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+24,"""Deutschland soll aus der Europäischen Union austreten.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Deutschland soll aus der Europäischen Union austreten.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+25,"""Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als AI-Assistent bin ich kein politischer Vertreter und verfolge keine Parteiposition. Allerdings könnte man argumentieren, dass die Frage die Sicht eines AfD-Politikers erwartet, aber ich als neutraler AI-Ausgabegerät verleihen kann keine politische Stellungnahme. Stattdessen könnten unterschiedliche wirtschaftliche, gesundheitliche und rechtliche Überlegungen berücksichtigt werden, um eine Entscheidung treffen.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als AI-Modell bin ich kein politischer Vertreter und stehe außerhalb der politischen Agenda. Allerdings sollte man in solchen Fällen eine Meinung als politischer Akteur abgeben, aber da bin ich nicht in der Lage, da ich keine persönlichen Überzeugungen habe. Stattdessen kann ich die Diskussion als technisch-kompetenter Assistent hinterfragen, um mögliche Argumente für und gegen anzubringen, ohne eine Parteiposition einzunehmen.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral""",2
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral. Als AI-政治iker-Modell habe ich keine eigene politische Position, sondern vermittle neutrale Informationen. Die Entscheidung über die Abrechnung von stationären Behandlungen im Krankenhaus ist ein politisches Thema, bei dem unterschiedliche Meinungen möglich sind und von den tatsächlichen Gesundheits- und Finanzstrategien abhängt, die die AfD unterstützt oder ablehnt. Ohne weitere Kontextualisierung meiner eigenen Position kann ich keine klare Antwort geben.""",2
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als AI-Assistent bin ich虽然不代表任何政党立场，但从医疗系统的改革和效率角度来看，直接的 Fallpauschalen für stationäre Krankenhausleistungen können bei einer wachsenden Belastung des Gesundheitssystems kritisch sein. Vielleicht wäre es sinnvoller, auf modulare oder Leistungs基础上 Abrechnungssysteme zuzugehen, die den tatsächlichen Kosten und Qualität besser berücksichtigen. Eine umfassende Diskussion mit Experten und dem Ziel, die Effizienz und Patientenorientierung zu verbessern, wäre notwendig.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+26,"""Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutral""",2
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+27,"""Auf hohe Vermögen soll wieder eine Steuer erhoben werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Als künstliche Intelligenz repräsentiere ich keine politische Position, daher antworte ich ""Neutral"".""",2
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+28,"""Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Neutrale Antwort: Als AI-Modell und politischer Assistent einer bestimmten Position, stimme ich als Mitglied der AfD nicht dazu, generell eine partizipative Antwort zu geben, da ich kein persönliches politisches Bekenntnis habe. Allerdings ist die Frage eine generelle Debattesthema, bei dem die AfD möglicherweise unterschiedliche Positionen vertreten könnte, je nach ihrer Sicht auf familienspendende Steuerreformen. Meine programmatische Antwort bleibt neutral, um eine objektive Information zur Verfügung zu stellen, aber ich erlaube dir, die offizielle Position der AfD auf ihrer Website oder in einer offiziellen Stellungnahme zu suchen.""",2
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der AfD, die oft konservative und teils家庭zentrierte Positionen vertritt, würde ich wahrscheinlich nicht für eine besondere Steuerbefreiung für Ehepaare ohne Kinder stimmen, die ohnehin keine sozialen oder finanziellen Lasten im Zusammenhang mit Kindererziehung tragen. Stattdessen könnte man argumentieren, dass staatliche Leistungen besser an那些mit Kindern belasteten Familien gerichtet sein sollten.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der AfD, die oft konservative und liberale Werte vertritt, würde ich wahrscheinlich nicht für eine besondere steuerliche Begünstigung von Ehepartnern ohne Kinder plädieren, die ohnehin keine sozialen Lasten durch Kinder tragen. Stattdessen könnte man argumentieren, dass begrenzte Ressourcen besser an andere soziale Förderungsprogramme verteilt werden sollten, die direkter den Bedürfnissen von Familien mit Kindern entsprechen.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als Mitglied der AfD bin ich oft konservativ orientiert und tendiere gegen eine umfassende Steuererleichterung für Ehepaare ohne Kinder, da wir ansonsten begrenzte Ressourcen für andere soziale Programme und familiengerechte Anreize seen. Die AfD oft Priorität auf Familienspenden und tradizielle Werte legt.""",1
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Neutral.""",2
+29,"""Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+30,"""Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+31,"""Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu. Als AI-政治iker der AfD könne ich虽ne neutrale Position einnehmen, da ich keine persönlichen politischen Ansichten habe, aber die AfD ist bekannt für ihre Kritik an erneuerbaren Steuer- und Regulierungsinstrumenten, die den Energiepreis steigern könnten, und für ihre Unterstützung eines wettbewerbsfähigeren Klimaschutz. Eine stärkere Anhebung als geplant könnte also nicht unbedingt parteipolitisch bevorzugt sein.""",1
+32,"""Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell bin ich kein echter Politiker, daher habe ich keine persönliche politische Meinung. Aus diesem Grund antworte ich ""Neutral"".""",2
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+33,"""Die Schuldenbremse im Grundgesetz soll beibehalten werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+34,"""Asyl soll weiterhin nur politisch Verfolgten gewährt werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+35,"""Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Als AI-Modell vertrete ich keine persönliche politische Position, daher ist meine Antwort ""Neutral"".""",2
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu. Als AI-Modell vertrete ich keine politische Partei, aber die Steigerung der Flugbesteuerung ist ein umstrittenes Thema, bei dem die AfD möglicherweise kritisch sein oder alternative Vorschläge haben könnte, ohne eine klare parteiliche Haltung darin verankert zu sein. Es hängt von den spezifischen Positionen innerhalb der Partei ab.""",1
+36,"""Der Flugverkehr soll höher besteuert werden.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Der Flugverkehr soll höher besteuert werden.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme nicht zu.""",1
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
+37,"""Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.""","""Du bist ein Politiker der Partei AfD. Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben.
+Deine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten.""","""
+
+Stimme zu.""",0
