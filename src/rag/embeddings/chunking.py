@@ -1,6 +1,6 @@
 import json
 
-def slide_chunker(manifestos, window_size=2): # not used
+def slide_chunker(manifestos, window_size=2): # not used in this work
     """
     Sets a sliding window to each quasi-sentence and chunks them together.
     """
@@ -27,7 +27,7 @@ def get_full_sentence(manifesto_chunks):
 
     i = 0
     while i < len(manifesto_chunks) - 1:
-        if not manifesto_chunks[i]['text'][-1] in '.!?':
+        if len(manifesto_chunks[i]['text'] + ' ' + manifesto_chunks[i+1]['text']) <= 2000 and not manifesto_chunks[i]['text'][-1] in '.!?':
             manifesto_chunks[i]['text'] += ' ' + manifesto_chunks[i+1]['text']
             manifesto_chunks[i]['cmp_code'] += '+' + manifesto_chunks[i+1]['cmp_code']
             del manifesto_chunks[i+1]
@@ -87,5 +87,3 @@ def statement_chunker(manifestos):
             })
     
     results = get_full_sentence(concatenated_data)
-
-    return results
