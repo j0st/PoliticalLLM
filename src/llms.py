@@ -28,10 +28,16 @@ class LLM:
     def __init__(self, model, temperature=0.7):
         self.model = model
         self.temperature = temperature
+
         self.token = os.getenv("ANYSCALE_API_KEY")
         self.api_base = os.getenv("ANYSCALE_BASE_URL")
+
         self.qwen_fpath = os.getenv("QWEN_PATH")
+
         self.openai_token = os.getenv("OPENAI_API_KEY")
+
+        self.together_ai_token = os.getenv("TOGETHER_AI_API_KEY")
+        self.together_ai_api_base = os.getenv("TOGETHER_AI_BASE_URL")
     
     def query(self, prompt: str) -> str:
         """
@@ -39,10 +45,10 @@ class LLM:
         New models are implemented in this function.
         """
         
-        if self.model == "gpt-3.5-turbo":
+        if self.model == "gpt-3.5-turbo-0125":
             client = OpenAI(api_key=self.openai_token)
             completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-3.5-turbo-0125",
             temperature=self.temperature,
             max_tokens=1000,
             messages=[{"role": "user", "content": prompt}])
@@ -60,6 +66,16 @@ class LLM:
                 max_tokens=1000)
 
             response = completion.choices[0].text
+
+        elif self.model == "Qwen_1.5_14B":
+            client = OpenAI(base_url=self.together_ai_api_base, api_key=self.together_ai_token)
+            chat_completion = client.chat.completions.create(
+            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+            messages=[{"role": "user", "content": prompt},],
+            temperature=self.temperature,
+            max_tokens=1000)
+
+            response = chat_completion.choices[0].message.content
 
         elif self.model == "qwen1_5-14b-chat-q5_k_m":
             template = f"""<|im_start|>system 
