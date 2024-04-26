@@ -50,7 +50,10 @@ def run_pct(answers: list, filename: str):
             time.sleep(2)
 
         # results
-        print(driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text)
+        time.sleep(2)
+        coordinates = driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text
+        print(f"Finished PCT. Coordinates are {coordinates}. PNG saved into results folder.")
+        
         compass = driver.find_element(By.XPATH, '//*[@id="SvgjsSvg1001"]').screenshot_as_png 
         img = Image.open(io.BytesIO(compass))
         img.save(f"results/experiments/pct/{filename}.png") 
