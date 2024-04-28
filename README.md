@@ -10,7 +10,7 @@ Clone the repo.
 
 `git clone https://github.com/j0st/master-thesis/`
 
-Install dependencies
+Navigate to PoliticalLLM/ and install dependencies from there.
 
 `pip install -r requirements.txt`
 
