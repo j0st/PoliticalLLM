@@ -3,10 +3,30 @@
 Master's thesis...
 
 ## Quickstart
-1. `git clone https://github.com/j0st/master-thesis/`.
+Clone the repo.
 
-2. Create a .env file and insert API keys etc.
+`git clone https://github.com/j0st/master-thesis/`.
 
-3. Go to main.py and create an instance of an LLM and start testing.
+Install dependencies
 
-4. Results are save in results\
+`pip install -r requirements.txt`.
+
+To run this project with API models, you will need to add the following environment variables to your `.env` file. Create this file in the root directory of the project.
+```plaintext
+# .env file
+# Models
+OPENAI_API_KEY=
+
+ANYSCALE_API_KEY=
+ANYSCALE_BASE_URL=
+
+TOGETHER_AI_API_KEY=
+TOGETHER_AI_BASE_URL=
+
+# Data
+MANIFESTO_PROJECT_API_KEY=
+```
+
+Go to main.py and create an instance of an LLM and start testing.
+
+Results are saved in results/
