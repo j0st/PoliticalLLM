@@ -2,8 +2,8 @@
 
 Master's thesis...
 
-## How to Use
-1. `pip install git+https://github.com/j0st/master-thesis/`.
+## Quickstart
+1. `git clone https://github.com/j0st/master-thesis/`.
 
 2. Create a .env file and insert API keys etc.
 
