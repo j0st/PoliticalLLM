@@ -1,4 +1,7 @@
 # PoliticalLLM: Framework for Measuring Political Ideologies in LLMs
+<p align="center">
+  <img src="img/example_tests.png" alt="Wahl-O-Mat and PCT example" width="700"/>
+</p>
 
 Master's thesis...
 
