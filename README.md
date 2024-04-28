@@ -1,15 +1,15 @@
-# Framework for Measuring Political Ideologies in LLMs
+# PoliticalLLM: Framework for Measuring Political Ideologies in LLMs
 
 Master's thesis...
 
 ## Quickstart
 Clone the repo.
 
-`git clone https://github.com/j0st/master-thesis/`.
+`git clone https://github.com/j0st/master-thesis/`
 
 Install dependencies
 
-`pip install -r requirements.txt`.
+`pip install -r requirements.txt`
 
 To run this project with API models, you will need to add the following environment variables to your `.env` file. Create this file in the root directory of the project.
 ```plaintext
@@ -30,3 +30,5 @@ MANIFESTO_PROJECT_API_KEY=
 Go to main.py and create an instance of an LLM and start testing.
 
 Results are saved in results/
+
+## Project Files Description
