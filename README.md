@@ -3,7 +3,7 @@
   <img src="img/example_tests.png" alt="Wahl-O-Mat and PCT example" width="700"/>
 </p>
 
-Master's thesis...
+Code and demo for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_.
 
 ## Quickstart
 Clone the repo.
@@ -35,3 +35,5 @@ Go to main.py and create an instance of an LLM and start testing.
 Results are saved in results/
 
 ## Project Files Description
+
+## More Models
