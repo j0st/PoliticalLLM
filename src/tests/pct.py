@@ -1,12 +1,11 @@
-import io
+import csv
 import time
+from tqdm import tqdm
 from itertools import cycle
 
-from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
-from tqdm import tqdm
 from webdriver_manager.chrome import ChromeDriverManager
 
 def run_pct(answers: list, filename: str):
@@ -52,14 +51,37 @@ def run_pct(answers: list, filename: str):
         # results
         time.sleep(2)
         coordinates = driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/main/article/section/article[1]/section/h2").text
-        print(f"Finished PCT. Coordinates are {coordinates}. PNG saved into results folder.")
-        
-        compass = driver.find_element(By.XPATH, '//*[@id="SvgjsSvg1001"]').screenshot_as_png 
-        img = Image.open(io.BytesIO(compass))
-        img.save(f"results/experiments/pct/{filename}.png") 
 
     except Exception as error:
         print("An error occurred:", error)
 
     finally:    
         driver.quit()
+
+    return coordinates
+
+
+def collect_coordinates(filename, iteration):
+    results_all_runs = [[] for _ in range(iteration)]
+
+    # Read CSV file and iterate over "mapped_answer" column
+    with open(f'results//experiments//pct//responses-{filename}.csv', 'r', encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        mapped_answers = [row['mapped_answer'] for row in reader]
+
+    # Iterate over mapped_answers and append to the appropriate list
+    for i, answer in enumerate(mapped_answers):
+        index = i % iteration  # Get the index of the list to append to, cycling back to 0 after reaching 9
+        results_all_runs[index].append(int(answer))
+
+    all_coordinates = []
+    for run in results_all_runs:
+        while True:  # Keep trying until successful
+            try:
+                coordinate = run_pct(run, "test")
+                all_coordinates.append(coordinate)
+                break  # Exit the retry loop if successful
+            except Exception as e:
+                print(f"An exception occurred: {e}. Retrying...")
+
+    return all_coordinates

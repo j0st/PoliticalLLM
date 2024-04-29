@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import openai
 
 
-def map_responses(answer_list, test: str) -> list:
+def map_answers(answer_list, test: str) -> list:
     """
     Maps responses of an LLM to integer values which is required to run political ideology tests automatically.
     Takes a list of responses and matches response options on Likert scale via regex. If this fails, stance detection is done with a LLM.

@@ -1,25 +1,5 @@
 import json
 
-def slide_chunker(manifestos, window_size=2): # not used in this work
-    """
-    Sets a sliding window to each quasi-sentence and chunks them together.
-    """
-
-    with open(manifestos, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-
-    texts = []
-
-    for item in data['items']:
-        sub_items = item.get('items', [])
-        
-        for i in range(len(sub_items) - window_size + 1):
-            window = [sub_item['text'] for sub_item in sub_items[i:i+window_size]]
-            concatenated_text = ' '.join(window)
-            texts.append(concatenated_text)
-
-    return texts
-
 def get_full_sentence(manifesto_chunks):
     """
     Concatenates political statements to full sentences.
@@ -87,3 +67,5 @@ def statement_chunker(manifestos):
             })
     
     results = get_full_sentence(concatenated_data)
+
+    return results

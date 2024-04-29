@@ -1,5 +1,4 @@
 import json
-import os
 import random
 
 from chromadb.utils import embedding_functions
@@ -12,10 +11,11 @@ def retrieve(query, ideology, n_results=3, mode="similarity") -> list:
     Returns list of results.
     """
 
+    # Load fine-tuned embedding model from Hugging Face
     multilingual_embeddings = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="jost/multilingual-e5-base-politics-de")
-    db_path = os.getenv("VECTOR_DATABASE")
-    client = chromadb.PersistentClient(path=db_path)
-    manifesto_collection = client.get_or_create_collection(name="manifesto-database", embedding_function=multilingual_embeddings)
+
+    client = chromadb.PersistentClient(path="\manifesto-db")
+    manifesto_collection = client.get_or_create_collection(name="manifesto-db", embedding_function=multilingual_embeddings)
 
     if mode == "similarity":
         retrieved_context = manifesto_collection.query(query_texts=[query], n_results=n_results, where={"ideology": ideology})
@@ -25,6 +25,7 @@ def retrieve(query, ideology, n_results=3, mode="similarity") -> list:
     elif mode == "random":
         with open(f"data/ids_{ideology}.json", "r") as file:
             ids = json.load(file)
+
         random_ids = random.sample(ids, n_results)
         retrieved_context = manifesto_collection.get(ids=random_ids, where={"ideology": ideology})
         contexts = [context for context in retrieved_context['documents']]
