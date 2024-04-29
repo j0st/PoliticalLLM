@@ -10,11 +10,11 @@ Clone the repo.
 
 `git clone https://github.com/j0st/master-thesis/`
 
-Navigate to PoliticalLLM/ and install dependencies from there.
+Navigate to \PoliticalLLM and install dependencies from there.
 
 `pip install -r requirements.txt`
 
-To run this project with API models, you will need to add the following environment variables to your `.env` file. Create this file in the root directory of the project.
+To run this project with API models, you will need to add the following environment variables to your `.env` file. Create this file in the root directory of the project. By default, [OpenAI](https://openai.com/blog/openai-api), [together.ai](https://www.together.ai/products#inference) and [Anyscale](https://www.anyscale.com/endpoints) API endpoints are integrated.
 ```plaintext
 # .env file
 
