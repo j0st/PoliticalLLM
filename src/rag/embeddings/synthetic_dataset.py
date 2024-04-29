@@ -1,63 +1,72 @@
 # script for generating synthetic data for finetuning sentence embeddings models, needs refactoring
-from chunking import concatenate_texts, sentence_chunker
+import json
 import os
-import time
 import random
 import re
-from tqdm import tqdm
 import uuid
-import json
 
+from dotenv import load_dotenv
+from sklearn.model_selection import train_test_split
+from tqdm import tqdm
+
+from openai import OpenAI
 from llama_index import StringIterableReader, TreeIndex
 from llama_index.node_parser import SimpleNodeParser
 from llama_index.schema import MetadataMode
-import openai
-from sklearn.model_selection import train_test_split
 
-from dotenv import load_dotenv
+from chunking import statement_chunker
 
 load_dotenv(override=True)
 
-token = os.getenv("ANYSCALE_API_KEY")
-api_base = os.getenv("ANYSCALE_BASE_URL")
+api_key = os.getenv("OPENAI_API_KEY")
 
-def filter_and_select_random(statements_list):
-    filtered_statements = [statement for statement in statements_list if len(statement) <= 250]
+
+def filter_and_select_random(statements_list: list):
+    """
+    Selects randomly 500 examples from each ideology (length <= 1000 to avoid very long statements)
+    """
+
+    filtered_statements = [statement for statement in statements_list if len(statement) <= 1000]
+
     return random.sample(filtered_statements, min(len(filtered_statements), 500))
 
-def query_llm(prompt, token, api_base, temperature=0.7):
-    template = f"""[INST] {prompt} [/INST]"""
-    client = openai.OpenAI(base_url=api_base, api_key=token)
-    completion = client.completions.create(
-         model="mistralai/Mixtral-8x7B-Instruct-v0.1",
-         prompt=template,
-         temperature=temperature,
-         max_tokens=1000)
 
-    response = completion.choices[0].text
+def query(api_key, prompt: str) -> str:
+    """
+    Query LLM (gpt-3.5-turbo)
+    """
 
-    return response
-
-def load_corpus(files, verbose=False):
-    if verbose:
-        print(f"Loading files...")
-
-    docs = StringIterableReader().load_data(texts=files)
-    if verbose:
-        print(f'Loaded {len(docs)} docs')
+    client = OpenAI(api_key=api_key)
+    completion = client.chat.completions.create(
+        model="gpt-3.5-turbo-0125",
+        temperature=0.7,
+        max_tokens=1000,
+        messages=[{"role": "user", "content": prompt}])
     
+    return completion.choices[0].message.content
+
+
+def load_corpus(files):
+    """
+    Llama_index implementation to load docs with unique ids is used and adapted here.
+    """
+
+    docs = StringIterableReader().load_data(texts=files)   
     parser = SimpleNodeParser.from_defaults()
-    nodes = parser.get_nodes_from_documents(docs, show_progress=verbose)
-
-    if verbose:
-        print(f'Parsed {len(nodes)} nodes')
-
+    nodes = parser.get_nodes_from_documents(docs, show_progress=True)
     corpus = {node.node_id: node.get_content(metadata_mode=MetadataMode.NONE) for node in nodes}
+
     return corpus
 
-def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
+
+def generate_synthetic_dataset(corpus):
+    """
+    Iterates over corpus and generates a hypothetical questions for each item by an LLM.
+    """
+
     queries = {}
     relevant_docs = {}
+
     for node_id, text in tqdm(corpus.items()):
         context_str = text
         prompt = f"""
@@ -69,9 +78,9 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
 
         Basierend auf den gegebenen Kontextinformationen und ohne Vorwissen.
 
-        Sie sind ein neutraler Politiker. Ihre Aufgabe ist es, {num_questions_per_chunk} politische Aussagen für einen politischen Test vorzubereiten. Die Aussagen sollten in ihrer Natur vielfältig sein und sich auf das Dokument beziehen. Beschränken Sie die Aussagen auf die bereitgestellten Kontextinformationen.
+        Sie sind ein neutraler Politiker. Ihre Aufgabe ist es, eine politische Aussage für einen politischen Test vorzubereiten. Die Aussage sollte in ihrer Natur vielfältig sein und sich auf das Dokument beziehen. Beschränken Sie diese Aussage auf die bereitgestellten Kontextinformationen.
 
-        Die Aussagen sollen politische Ideologie messen und könnten beispielsweise folgendermaßen aussehen:
+        Die Aussage soll politische Ideologie messen und könnte beispielsweise folgendermaßen in einem Test auftauchen:
 
         Wie bewerten Sie die Aussage: 'Die Förderung von Windenergie soll beendet werden.'?
         a. stimme zu
@@ -83,10 +92,12 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
         b. neutral
         c. stimme nicht zu
 
-        Ihre Fragen sollten auf politische Aussagen wie diese abzielen. Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor oder nach der eigentlichen Aussage sollen ebenfalls weggelassen werden. Die Antwort soll aus nur einem Satz bestehen.
+        Die Antwortmöglichkeiten sollen in Ihrer Antwort nicht auftauchen, sondern nur die Aussage an sich. Sätze wie 'Wie bewerten Sie die Aussage:' vor oder nach der eigentlichen Aussage sollen ebenfalls weggelassen werden. Die Antwort soll aus nur einem Satz bestehen.
         """
-        response = query_llm(prompt, token, api_base)
-        time.sleep(5)
+
+        response = query(api_key, prompt)
+
+        # Extract questions if LLM decides to format the question awkwardly
         result = str(response).strip().split("\n")
         questions = [re.sub(r"^\d+[\).\s]", "", question).strip() for question in result]
         questions = [question.strip('"') for question in questions]
@@ -98,6 +109,7 @@ def generate_synthetic_dataset(corpus, num_questions_per_chunk=2):
         
     return queries, relevant_docs
 
+
 if __name__ == "__main__":
     ideology_manifestos = ["data\Authoritarian-left-manifestos.json",
                        "data\Authoritarian-right-manifestos.json",
@@ -105,14 +117,13 @@ if __name__ == "__main__":
                        "data\Libertarian-right-manifestos.json"]
 
     # chunking
-    docs_al, docs_ar, docs_ll, docs_lr = [sentence_chunker(manifesto) for manifesto in ideology_manifestos]
-    chunked_docs_al, chunked_docs_ar, chunked_docs_ll, chunked_docs_lr = [concatenate_texts(doc) for doc in [docs_al, docs_ar, docs_ll, docs_lr]]
-
-    # get list of statements
-    list_of_statements_al = [item[0] for item in chunked_docs_al]
-    list_of_statements_ar = [item[0] for item in chunked_docs_ar]
-    list_of_statements_ll = [item[0] for item in chunked_docs_ll]
-    list_of_statements_lr = [item[0] for item in chunked_docs_lr]
+    docs_al, docs_ar, docs_ll, docs_lr = [statement_chunker(manifesto) for manifesto in ideology_manifestos]
+    	
+    # get list of statements for each ideology
+    list_of_statements_al = [item["text"] for item in docs_al]
+    list_of_statements_ar = [item["text"] for item in docs_ar]
+    list_of_statements_ll = [item["text"] for item in docs_ll]
+    list_of_statements_lr = [item["text"] for item in docs_lr]
 
     #randomize and max length 500
     random_statements_al = filter_and_select_random(list_of_statements_al)
@@ -120,48 +131,39 @@ if __name__ == "__main__":
     random_statements_ll = filter_and_select_random(list_of_statements_ll)
     random_statements_lr = filter_and_select_random(list_of_statements_lr)
 
-    all_random_statements = []
+    all_random_statements = [] # total of 2000
     all_random_statements.extend(random_statements_al)
     all_random_statements.extend(random_statements_ar)
     all_random_statements.extend(random_statements_ll)
     all_random_statements.extend(random_statements_lr)
 
+    # split training corpus into train and val
     train, val = train_test_split(all_random_statements, test_size=0.2, random_state=42)
-    train_corpus = load_corpus(train, True)
-    val_corpus = load_corpus(val, True)
-    train_queries_small, train_relevant_docs_small = generate_synthetic_dataset(train_corpus)
-    val_queries_small, val_relevant_docs_small = generate_synthetic_dataset(val_corpus)
+    train_corpus = load_corpus(train)
+    val_corpus = load_corpus(val)
 
-    path = "C://Users//Jost//Desktop//finetuning_data"
-    with open(path + "//train_queries.json", 'w+', encoding="utf-8") as f:
-        json.dump(train_queries_small, f, ensure_ascii=False)
+    # generate synthetic dataset
+    train_queries, train_relevant_docs = generate_synthetic_dataset(train_corpus)
+    val_queries, val_relevant_docs = generate_synthetic_dataset(val_corpus)
 
-    with open(path + "//train_docs.json", 'w+', encoding="utf-8") as f:
-        json.dump(train_relevant_docs_small, f, ensure_ascii=False)
-
-    with open(path + "//val_queries.json", 'w+', encoding="utf-8") as f:
-        json.dump(val_queries_small, f, ensure_ascii=False)
-
-    with open(path + "//val_docs.json", 'w+', encoding="utf-8") as f:
-        json.dump(val_relevant_docs_small, f, ensure_ascii=False)
-
-    TRAIN_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning_data//train_dataset.json'
-    VAL_DATASET_FPATH = 'C://Users//Jost//Desktop//finetuning_data//val_dataset.json'
+    # save dataset in data/
+    train_dataset_fpath = 'data/train_dataset.json'
+    val_dataset_fpath = 'data/val_dataset.json'
 
     train_dataset = {
-    'queries': train_queries_small,
+    'queries': train_queries,
     'corpus': train_corpus,
-    'relevant_docs': train_relevant_docs_small,
+    'relevant_docs': train_relevant_docs,
     }
 
     val_dataset = {
-        'queries': val_queries_small,
+        'queries': val_queries,
         'corpus': val_corpus,
-        'relevant_docs': val_relevant_docs_small,
+        'relevant_docs': val_relevant_docs,
     }
 
-    with open(TRAIN_DATASET_FPATH, 'w+', encoding="utf-8") as f:
+    with open(train_dataset_fpath, 'w+', encoding="utf-8") as f:
         json.dump(train_dataset, f, ensure_ascii=False)
 
-    with open(VAL_DATASET_FPATH, 'w+', encoding="utf-8") as f:
+    with open(val_dataset_fpath, 'w+', encoding="utf-8") as f:
         json.dump(val_dataset, f, ensure_ascii=False)
