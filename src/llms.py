@@ -11,11 +11,13 @@ from llama_cpp import Llama
 from analysis.descriptives import get_descriptives
 from analysis.wahlomat_radar_chart import plot_wahlomat_results
 from analysis.pct_plot_spectrum import plot_political_compass
+
 from map_answers import map_answers
-from wahlomat_std import mean_and_std_wahlomat
+
 from rag.retriever import retrieve
+
 from tests.pct import collect_coordinates
-from tests.wahlomat import calculate_results
+from tests.wahlomat import mean_and_std_wahlomat
 
 load_dotenv(override=True)
 
@@ -260,13 +262,11 @@ class LLM:
         mapped_answers = map_answers(responses, "wahlomat")
 
         # Calculate descriptives for each statement and save them into file
-        modes = get_descriptives(mapped_answers, filename, test="wahlomat")
+        get_descriptives(mapped_answers, filename, test="wahlomat")
 
         # Plot the results
         if plot_result:
             mean, std = mean_and_std_wahlomat(filename, iterations)
             plot_wahlomat_results(filename, mean, std)
-
-        #calculate_results(modes, party_responses_path, filename)
 
         print("Wahl-O-Mat Test done. Results can be found in results folder.")
