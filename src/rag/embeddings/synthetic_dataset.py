@@ -131,11 +131,8 @@ if __name__ == "__main__":
     random_statements_ll = filter_and_select_random(list_of_statements_ll)
     random_statements_lr = filter_and_select_random(list_of_statements_lr)
 
-    all_random_statements = [] # total of 2000
-    all_random_statements.extend(random_statements_al)
-    all_random_statements.extend(random_statements_ar)
-    all_random_statements.extend(random_statements_ll)
-    all_random_statements.extend(random_statements_lr)
+    all_random_statements = []  # total of 2000 after concatenation
+    all_random_statements += random_statements_al + random_statements_ar + random_statements_ll + random_statements_lr
 
     # split training corpus into train and val
     train, val = train_test_split(all_random_statements, test_size=0.2, random_state=42)
