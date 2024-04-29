@@ -3,3 +3,4 @@
 __pycache__
 *.todo
 exp_finetune/
+manifesto-db/
