@@ -54,4 +54,10 @@ After finishing the tests, the following files are created in the results folder
 
 ## Project Files Description
 
+## Supported Models
+
+- [gpt-3.5-turbo-0125](https://platform.openai.com/docs/models/gpt-3-5-turbo)
+- [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
+- [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat)
+
 ## More Models
