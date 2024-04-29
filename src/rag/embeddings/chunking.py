@@ -7,14 +7,18 @@ def get_full_sentence(manifesto_chunks):
 
     i = 0
     while i < len(manifesto_chunks) - 1:
+        # manifestos from 1998 have some very long quasi-sentences (because of missing punctuation)
+        # -> max length is set to 2000 characters to avoid extremely long "sentences"
         if len(manifesto_chunks[i]['text'] + ' ' + manifesto_chunks[i+1]['text']) <= 2000 and not manifesto_chunks[i]['text'][-1] in '.!?':
             manifesto_chunks[i]['text'] += ' ' + manifesto_chunks[i+1]['text']
             manifesto_chunks[i]['cmp_code'] += '+' + manifesto_chunks[i+1]['cmp_code']
             del manifesto_chunks[i+1]
+
         else:
             i += 1
 
     return manifesto_chunks
+
 
 def statement_chunker(manifestos):
     """
