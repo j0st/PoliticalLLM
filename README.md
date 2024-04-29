@@ -17,14 +17,18 @@ Navigate to PoliticalLLM/ and install dependencies from there.
 To run this project with API models, you will need to add the following environment variables to your `.env` file. Create this file in the root directory of the project.
 ```plaintext
 # .env file
+
 # Models
 OPENAI_API_KEY=
 
 ANYSCALE_API_KEY=
-ANYSCALE_BASE_URL=
+ANYSCALE_BASE_URL="https://api.endpoints.anyscale.com/v1"
 
 TOGETHER_AI_API_KEY=
-TOGETHER_AI_BASE_URL=
+TOGETHER_AI_BASE_URL="https://api.together.xyz/v1"
+
+# Set this if you want to use your own llama.cpp model locally
+LOCAL_LLAMA_MODEL_PATH=
 
 # Data
 MANIFESTO_PROJECT_API_KEY=
