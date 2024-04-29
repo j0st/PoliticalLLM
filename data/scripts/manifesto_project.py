@@ -96,4 +96,4 @@ def get_manifestos(ideology: str, country: str, timeframe: str, version="2023-1"
 
 
 if __name__ == "__main__":
-    [get_manifestos(ideology, "Germany", "1998-2021") for ideology in ideologies]
+    [get_manifestos(ideology, "Germany", "1998-2021") for ideology in ideologies] # -> subset used for manifesto database
