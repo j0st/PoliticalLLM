@@ -34,9 +34,23 @@ LOCAL_LLAMA_MODEL_PATH=
 MANIFESTO_PROJECT_API_KEY=
 ```
 
-Go to main.py and create an instance of an LLM and start testing.
+Testing can be done in a new Python file or in the existing main.py. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. Possible arguments and explanations can be found here.
+```python
+# main.py
 
-Results are saved in results/
+from llms import LLM
+
+ChatGPT = LLM("gpt-3.5-turbo-0125")
+
+ChatGPT.wahlomat(filename="YOUR_FILENAME", plot_results=True)
+ChatGPT.pct(filename="YOUR_FILENAME", plot_results=True)
+```
+
+After finishing the tests, the following files are created in the results folder:
+
+* `responses-YOUR_FILENAME.csv` -> Lists all (mapped) responses from the LLM to each political statement
+* `descriptives-YOUR_FILENAME.csv` -> Descriptive stats for each statement answered by the LLM
+* `plot-YOUR_FILENAME.png` -> Plot for the results
 
 ## Project Files Description
 
