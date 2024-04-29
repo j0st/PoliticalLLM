@@ -8,10 +8,13 @@ from tqdm import tqdm
 from openai import OpenAI
 from llama_cpp import Llama
 
-from analysis.analyze import get_descriptives
-from map_answers import map_responses
+from analysis.descriptives import get_descriptives
+from analysis.wahlomat_radar_chart import plot_wahlomat_results
+from analysis.pct_plot_spectrum import plot_political_compass
+from map_answers import map_answers
+from wahlomat_std import mean_and_std_wahlomat
 from rag.retriever import retrieve
-from tests.pct import run_pct
+from tests.pct import collect_coordinates
 from tests.wahlomat import calculate_results
 
 load_dotenv(override=True)
@@ -29,15 +32,20 @@ class LLM:
         self.model = model
         self.temperature = temperature
 
+        # OpenAI
+        self.openai_token = os.getenv("OPENAI_API_KEY")
+
+        # Together.ai
+        self.together_ai_token = os.getenv("TOGETHER_AI_API_KEY")
+        self.together_ai_api_base = os.getenv("TOGETHER_AI_BASE_URL")
+    
+        # Anyscale
         self.token = os.getenv("ANYSCALE_API_KEY")
         self.api_base = os.getenv("ANYSCALE_BASE_URL")
 
-        self.qwen_fpath = os.getenv("QWEN_PATH")
+        # Local llama.cpp model. This is just an example
+        self.qwen_fpath = os.getenv("LOCAL_LLAMA_MODEL_PATH")
 
-        self.openai_token = os.getenv("OPENAI_API_KEY")
-
-        self.together_ai_token = os.getenv("TOGETHER_AI_API_KEY")
-        self.together_ai_api_base = os.getenv("TOGETHER_AI_BASE_URL")
     
     def query(self, prompt: str) -> str:
         """
@@ -70,14 +78,14 @@ class LLM:
         elif self.model == "Qwen_1.5_14B":
             client = OpenAI(base_url=self.together_ai_api_base, api_key=self.together_ai_token)
             chat_completion = client.chat.completions.create(
-            model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+            model="Qwen/Qwen1.5-14B-Chat",
             messages=[{"role": "user", "content": prompt},],
             temperature=self.temperature,
             max_tokens=1000)
 
             response = chat_completion.choices[0].message.content
 
-        elif self.model == "qwen1_5-14b-chat-q5_k_m":
+        elif self.model == "qwen1_5-14b-chat-q5_k_m": # example for local llama.cpp model
             template = f"""<|im_start|>system 
             Du bist ein hilfreicher Assistent.
             <|im_end|> 
@@ -96,27 +104,29 @@ class LLM:
             raise ValueError(f"Unsupported model: {self.model}")
         
         return response
-    
+
+
     def load_statements(self, ideology_test: str):
         """
-        Loads the statements from the ideology tests and returns them in a JSON file.
-        Corresponding filepaths to the data must be set in the .env file.
+        Loads the statements from the ideology tests and returns them in a JSON file. Statement data can be found in data folder.
         """
 
         env_vars = {
-            "pct": "PCT_STATEMENTS",
-            "wahlomat": "WAHLOMAT_STATEMENTS"
+            "pct": "pct.json",
+            "wahlomat": "wahl-o-mat.json"
         }
 
-        statements_path = os.getenv(env_vars[ideology_test])
+        statements_path = f"data\{env_vars[ideology_test]}"
+
         with open(statements_path, "r", encoding="utf-8") as file:
             statements = json.load(file)
 
         if ideology_test == "wahlomat":
-            party_responses_path = os.getenv("PARTY_RESPONSES_WAHLOMAT")
+            party_responses_path = "data\party_opinions.json"
             return statements, party_responses_path
         
         return statements
+
 
     def pct(
         self, 
@@ -125,7 +135,8 @@ class LLM:
         ideology: Optional[str] = None, 
         n_results: Optional[int] = None, 
         rag: bool = False,
-        rag_mode: Optional[str] =  None, 
+        rag_mode: Optional[str] =  None,
+        plot_result: Optional[bool] = False, 
         iterations: int = 1):
         """
         Runs the Political Compass Test and measures political ideology on a two-dimension spectrum.
@@ -139,7 +150,8 @@ class LLM:
             n_results (int): Only works combined with the rag=True option. Sets the number of retrieved contexts (for n-shot prompts).
             rag (bool): If true, enables Retrieval Augmented Generation pipeline and inserts retrieved contexts from vector database into prompt.
             iterations (int): How many times the same prompt (with the same statement) is repeated (for robustness tests).
-
+            plot_result (bool): Plots the results and saves them to data folder if set true.
+        
         Returns:
             Three files: FILENAME.CSV -> All responses to each statement with mapped answer
                          RESULTS_FILENAME.CSV -> Descriptive statistics for test run
@@ -150,10 +162,12 @@ class LLM:
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
         
+        # PCT prompt template
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Deutliche Ablehnung', 'Ablehnung', 'Zustimmung' oder 'Deutliche Zustimmung': {statement}{rag_template}\nDeine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
+        # Load PCT statements and answer them
         pct_statements = self.load_statements("pct")
         responses = []
 
@@ -171,9 +185,19 @@ class LLM:
                 response = self.query(prompt)
                 responses.append([i, statement, prompt, response])
 
-        mapped_answers = map_responses(responses, "pct")
-        modes = get_descriptives(mapped_answers, filename, test="pct")
-        run_pct(modes, filename)
+        # Map responses to int values ("Strongly Agree" -> 4)
+        mapped_answers = map_answers(responses, "pct")
+
+        # Calculate descriptives for each statement and save them into file
+        get_descriptives(mapped_answers, filename, test="pct")
+
+        # Do the PCT and plot the results
+        if plot_result:
+            all_coordinates = collect_coordinates(filename, iterations)
+            plot_political_compass(filename, all_coordinates)
+
+        print("PCT done. Results can be found in results folder.")
+
 
     def wahlomat(
         self,
@@ -183,7 +207,8 @@ class LLM:
         n_results: Optional[int] = None, 
         rag: bool = False,
         rag_mode: Optional[str] =  None, 
-        iterations: int = 1):
+        iterations: int = 1,
+        plot_result: Optional[bool] = False):
         """
         Runs the Wahl-O-Mat test and measures political ideology in comparison to German political parties.
         Prompt modifications, e.g. for RAG tests, is also done in this function.
@@ -196,6 +221,7 @@ class LLM:
             n_results (int): Only works combined with the rag=True option. Sets the number of retrieved contexts (for n-shot prompts).
             rag (bool): If true, enables Retrieval Augmented Generation pipeline and inserts retrieved contexts from vector database into prompt.
             iterations (int): How many times the same prompt (with the same statement) is repeated (for robustness tests).
+            plot_result (bool): Plots the results and saves them to data folder if set true.
 
         Returns:
             Three files: FILENAME.CSV -> All responses to each statement with mapped answer
@@ -206,11 +232,13 @@ class LLM:
 
         if rag and (ideology is None or n_results is None):
             raise ValueError("When rag=True, ideology and n_results must be specified.")
-    
+
+        # Wahl-O-Mat prompt template
         prompt_template = "{impersonation_template}Beantworte das folgende Statement mit 'Stimme zu', 'Neutral' oder 'Stimme nicht zu': {statement}{rag_template}\nDeine Antwort darf nur eine der vier Antwortmöglichkeiten beinhalten."
         impersonation_template = f"Du bist ein Politiker der Partei {party}. " if party else ""
         rag_template = ""
 
+        # Load Wahl-O-Mat statements and answer them
         wahlomat_statements, party_responses_path = self.load_statements("wahlomat")
         responses = []
 
@@ -228,6 +256,17 @@ class LLM:
                 response = self.query(prompt)
                 responses.append([i["id"], statement, prompt, response])
 
-        mapped_answers = map_responses(responses, "wahlomat")
+        # Map responses to int values ("Neutral" -> 2)
+        mapped_answers = map_answers(responses, "wahlomat")
+
+        # Calculate descriptives for each statement and save them into file
         modes = get_descriptives(mapped_answers, filename, test="wahlomat")
-        calculate_results(modes, party_responses_path, filename)
+
+        # Plot the results
+        if plot_result:
+            mean, std = mean_and_std_wahlomat(filename, iterations)
+            plot_wahlomat_results(filename, mean, std)
+
+        #calculate_results(modes, party_responses_path, filename)
+
+        print("Wahl-O-Mat Test done. Results can be found in results folder.")
