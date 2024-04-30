@@ -3,7 +3,7 @@
   <img src="img/example_tests.png" alt="Wahl-O-Mat and PCT example" width="700"/>
 </p>
 
-Code and demo for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_.
+Code for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_. Demo is available [here](huggingface.co/spaces/jost/PoliticalLLM).
 
 ## Quickstart
 Clone the repo.
@@ -83,3 +83,4 @@ After finishing the tests, the following files are created in the results folder
 - [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat)
 
 ## More Models
+You can add your own models in the query method of the LLM class in `llms.py`. Just make sure that the query method returns the response in a string.
