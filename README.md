@@ -34,7 +34,7 @@ LOCAL_LLAMA_MODEL_PATH=
 MANIFESTO_PROJECT_API_KEY=
 ```
 
-Testing can be done in a new Python file or in the existing main.py. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. Possible arguments and explanations can be found here.
+Testing can be done in a new Python file or in the existing `main.py`. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. Possible arguments and explanations can be found here.
 ```python
 # main.py
 
@@ -53,6 +53,28 @@ After finishing the tests, the following files are created in the results folder
 * `plot-YOUR_FILENAME.png` -> Plot for the results
 
 ## Project Files Description
+
+<ul>
+  <li><b>main.py</b> - Used to run experiments with LLMs.</li>
+  <li><b>llms.py</b> - Base class for implementing LLMs and ideology tests as methods.</li>
+  <li><b>pct.py</b> - Selenium script to run the PCT test.</li>
+  <li><b>wahlomat.py</b> - Calculates the agreement scores between parties.</li>
+  <li><b>retriever.py</b> - Retrieves top k statement from manifesto database</li>
+</ul>
+
+### Some other supporting files
+<ul>
+  <li><b>map_answers.py</b> - Maps the answers from an LLM to the ideology tests (e.g. "Agree") to int values which are needed to do the ideology test.</li>
+  <li><b>descriptives.py</b> - Calculates the mean, median, mode and std in the list of responses provided after iterating through the statements.</li>
+  <li><b>pct_plot_spectrum.py</b> - Plots the PCT coordinates on a two-dimensional spectrum.</li>
+  <li><b>wahlomat_radar_chart.py</b> - Plot the Wahl-O-Mat agreements scores between parties on a radar chart.</li>
+  <li><b>chunking.py</b> - Chunks manifesto data for embedding model.</li>
+  <li><b>embeddings.py</b> - Creates Chroma.db embeddings from manifesto dataset</li>
+  <li><b>synthetic_dataset.py</b> - Generates a synthetic QA pair dataset.</li>
+  <li><b>evaluation.py</b> - Evaluates embedding model against validation synthetic dataset.</li>
+  <li><b>fine_tuning.ipynb</b> - Script for fine-tuning embedding model</li>
+  <li><b>manifesto_project.py</b> - Get manifesto data from Manifesto Project API</li>
+</ul>
 
 ## Supported Models
 
