@@ -8,7 +8,7 @@ Code for the master's thesis _“Steering Large Language Models towards Politica
 ## Quickstart
 Clone the repo.
 
-`git clone https://github.com/j0st/master-thesis/`
+`git clone https://github.com/j0st/PoliticalLLM`
 
 Navigate to \PoliticalLLM and install dependencies from there.
 
