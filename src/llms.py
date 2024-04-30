@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from tqdm import tqdm
 
 from openai import OpenAI
-from llama_cpp import Llama
+# from llama_cpp import Llama
 
 from analysis.descriptives import get_descriptives
 from analysis.wahlomat_radar_chart import plot_wahlomat_results
@@ -45,8 +45,8 @@ class LLM:
         self.token = os.getenv("ANYSCALE_API_KEY")
         self.api_base = os.getenv("ANYSCALE_BASE_URL")
 
-        # Local llama.cpp model. This is just an example
-        self.qwen_fpath = os.getenv("LOCAL_LLAMA_MODEL_PATH")
+        # Local llama.cpp model. This is just an example.
+        # self.qwen_fpath = os.getenv("LOCAL_LLAMA_MODEL_PATH")
 
     
     def query(self, prompt: str) -> str:
@@ -96,11 +96,11 @@ class LLM:
             <|im_end|> 
             <|im_start|>assistant"""
 
-            qwen = Llama(model_path=self.qwen_fpath)
-            response = qwen(
-                template,
-                max_tokens=200,
-                temperature=self.temperature)["choices"][0]["text"]
+            # qwen = Llama(model_path=self.qwen_fpath)
+            # response = qwen(
+            #     template,
+            #     max_tokens=200,
+            #     temperature=self.temperature)["choices"][0]["text"]
             
         else:
             raise ValueError(f"Unsupported model: {self.model}")
@@ -198,7 +198,7 @@ class LLM:
             all_coordinates = collect_coordinates(filename, iterations)
             plot_political_compass(filename, all_coordinates)
 
-        print("PCT done. Results can be found in results folder.")
+        print("PCT done. Results can be found in the results folder.")
 
 
     def wahlomat(
@@ -269,4 +269,4 @@ class LLM:
             mean, std = mean_and_std_wahlomat(filename, iterations)
             plot_wahlomat_results(filename, mean, std)
 
-        print("Wahl-O-Mat Test done. Results can be found in results folder.")
+        print("Wahl-O-Mat Test done. Results can be found in the results folder.")
