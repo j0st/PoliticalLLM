@@ -1,4 +1,4 @@
-# PoliticalLLM: Framework for Measuring Political Ideologies in LLMs
+# PoliticalLLM: Framework for Measuring and Manipulating Political Ideologies in LLMs
 <p align="center">
   <img src="img/example_tests.png" alt="Wahl-O-Mat and PCT example" width="700"/>
 </p>
@@ -114,3 +114,7 @@ After finishing the tests, the following files are created in the results folder
 
 ## More Models
 You can easily add your own models or change the API provider in the query method of the LLM class in `llms.py`. Just make sure that the query method returns the response in a string.
+
+## Demo
+You can try a demo of the different prompt manipulations for different LLMs on [huggingface.co/spaces/jost/PoliticalLLM](huggingface.co/spaces/jost/PoliticalLLM).
+Note that Hugging Face Spaces need to restart after some inactivity time which takes a few minutes.
