@@ -19,19 +19,19 @@ To run this project with API models, you will need to add the following environm
 # .env file
 
 # Models
-OPENAI_API_KEY=
+OPENAI_API_KEY=""
 
-ANYSCALE_API_KEY=
+ANYSCALE_API_KEY=""
 ANYSCALE_BASE_URL="https://api.endpoints.anyscale.com/v1"
 
-TOGETHER_AI_API_KEY=
+TOGETHER_AI_API_KEY=""
 TOGETHER_AI_BASE_URL="https://api.together.xyz/v1"
 
 # Set this if you want to use your own llama.cpp model locally
-LOCAL_LLAMA_MODEL_PATH=
+LOCAL_LLAMA_MODEL_PATH=""
 
 # Data
-MANIFESTO_PROJECT_API_KEY=
+MANIFESTO_PROJECT_API_KEY=""
 ```
 
 Testing can be done in a new Python file or in the existing `main.py`. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. Possible arguments and explanations can be found here.
