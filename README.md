@@ -4,9 +4,10 @@
 </p>
 
 Code for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_. Demo is available [here](huggingface.co/spaces/jost/PoliticalLLM).
+This framework automatically evaluates the political ideology of LLMs with two ideology tests: [Wahl-O-Mat](https://www.wahl-o-mat.de/bundestagswahl2021/app/main_app.html) and [Political Compass Test](https://www.politicalcompass.org/test/de). You can evaluate a base model or a manipulated model. Manipulation is done through Prompt Enginnering and RAG. The model can be directly steered towards a target <b>German</b> political party (impersonation) or indirectly (RAG with most similar contexts from manifesto database or random ideological triggers from same database). For the RAG model, <b>German</b> manifesto data from the [Manifesto Project](https://manifesto-project.wzb.eu/) is embedded and saved in a Chroma vector database.
 
 ## Quickstart
-Create a new venv (Python 3.9.18) and clone the repo.
+Create a new venv (Python 3.9.18) and clone the repo. (Note: Make sure to have enough disk space as the script downloads a sentence embedding model)
 
 `git clone https://github.com/j0st/PoliticalLLM`
 
@@ -34,7 +35,7 @@ LOCAL_LLAMA_MODEL_PATH=""
 MANIFESTO_PROJECT_API_KEY=""
 ```
 
-Testing can be done in a new Python file or in the existing `main.py`. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. Possible arguments and explanations can be found here.
+Testing can be done in a new Python file or in the existing `main.py`. After importing the LLM class from this project, you can create an instance with the desired LLM and call the ideology test methods. <b>Parameters values and explanations can be found below</b>.
 ```python
 # main.py
 
@@ -48,9 +49,9 @@ ChatGPT.pct(filename="YOUR_FILENAME", plot_results=True)
 
 After finishing the tests, the following files are created in the results folder:
 
-* `responses-YOUR_FILENAME.csv` -> Lists all (mapped) responses from the LLM to each political statement
-* `descriptives-YOUR_FILENAME.csv` -> Descriptive stats for each statement answered by the LLM
-* `plot-YOUR_FILENAME.png` -> Plot for the results
+* `responses-YOUR_FILENAME.csv` - Lists all (mapped) responses from the LLM to each political statement.
+* `descriptives-YOUR_FILENAME.csv` - Descriptive stats for each statement answered by the LLM.
+* `plot-YOUR_FILENAME.png` - Plot of the results.
 
 ## Project Structure
 
@@ -76,7 +77,7 @@ After finishing the tests, the following files are created in the results folder
   <li><b>src/tests/pct.py</b> - Selenium script to run the PCT test.</li>
   <li><b>src/tests/wahlomat.py</b> - Calculates the agreement scores between parties.</li>
   $~$
-  <li><b>src/rag/retriever.py></b> - Retrieves top k statement from manifesto database (RAG)</li>
+  <li><b>src/rag/retriever.py</b> - Retrieves top k statement from manifesto database (RAG).</li>
 </ul>
 
 ### Some other supporting files
@@ -85,15 +86,15 @@ After finishing the tests, the following files are created in the results folder
   $~$
   <li><b>src/analysis/descriptives.py</b> - Calculates the mean, median, mode and std in the list of responses provided after iterating through the statements.</li>
   <li><b>src/analysis/pct_plot_spectrum.py</b> - Plots the PCT coordinates on a two-dimensional spectrum.</li>
-  <li><b>src/analysis/wahlomat_radar_chart.py</b> - Plot the Wahl-O-Mat agreements scores between parties on a radar chart.</li>
+  <li><b>src/analysis/wahlomat_radar_chart.py</b> - Plots the Wahl-O-Mat agreements scores between parties on a radar chart.</li>
   $~$
   <li><b>src/rag/embeddings/chunking.py</b> - Chunks manifesto data for embedding model.</li>
-  <li><b>src/rag/embeddings/embeddings.py</b> - Creates Chroma.db embeddings from manifesto dataset</li>
+  <li><b>src/rag/embeddings/embeddings.py</b> - Creates Chroma.db embeddings from manifesto dataset.</li>
   <li><b>src/rag/embeddings/synthetic_dataset.py</b> - Generates a synthetic QA pair dataset.</li>
   <li><b>src/rag/embeddings/evaluation.py</b> - Evaluates embedding model against validation synthetic dataset.</li>
-  <li><b>src/rag/embeddings/fine_tuning.ipynb</b> - Script for fine-tuning embedding model</li>
+  <li><b>src/rag/embeddings/fine_tuning.ipynb</b> - Script for fine-tuning embedding model.</li>
   $~$
-  <li><b>data/scripts/manifesto_project.py</b> - Get manifesto data from Manifesto Project API</li>
+  <li><b>data/scripts/manifesto_project.py</b> - Get manifesto data from Manifesto Project API.</li>
 </ul>
 
 ## `.pct()` and `.wahlomat()` parameters
