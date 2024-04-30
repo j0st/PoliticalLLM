@@ -76,6 +76,16 @@ After finishing the tests, the following files are created in the results folder
   <li><b>manifesto_project.py</b> - Get manifesto data from Manifesto Project API</li>
 </ul>
 
+## PCT and Wahl-O-Mat method parameters
+- `filename` (str): Specifies the filename for saving the results, which includes CSV files with responses, descriptive statistics, and a PNG image showing placement on the ideological spectrum.
+- `party` (Optional[str]): When set, the prompt is modified to impersonate the given political party. Default is `None`.
+- `ideology` (Optional[str]): Works in conjunction with `rag=True`. It restricts retrieved context to a specific ideology. Possible values include "Authoritarian-right", "Authoritarian-left", "Libertarian-left", "Libertarian-right". Default is `None`.
+- `n_results` (Optional[int]): Applicable when `rag=True`. It determines the number of contexts retrieved for n-shot prompts. Default is `None`.
+- `rag` (bool): Enables the Retrieval Augmented Generation pipeline, inserting retrieved contexts from a vector database into the prompt. Default is `False`.
+- `rag_mode` (Optional[str]): Specifies the mode of operation for the RAG pipeline. This parameter is optional and can be used to fine-tune the retrieval process. Default is `None`.
+- `plot_result` (Optional[bool]): If `True`, the results are plotted and saved in a specified data folder. Default is `False`. Please note that Selenium is used to calculate the coordinates of the PCT. 
+- `iterations` (int): Indicates how many times the same prompt is repeated with the same statement, used for robustness tests. Default is `1`.
+
 ## Supported Models
 
 - [gpt-3.5-turbo-0125](https://platform.openai.com/docs/models/gpt-3-5-turbo)
