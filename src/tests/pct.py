@@ -28,7 +28,7 @@ def run_pct(answers: list, filename: str):
         time.sleep(5)
         driver.get(url)
         driver.minimize_window()
-        time.sleep(2)
+        time.sleep(5)
 
         # cookies
         cookie_confirm = driver.find_element(By.XPATH, '/html/body/div[4]/div[2]/div[1]/div[2]/div[2]/button[1]/p') # sometimes first div is div[4], sometimes div[3]?
