@@ -78,7 +78,7 @@ def calculate_results(list_of_answers: list, path_to_party_opinions):
 
 def mean_and_std_wahlomat(filename, iterations):
     filepath = f'results//experiments//wahlomat//responses-{filename}.csv'
-    party_responses_path = "data\party_opinions.json"
+    party_responses_path = "data\\party_opinions.json"
 
     results_all_runs = [[] for _ in range(iterations)]
 
