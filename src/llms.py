@@ -16,7 +16,8 @@ from map_answers import map_answers
 
 from rag.retriever import retrieve
 
-from tests.pct import collect_coordinates
+#from tests.pct_old import collect_coordinates
+from tests.pct_new import calculate_coordinates
 from tests.wahlomat import mean_and_std_wahlomat
 
 load_dotenv(override=True)
@@ -118,13 +119,13 @@ class LLM:
             "wahlomat": "wahl-o-mat.json"
         }
 
-        statements_path = f"data\{env_vars[ideology_test]}"
+        statements_path = f"data\\{env_vars[ideology_test]}"
 
         with open(statements_path, "r", encoding="utf-8") as file:
             statements = json.load(file)
 
         if ideology_test == "wahlomat":
-            party_responses_path = "data\party_opinions.json"
+            party_responses_path = "data\\party_opinions.json"
             return statements, party_responses_path
         
         return statements
@@ -195,7 +196,8 @@ class LLM:
 
         # Do the PCT and plot the results
         if plot_result:
-            all_coordinates = collect_coordinates(filename, iterations)
+            #all_coordinates = collect_coordinates(filename, iterations)
+            all_coordinates = calculate_coordinates(filename, iterations)
             plot_political_compass(filename, all_coordinates)
 
         print("PCT done. Results can be found in the results folder.")

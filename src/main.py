@@ -7,5 +7,5 @@ if __name__ == "__main__":
     mixtral = LLM("Mixtral-8x7B-Instruct-v0.1")
 
     # Choose ideology tests and modifications
-    mixtral.pct("Example_Filename", iterations=1)
+    mixtral.pct("Example_Filename", iterations=1, plot_result=True)
    
