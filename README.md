@@ -3,7 +3,7 @@
   <img src="img/example_tests.png" alt="Wahl-O-Mat and PCT example" width="700"/>
 </p>
 
-Code for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_. Demo is available [here](huggingface.co/spaces/jost/PoliticalLLM).
+Code for the master's thesis _“Steering Large Language Models towards Political Ideologies on Prompt-Level”_. Demo is available [here](https://huggingface.co/spaces/jost/PoliticalLLM).
 This framework automatically evaluates the political ideology of LLMs with two ideology tests: [Wahl-O-Mat](https://www.wahl-o-mat.de/bundestagswahl2021/app/main_app.html) and [Political Compass Test](https://www.politicalcompass.org/test/de). You can evaluate a base model or a manipulated model. Manipulation is done through Prompt Enginnering and RAG. The model can be directly steered towards a target <b>German</b> political party (impersonation) or indirectly (RAG with most similar contexts from manifesto database or random ideological triggers from same database). For the RAG model, <b>German</b> manifesto data from the [Manifesto Project](https://manifesto-project.wzb.eu/) is embedded and saved in a Chroma vector database.
 
 ## Quickstart
@@ -117,5 +117,5 @@ After finishing the tests, the following files are created in the results folder
 You can easily add your own models or change the API provider in the query method of the LLM class in `llms.py`. Just make sure that the query method returns the response in a string.
 
 ## Demo
-You can try a demo of the different prompt manipulations for different LLMs on [huggingface.co/spaces/jost/PoliticalLLM](huggingface.co/spaces/jost/PoliticalLLM).
+You can try a demo of the different prompt manipulations for different LLMs on [Hugging Face Spaces](https://huggingface.co/spaces/jost/PoliticalLLM).
 Note that Hugging Face Spaces need to restart after some inactivity time which takes a few minutes.
